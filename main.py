@@ -4,6 +4,8 @@ class Grid():
     def __init__(self, district):
         # load the information from relevant district 
         grid = loader.load_grid(district)
+        # specify district of grid
+        self.district =  district
         # add batteries of district to grid
         self.batteries = grid[0]
         # add houses of district to grid
