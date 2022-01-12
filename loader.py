@@ -21,7 +21,6 @@ def load_grid(dis_number):
             y = location[0]
             x = location[1]
             location = (int(x), int(y))
-            print(location)
             power = line[1]
             new_battery = Battery(location, power)
             batteries.append(new_battery)
