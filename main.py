@@ -21,3 +21,4 @@ if __name__ == "__main__":
         grid = Grid(test_district)
     except Exception:
         print('district not found')
+        exit(2)
