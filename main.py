@@ -1,5 +1,6 @@
 import loader
 from randomCables import *
+from costCalculation import *
 from sys import argv
 
 
@@ -58,3 +59,7 @@ if __name__ == "__main__":
         grid.updateBatteryPow(house.power, batteryID)
         grid.addCables(houseID, cableRoute)
         houseID += 1
+
+    completeCosts = calculateCost(houses, len(batteries))
+
+    print(f"The costs of this smartgrid are: €{completeCosts},-")
