@@ -1,5 +1,6 @@
 import loader
 from sys import argv
+from visualization import visualize
 
 class Grid():
     def __init__(self, district):
@@ -22,3 +23,4 @@ if __name__ == "__main__":
     except Exception:
         print('district not found')
         exit(2)
+    visualize(grid)

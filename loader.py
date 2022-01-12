@@ -17,6 +17,11 @@ def load_grid(dis_number):
         # make battery objects from the remaining rows
         for line in csv_reader:
             location = line[0].strip('')
+            location = location.split(',')
+            y = location[0]
+            x = location[1]
+            location = (int(x), int(y))
+            print(location)
             power = line[1]
             new_battery = Battery(location, power)
             batteries.append(new_battery)
@@ -29,6 +34,7 @@ def load_grid(dis_number):
         # make house objects from the remaining rows
         for line in csv_reader:
             location = (int(line[0]), int(line[1]))
+            # print(location)
             power = line[2]
             new_house = House(location, power)
             houses.append(new_house)
