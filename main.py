@@ -1,4 +1,5 @@
 import loader
+from sys import argv
 
 class Grid():
     def __init__(self, district):
@@ -12,6 +13,8 @@ class Grid():
         self.houses = grid[1]
 
 if __name__ == "__main__":
-    test_district = 1
+    if len(argv) != 2:
+        print('Usage: Python3 main.py [district number]')
+        exit(1)
+    test_district = argv[1]
     grid = Grid(test_district)
-print(grid.batteries)
