@@ -17,4 +17,7 @@ if __name__ == "__main__":
         print('Usage: Python3 main.py [district number]')
         exit(1)
     test_district = argv[1]
-    grid = Grid(test_district)
+    try:
+        grid = Grid(test_district)
+    except Exception:
+        print('district not found')
