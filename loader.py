@@ -2,6 +2,7 @@ import re
 import csv
 from battery import Battery
 from house import House
+from district import District
 
 
 def load_grid(dis_number):
@@ -34,6 +35,8 @@ def load_grid(dis_number):
             new_house = House(location, power)
             houses.append(new_house)
 
+    district = District(dis_number, 0)
+
     # return a list containing all made objects
-    grid = [batteries, houses]
+    grid = [district, batteries, houses]
     return grid

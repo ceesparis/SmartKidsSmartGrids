@@ -9,11 +9,11 @@ class Grid():
         # load the information from relevant district
         grid = loader.load_grid(district)
         # specify district of grid
-        self.district = district
+        self.district = grid[0]
         # add batteries of district to grid
-        self.batteries = grid[0]
+        self.batteries = grid[1]
         # add houses of district to grid
-        self.houses = grid[1]
+        self.houses = grid[2]
 
     def returnHouses(self):
         return self.houses
@@ -26,6 +26,11 @@ class Grid():
 
     def addCables(self, houseID, cableRoute):
         self.houses[houseID].cables = cableRoute
+
+    def printOutput(self):
+        with open('output.json', 'w') as f:
+            f.write(f"{vars(self.district)}")
+            f.write(f"{vars(self.houses)}")
 
 
 if __name__ == "__main__":
@@ -60,6 +65,12 @@ if __name__ == "__main__":
         grid.addCables(houseID, cableRoute)
         houseID += 1
 
-    completeCosts = calculateCost(houses, len(batteries))
+    for house in houses:
+        print(house.cables[len(house.cables) - 1])
 
+    # calculate the costs, print them out and save them
+    completeCosts = calculateCost(houses, len(batteries))
     print(f"The costs of this smartgrid are: €{completeCosts},-")
+    grid.district.sharedCost = completeCosts
+
+    grid.printOutput()
