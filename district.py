@@ -1,5 +1,5 @@
 class District():
 
-    def __init__(self, id, sharedCost):
-        self.district = id
-        self.costsShared = sharedCost
+    def __init__(self, id, costs):
+        self.district = int(id)
+        self.ownCosts = costs

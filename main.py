@@ -3,6 +3,7 @@ from randomCables import *
 from costCalculation import *
 from sys import argv
 from visualization import visualize
+import json
 
 
 class Grid():
@@ -22,16 +23,51 @@ class Grid():
     def returnBatteries(self):
         return self.batteries
 
-    def updateBatteryPow(self, powerUsed, batteryID):
-        self.batteries[batteryID].power = self.batteries[batteryID].power - powerUsed
+    def addCables(self, house, cableRoute):
+        house.cables = cableRoute
 
-    def addCables(self, houseID, cableRoute):
-        self.houses[houseID].cables = cableRoute
+    def addHouse(self, batteryID, house):
+        self.batteries[batteryID].houses.append(house)
 
+    # print the result to the json file
     def printOutput(self):
-        with open('output.json', 'w') as f:
-            f.write(f"{vars(self.district)}")
-            f.write(f"{vars(self.houses)}")
+        # convert the district class to json
+        jsonStringDistrict = json.dumps(
+            self.district, default=lambda o: o.__dict__).replace("\\", "")
+
+        batteryList = ''
+
+        # loop through all batteries to convert their contents to the json format
+        for battery in self.batteries:
+            # convert the location list to a string containing the coordinates
+            battery.location = ','.join(map(str, battery.location))
+            for house in battery.houses:
+                house.location = ','.join(map(str, house.location))
+                # make a new list that will be filled with all coordinates in a string format
+                newCableList = []
+                for cable in house.cables:
+                    newCable = ','.join(map(str, cable))
+                    newCableList.append(newCable)
+                house.cables = newCableList
+            # convert the battery class to the json format
+            jsonString = json.dumps(
+                battery, default=lambda o: o.__dict__).replace("\\", "")
+            # add the battery to the list of all batteries
+            if batteryList == '':
+                batteryList = jsonString
+            else:
+                batteryList = batteryList + ", " + jsonString
+
+            # put the district and batteries together, adding some syntax for the json file
+            jsonOutput = '[' + jsonStringDistrict.replace(
+                "ownCosts", "costs-own") + ', ' + batteryList + ']'
+
+            # print the result in output.json
+            with open("output.json", 'w') as f:
+                f.write(f"{jsonOutput}")
+
+    def updateCosts(self, costs):
+        self.district.ownCosts = costs
 
 
 if __name__ == "__main__":
@@ -48,34 +84,35 @@ if __name__ == "__main__":
     # declare the houses and batteries using the grid class
     houses = grid.returnHouses()
     batteries = grid.returnBatteries()
-    batteryID = 4
+    batteryID = 0
     houseID = 0
+    capacity = batteries[0].capacity
 
     # loop through every house in the district
     for house in houses:
         # check if the capacity of a battery has been reached, if so, change to a new battery
-        if batteries[batteryID].power < house.power:
-            batteryID -= 1
+        if capacity < house.output:
+            batteryID += 1
+            capacity = batteries[batteryID].capacity
 
         # generate the route of the cable from a house to a battery
         cableRoute = randomizeCables(
             house.location, batteries[batteryID].location)
 
         # update the grid
-        grid.updateBatteryPow(house.power, batteryID)
-        grid.addCables(houseID, cableRoute)
+        capacity = capacity - house.output
+        grid.addCables(house, cableRoute)
+        grid.addHouse(batteryID, house)
         houseID += 1
 
-    for house in houses:
-        print(house.cables[len(house.cables) - 1])
+        # battery capacity will be reached if all houses get a battery, remove later
+        if houseID == 147:
+            break
 
     # calculate the costs, print them out and save them
     completeCosts = calculateCost(houses, len(batteries))
     print(f"The costs of this smartgrid are: €{completeCosts},-")
-<<<<<<< HEAD
-    grid.district.sharedCost = completeCosts
+    grid.updateCosts(completeCosts)
 
-    grid.printOutput()
-=======
     visualize(grid)
->>>>>>> e06aeaea91481a7d3e6fe845e3d93cd04bc12443
+    grid.printOutput()
