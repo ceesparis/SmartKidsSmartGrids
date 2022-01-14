@@ -113,4 +113,5 @@ if __name__ == "__main__":
     # calculate the costs, print them out and save them
     completeCosts = calculateCost(houses, len(batteries))
     print(f"The costs of this smartgrid are: €{completeCosts},-")
+    
     visualize(grid)

@@ -7,7 +7,6 @@ def calculateCost(houses, batterySum):
         cables += len(house.cables)
 
     # calculate the costs
-    print(cables)
     cableCosts = cables * 9
     batteryCosts = batterySum * 5000
 
