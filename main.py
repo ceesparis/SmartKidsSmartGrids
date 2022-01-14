@@ -4,6 +4,7 @@ from costCalculation import *
 from sys import argv
 from visualization import visualize
 import json
+from distanceCalc import calc_distance
 
 
 class Grid():
@@ -112,11 +113,4 @@ if __name__ == "__main__":
     # calculate the costs, print them out and save them
     completeCosts = calculateCost(houses, len(batteries))
     print(f"The costs of this smartgrid are: €{completeCosts},-")
-<<<<<<< HEAD
-    grid.updateCosts(completeCosts)
-
     visualize(grid)
-    grid.printOutput()
-=======
-    visualize(grid)
->>>>>>> 059ea59108e06d728d8a9d8480d5eb1ed41e3a66
