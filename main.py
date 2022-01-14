@@ -109,9 +109,13 @@ if __name__ == "__main__":
         # battery capacity will be reached if all houses get a battery, remove later
         if houseID == 147:
             break
+    
 
     # calculate the costs, print them out and save them
     completeCosts = calculateCost(houses, len(batteries))
     print(f"The costs of this smartgrid are: €{completeCosts},-")
-    
+    grid.updateCosts(completeCosts)
     visualize(grid)
+    grid.printOutput()
+    
+    

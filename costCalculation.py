@@ -9,5 +9,6 @@ def calculateCost(houses, batterySum):
     # calculate the costs
     cableCosts = cables * 9
     batteryCosts = batterySum * 5000
+    total = cableCosts + batteryCosts
 
-    return cableCosts + batteryCosts
+    return total
