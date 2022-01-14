@@ -1,4 +1,3 @@
-import re
 import csv
 from battery import Battery
 from house import House
@@ -6,6 +5,9 @@ from district import District
 
 
 def load_grid(dis_number):
+    ''' Takes district-number.
+        Creates and returns grid with data from corresponding district.
+    '''
 
     # make a list to store batteries and housess from csv in
     batteries = []

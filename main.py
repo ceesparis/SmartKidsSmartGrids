@@ -72,10 +72,4 @@ if __name__ == "__main__":
     # calculate the costs, print them out and save them
     completeCosts = calculateCost(houses, len(batteries))
     print(f"The costs of this smartgrid are: €{completeCosts},-")
-<<<<<<< HEAD
-    grid.district.sharedCost = completeCosts
-
-    grid.printOutput()
-=======
     visualize(grid)
->>>>>>> e06aeaea91481a7d3e6fe845e3d93cd04bc12443
