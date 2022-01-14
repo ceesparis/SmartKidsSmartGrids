@@ -3,6 +3,9 @@ import numpy as np
 from matplotlib.ticker import (MultipleLocator)
 
 def visualize(grid):
+    ''' Takes grid.
+        Shows visual representation of grid.
+    '''
     # make seperate lists for x and y coordinates
     houses_x = []
     houses_y = []
@@ -25,6 +28,7 @@ def visualize(grid):
             house_cables_y.append(cab_y)
         cables_x.append(house_cables_x)
         cables_y.append(house_cables_y)
+    
        
     
     batteries_x = []
@@ -32,8 +36,8 @@ def visualize(grid):
     batteries = grid.batteries
     # make two lists (x and y) for all batteries
     for battery in batteries:
-        y = battery.location[0]
-        x = battery.location[1]
+        y = battery.location[1]
+        x = battery.location[0]
         batteries_y.append(y)
         batteries_x.append(x)
 
