@@ -9,13 +9,16 @@ from distanceCalc import calc_distance
 
 class Grid():
     def __init__(self, district):
-        # load the information from relevant district
+        '''
+            * Loads the information from relevant district
+            * Specifies the district of the grid
+            * Adds corresponding batteries to the grid
+            * Adds corresponding houses to the grid
+        '''
+        
         grid = loader.load_grid(district)
-        # specify district of grid
         self.district = grid[0]
-        # add batteries of district to grid
         self.batteries = grid[1]
-        # add houses of district to grid
         self.houses = grid[2]
 
     def returnHouses(self):
@@ -30,8 +33,9 @@ class Grid():
     def addHouse(self, batteryID, house):
         self.batteries[batteryID].houses.append(house)
 
-    # print the result to the json file
     def printOutput(self):
+        '''Prints the result to the json file.'''
+        
         # convert the district class to json
         jsonStringDistrict = json.dumps(
             self.district, default=lambda o: o.__dict__).replace("\\", "")

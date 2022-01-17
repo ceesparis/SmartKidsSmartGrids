@@ -5,7 +5,8 @@ from district import District
 
 
 def load_grid(dis_number):
-    ''' Takes district-number.
+    '''
+        Takes district-number.
         Creates and returns grid with data from corresponding district.
     '''
 
