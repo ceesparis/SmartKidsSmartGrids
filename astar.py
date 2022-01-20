@@ -177,6 +177,7 @@ class astar():
         for house in self._batteryProx:
             self.initialDistribution(houseBattery, house)
 
+    # make a list of all capacities of the batteries
     def fillCapacity(self):
         batteryCapacities = {}
         for battery in self._batteries:
