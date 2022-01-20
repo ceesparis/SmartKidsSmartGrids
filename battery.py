@@ -6,3 +6,6 @@ class Battery():
         self.location = location
         self.capacity = power
         self.houses = []
+
+    def drain(self, house_power):
+        self.capacity = self.capacity - house_power
