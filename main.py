@@ -5,7 +5,7 @@ from sys import argv
 from visualization import visualize
 import json
 from distanceCalc import calc_distance
-from randomizer import randomizer
+from randomizer import Randomizer
 from grid import Grid
 
 
@@ -24,6 +24,6 @@ if __name__ == "__main__":
 
 
     # random_algorithm
-    random_grid = randomizer(grid)
+    random_grid = Randomizer(grid)
     grids = random_grid.multiple_random()
     random_grid.calc_average(grids)
