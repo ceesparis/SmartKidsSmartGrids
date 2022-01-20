@@ -90,7 +90,7 @@ class astar():
         for house in priorityHouses:
             self._capacities[topHouses[house]] -= house.output
 
-    # fill the nodes to allow path finding
+    # fill the nodes to allow smarter path finding (not yet used)
     def fillNodes(self):
         batteryLocations = []
         for battery in self._batteries:
@@ -127,32 +127,39 @@ class astar():
                     closestDistance = self._batteryProx[house][batteryID]
                     batteryPicked = batteryID
 
+        # a boolean to check if it is impossible to fit a house in it's closest battery
         notPossible = False
+
         # no battery was found that hasn't reached it's capacity yet
         if closestDistance == 9999:
+            # keep going until a battery has been picked for each house
             while batteryPicked == None:
+                # if the closest battery is not a possibility, try all other batteries in order
                 if notPossible == True:
                     closestBatteryID += 1
+                # check all houses that have already been assigned a battery
                 for replaceHouse in houseBattery:
+                    # find a house that has been assigned the battery we want this house to be assigned to
                     if self._batteries[closestBatteryID] == houseBattery[replaceHouse]:
-                        # print(
-                        #     f"capacity: {self._capacities[self._batteries[closestBatteryID]]} output current: {house.output} output other: {replaceHouse.output}")
+                        # check if the capacity will be improved by replacing the house
                         if (self._capacities[self._batteries[closestBatteryID]] + replaceHouse.output - house.output) < self._capacities[self._batteries[closestBatteryID]] and (self._capacities[self._batteries[closestBatteryID]] + replaceHouse.output - house.output) > 0:
+                            # replace the house
                             houseBattery[house] = self._batteries[closestBatteryID]
                             houseBattery.pop(replaceHouse)
                             self._result.pop(replaceHouse)
                             batteryPicked = closestBatteryID
-                            # print(
-                            #     f"{self._capacities[self._batteries[batteryPicked]]} {replaceHouse.output} {house.output}")
                             self._capacities[self._batteries[batteryPicked]
                                              ] += replaceHouse.output
                             replaceHousePicked = replaceHouse
                             break
+                # the house could not be placed, start over
                 notPossible = True
                 closestBatteryID = -1
         else:
+            # no house has been replaced
             replaceHousePicked = False
 
+        # add the newly assigned house to the dicts, update the capacities
         houseBattery[house] = self._batteries[batteryPicked]
         self._capacities[self._batteries[batteryPicked]
                          ] -= house.output
