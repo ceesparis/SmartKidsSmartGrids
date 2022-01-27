@@ -1,3 +1,5 @@
+
+
 class Node():
     def __init__(self, batteryLocations, location):
         self._coordinates = location

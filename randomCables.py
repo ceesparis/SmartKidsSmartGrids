@@ -1,12 +1,12 @@
 def randomizeCables(houseLocation, batteryLocation):
     '''Generates a cable route that follows simple straight lines from houses to batteries.'''
-    
+
     coordHouse = houseLocation
     coordBattery1 = batteryLocation
-    
+
     # initial position of the cable
     coordCable = list(coordHouse)
-    
+
     # complete route of the cable
     cableRoute = [list(coordHouse)]
 

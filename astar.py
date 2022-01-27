@@ -1,6 +1,8 @@
 from os import close, replace
 from astarNodes import Node
 import copy
+import random
+from astarHill import astarHillClimber
 
 
 class astar():
@@ -10,7 +12,10 @@ class astar():
         self._batteryProx = {}
         self._result = None
         self._capacities = None
+        self._allDistances = {}
         self.fillCapacity()
+        self.getDistances()
+        self.findBattery()
 
     def getDistances(self):
         # dictionary of all the houses containing the closest batteries
@@ -46,7 +51,7 @@ class astar():
 
             # save the distances to each battery in the class
             self._batteryProx[house] = copy.deepcopy(distanceList)
-            # print(self._batteryProx[house])
+            self._allDistances[house] = copy.deepcopy(distanceList)
 
             # sort the distances from in descending order
             distanceList.sort()
@@ -66,12 +71,13 @@ class astar():
         # a list containing all houses that have the highest distance between closest batteries
         priorityHouses = []
         i = 0
+        randomLimit = random.randint(0, 150)
 
         # add fifty houses to the priority list
         for house in distancesSorted:
             priorityHouses.append(house)
             i += 1
-            if i == 20:
+            if i == randomLimit:
                 break
 
         # dictionary containing all houses with their closest batteries
@@ -80,15 +86,16 @@ class astar():
         # remove all houses that have been prioritized from the houses list and store them
         # in the topHouses dictionary
         for houseID in range(len(priorityHouses)):
-            topHouses[priorityHouses[houseID]] = batteryDict.pop(
-                priorityHouses[houseID])
-            self._batteryProx.pop(priorityHouses[houseID])
+            # check if the capacity has not yet been reached
+            if self._capacities[batteryDict[priorityHouses[houseID]]] - priorityHouses[houseID].output > 0:
+                topHouses[priorityHouses[houseID]] = batteryDict.pop(
+                    priorityHouses[houseID])
+                self._batteryProx.pop(priorityHouses[houseID])
+                self._capacities[topHouses[priorityHouses[houseID]]
+                                 ] -= priorityHouses[houseID].output
 
         # add the first results to the class
         self._result = topHouses
-
-        for house in priorityHouses:
-            self._capacities[topHouses[house]] -= house.output
 
     # fill the nodes to allow smarter path finding (not yet used)
     def fillNodes(self):
@@ -137,6 +144,7 @@ class astar():
                 # if the closest battery is not a possibility, try all other batteries in order
                 if notPossible == True:
                     closestBatteryID += 1
+
                 # check all houses that have already been assigned a battery
                 for replaceHouse in houseBattery:
                     # find a house that has been assigned the battery we want this house to be assigned to
@@ -146,36 +154,53 @@ class astar():
                             # replace the house
                             houseBattery[house] = self._batteries[closestBatteryID]
                             houseBattery.pop(replaceHouse)
-                            self._result.pop(replaceHouse)
-                            batteryPicked = closestBatteryID
-                            self._capacities[self._batteries[batteryPicked]
-                                             ] += replaceHouse.output
-                            replaceHousePicked = replaceHouse
+                            if self._result != "invalid":
+                                self._result.pop(replaceHouse)
+                                batteryPicked = closestBatteryID
+                                self._capacities[self._batteries[batteryPicked]
+                                                 ] += replaceHouse.output
+                                replaceHousePicked = replaceHouse
                             break
+
+                if notPossible == False:
+                    closestBatteryID = -1
+
                 # the house could not be placed, start over
                 notPossible = True
-                closestBatteryID = -1
+
+                if closestBatteryID == 4:
+                    break
         else:
             # no house has been replaced
             replaceHousePicked = False
 
-        # add the newly assigned house to the dicts, update the capacities
-        houseBattery[house] = self._batteries[batteryPicked]
-        self._capacities[self._batteries[batteryPicked]
-                         ] -= house.output
-        self._result[house] = houseBattery[house]
+        if batteryPicked == None or self._result == "invalid":
+            self._result = "invalid"
+            return False
+        else:
+            # add the newly assigned house to the dicts, update the capacities
+            houseBattery[house] = self._batteries[batteryPicked]
+            self._capacities[self._batteries[batteryPicked]
+                             ] -= house.output
+            self._result[house] = houseBattery[house]
 
+        # find a new battery for the house that is replaced
         if replaceHousePicked:
             self.initialDistribution(houseBattery, replaceHousePicked)
 
+        return True
+
     # find the closest battery that hasn't reached it's capacity yet
+
     def findBattery(self):
+        # print(houseList)
         # store all batteries that are matched with each house
         houseBattery = {}
-
         # loop through all houses that have not yet been assigned a battery
         for house in self._batteryProx:
-            self.initialDistribution(houseBattery, house)
+            isValid = self.initialDistribution(houseBattery, house)
+            if not isValid:
+                break
 
     # make a list of all capacities of the batteries
     def fillCapacity(self):
@@ -183,3 +208,11 @@ class astar():
         for battery in self._batteries:
             batteryCapacities[battery] = battery.capacity
         self._capacities = batteryCapacities
+
+    def returnResults(self):
+        return self._result
+
+    def returnHillClimber(self):
+        climber = astarHillClimber(
+            self._result, self._batteries, self._houses, self._capacities, self._allDistances)
+        return climber.mutateState()
