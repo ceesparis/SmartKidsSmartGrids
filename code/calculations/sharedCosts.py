@@ -1,12 +1,15 @@
 def calculateCostShared(batterySum, batteries):
-    '''Calculates the cost of the cables and batteries.'''
+    '''
+    calculates the cost of the cables and batteries
+    '''
 
     cables = 0
     cablesBattery = {}
 
+    # make sets of two coordinates for each house, adding them together and storing them
+    # with the current battery in the dictionary
     for battery in batteries:
         completeCableSet = []
-        # loop through all houses
         for house in battery.houses:
             for cableID in range(0, len(house.cables) - 1):
                 cableLine = str(house.cables[cableID]) + \
@@ -17,15 +20,19 @@ def calculateCostShared(batterySum, batteries):
                     completeCableSet.append(cableLineOpposite)
                 if cableLine not in completeCableSet:
                     completeCableSet.append(cableLine)
+
         cablesBattery[battery] = completeCableSet
 
+    # make a set of all cablesets for each battery
     for battery in batteries:
         completeCablesSplit = set()
+        # split all sets of cables up again to get just one coordinate per cable
         for cableID in range(len(cablesBattery[battery])-1):
             cablesTemp = cablesBattery[battery][cableID].split(".")
             completeCablesSplit.add(cablesTemp[0])
             completeCablesSplit.add(cablesTemp[1])
 
+        # add these coordinates to the total cable length
         cables += len(completeCablesSplit)
 
     # calculate the costs

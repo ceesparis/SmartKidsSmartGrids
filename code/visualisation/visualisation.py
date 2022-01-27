@@ -68,4 +68,4 @@ def visualize(grid, state):
     plt.show()
 
     plt.plot(range(10))
-    fig.savefig('grid' + state + '.png', dpi=fig.dpi)
+    fig.savefig('./gridTests/grid' + state + '.png', dpi=fig.dpi)
