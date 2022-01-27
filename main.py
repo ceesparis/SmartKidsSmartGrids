@@ -1,12 +1,8 @@
 
-import loader
-from randomCables import *
-from costCalculation import *
+import code.classes.loader
 from sys import argv
-from visualization import visualize
-from distanceCalc import calc_distance
-from randomizer import Randomizer
-from grid import Grid
+from code.classes.randomizer import Randomizer
+from code.classes.grid import Grid
 from astarloop import iterateAstar
 
 if __name__ == "__main__":

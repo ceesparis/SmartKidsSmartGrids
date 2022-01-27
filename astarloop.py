@@ -1,10 +1,10 @@
 import random
-from astar import astar
-from randomCables import *
-from costCalculation import *
-from visualization import visualize
-from smartCables import GenerateSmartCables
-from sharedCosts import *
+from code.algorithms.astar import astar
+from code.algorithms.randomCables import *
+from code.calculations.costCalculation import *
+from code.visualisation.visualisation import visualize
+from code.algorithms.smartCables import GenerateSmartCables
+from code.calculations.sharedCosts import *
 
 
 def iterateAstar(grid, loops):

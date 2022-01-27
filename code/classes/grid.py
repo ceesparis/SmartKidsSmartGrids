@@ -1,4 +1,4 @@
-import loader
+from code.classes import loader
 import json
 
 

@@ -1,8 +1,7 @@
 from os import close, replace
-from astarNodes import Node
 import copy
 import random
-from astarHill import astarHillClimber
+from .astarHill import astarHillClimber
 
 
 class astar():
@@ -96,18 +95,6 @@ class astar():
 
         # add the first results to the class
         self._result = topHouses
-
-    # fill the nodes to allow smarter path finding (not yet used)
-    def fillNodes(self):
-        batteryLocations = []
-        for battery in self._batteries:
-            batteryLocations.append(battery.location)
-
-        nodeList = []
-        for i in range(50):
-            for j in range(50):
-                newNode = Node(batteryLocations, [i, j])
-                nodeList.append(newNode)
 
     def initialDistribution(self, houseBattery, house):
         # set the closest distance to a battery mber higher than any distance possible

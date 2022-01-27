@@ -1,6 +1,7 @@
 import random
 import copy
-from costCalculation import calculateCost
+from code.calculations.costCalculation import calculateCost
+
 
 class Randomizer():
 
@@ -10,7 +11,6 @@ class Randomizer():
         self.district = grid.district
         self.houses = grid.houses
         self.batteries = grid.batteries
-
 
     def random_cables(self):
         '''
@@ -65,7 +65,6 @@ class Randomizer():
         # calculate cost of valid grid and return it
         cost = calculateCost(houses, len(batteries))
         return cost
-
 
     def multiple_random(self):
         '''
