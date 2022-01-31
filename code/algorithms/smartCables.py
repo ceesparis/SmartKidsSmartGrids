@@ -35,6 +35,14 @@ class GenerateSmartCables():
 
         return self._centralPoints
 
+    def returnRadius(self):
+        return [self._smallRadius, self._bestBigRadius]
+
+    def updateCentralPoints(self, radius):
+        self._smallRadius = radius[0]
+        self._bestBigRadius = radius[1]
+        return self.findCentralPoint()
+
     def calculateDistance(self, house, battery):
         '''
         calcultate the distance from a house to a battery
@@ -52,7 +60,7 @@ class GenerateSmartCables():
         n amount of times, to find the best score of big radiuses.
         '''
         bestScore = 9999
-        for i in range(1000):
+        for i in range(10):
             # randomize the houses order, size of each radius and the limit of houses
             # that are allowed to not have a radius.
             random.shuffle(self._houses)

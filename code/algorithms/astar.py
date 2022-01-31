@@ -180,7 +180,6 @@ class astar():
     # find the closest battery that hasn't reached it's capacity yet
 
     def findBattery(self):
-        # print(houseList)
         # store all batteries that are matched with each house
         houseBattery = {}
         # loop through all houses that have not yet been assigned a battery

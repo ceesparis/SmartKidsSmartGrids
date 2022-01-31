@@ -5,6 +5,8 @@ from code.calculations.costCalculation import *
 from code.visualisation.visualisation import visualize
 from code.algorithms.smartCables import GenerateSmartCables
 from code.calculations.sharedCosts import *
+from code.algorithms.smartCableClimber import CableClimber
+from code.algorithms.connectionClimber import ClimbConnections
 
 
 def iterateAstar(grid, loops):
@@ -87,6 +89,7 @@ def iterateAstar(grid, loops):
     # lay the cables down smarter
     newCables = GenerateSmartCables(grid.batteries, grid.houses, bestResult)
     result = newCables.findCentralPoint()
+
     for house in result:
         house.cables = randomizeCables(
             house.location, [result[house][0], result[house][1]])
@@ -98,5 +101,32 @@ def iterateAstar(grid, loops):
     print(
         f"Costs after hillclimber, with shared cables, smart cables:{grid.district.ownCosts}")
     visualize(grid, "sharedClimber")
+
+    cableClimber = CableClimber(result, newCables.returnRadius()[
+                                0], newCables.returnRadius()[1], bestResult)
+    newPoints = cableClimber.betterRadiuses()
+    result = newCables.updateCentralPoints(newPoints)
+
+    for house in result:
+        house.cables = randomizeCables(
+            house.location, [result[house][0], result[house][1]])
+        house.cables = house.cables + (randomizeCables(
+            [result[house][0], result[house][1]], bestResult[house].location))
+
+    grid.district.ownCosts = calculateCostShared(
+        len(grid.batteries), grid.batteries)
+    print(
+        f"Costs after cable hillclimber:{grid.district.ownCosts}")
+    visualize(grid, "radiusClimber")
+
+    centralPoints = cableClimber.returnCentralPoints()
+
+    connectionClimber = ClimbConnections(
+        grid.batteries, grid.houses, result, centralPoints)
+    connectionClimber.findConnections()
+    grid.district.ownCosts = calculateCostShared(
+        len(grid.batteries), grid.batteries)
+    visualize(grid, "connectionClimber")
+    print(f"Last climber to find connections: {grid.district.ownCosts}")
 
     return grid
