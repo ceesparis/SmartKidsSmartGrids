@@ -1,0 +1,3668 @@
+-- A* and A* HillClimber results for district 3
+
+Cheapest no-hill result: tbd
+Cheapest hill result: tbd
+Biggest difference: tbd
+
+Code ran for this result list:
+
+"testdrive.py"
+import subprocess
+import time
+
+start = time.time()
+n_runs = 0
+
+while time.time() - start < 1800:
+    print(f"run: {n_runs}")
+    subprocess.call(["python3", "main.py", "3"])
+    n_runs += 1
+
+cmd: "python3 testdrive.py"
+
+
+run: 0
+Costs before hillclimber, with own cables, without smart cables: 35242
+Costs after hillclimber, with own cables, without smart cables: 34387. Seed: 9226 
+
+run: 1
+No valid solution generated 
+
+run: 2
+No valid solution generated 
+
+run: 3
+No valid solution generated 
+
+run: 4
+No valid solution generated 
+
+run: 5
+No valid solution generated 
+
+run: 6
+No valid solution generated 
+
+run: 7
+No valid solution generated 
+
+run: 8
+No valid solution generated 
+
+run: 9
+No valid solution generated 
+
+run: 10
+Costs before hillclimber, with own cables, without smart cables: 35296
+Costs after hillclimber, with own cables, without smart cables: 33460. Seed: 3409 
+
+run: 11
+No valid solution generated 
+
+run: 12
+No valid solution generated 
+
+run: 13
+No valid solution generated 
+
+run: 14
+No valid solution generated 
+
+run: 15
+No valid solution generated 
+
+run: 16
+No valid solution generated 
+
+run: 17
+No valid solution generated 
+
+run: 18
+No valid solution generated 
+
+run: 19
+No valid solution generated 
+
+run: 20
+Costs before hillclimber, with own cables, without smart cables: 35350
+Costs after hillclimber, with own cables, without smart cables: 33388. Seed: 4213 
+
+run: 21
+Costs before hillclimber, with own cables, without smart cables: 35359
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 9472 
+
+run: 22
+No valid solution generated 
+
+run: 23
+No valid solution generated 
+
+run: 24
+No valid solution generated 
+
+run: 25
+Costs before hillclimber, with own cables, without smart cables: 36079
+Costs after hillclimber, with own cables, without smart cables: 33973. Seed: 7976 
+
+run: 26
+No valid solution generated 
+
+run: 27
+No valid solution generated 
+
+run: 28
+No valid solution generated 
+
+run: 29
+No valid solution generated 
+
+run: 30
+No valid solution generated 
+
+run: 31
+No valid solution generated 
+
+run: 32
+No valid solution generated 
+
+run: 33
+No valid solution generated 
+
+run: 34
+No valid solution generated 
+
+run: 35
+No valid solution generated 
+
+run: 36
+No valid solution generated 
+
+run: 37
+No valid solution generated 
+
+run: 38
+No valid solution generated 
+
+run: 39
+No valid solution generated 
+
+run: 40
+No valid solution generated 
+
+run: 41
+No valid solution generated 
+
+run: 42
+Costs before hillclimber, with own cables, without smart cables: 35188
+Costs after hillclimber, with own cables, without smart cables: 33730. Seed: 2626 
+
+run: 43
+No valid solution generated 
+
+run: 44
+No valid solution generated 
+
+run: 45
+No valid solution generated 
+
+run: 46
+No valid solution generated 
+
+run: 47
+No valid solution generated 
+
+run: 48
+No valid solution generated 
+
+run: 49
+No valid solution generated 
+
+run: 50
+Costs before hillclimber, with own cables, without smart cables: 36016
+Costs after hillclimber, with own cables, without smart cables: 33505. Seed: 4920 
+
+run: 51
+No valid solution generated 
+
+run: 52
+No valid solution generated 
+
+run: 53
+No valid solution generated 
+
+run: 54
+Costs before hillclimber, with own cables, without smart cables: 35764
+Costs after hillclimber, with own cables, without smart cables: 33712. Seed: 1683 
+
+run: 55
+No valid solution generated 
+
+run: 56
+No valid solution generated 
+
+run: 57
+No valid solution generated 
+
+run: 58
+No valid solution generated 
+
+run: 59
+No valid solution generated 
+
+run: 60
+No valid solution generated 
+
+run: 61
+No valid solution generated 
+
+run: 62
+No valid solution generated 
+
+run: 63
+No valid solution generated 
+
+run: 64
+No valid solution generated 
+
+run: 65
+No valid solution generated 
+
+run: 66
+No valid solution generated 
+
+run: 67
+No valid solution generated 
+
+run: 68
+No valid solution generated 
+
+run: 69
+No valid solution generated 
+
+run: 70
+Costs before hillclimber, with own cables, without smart cables: 35737
+Costs after hillclimber, with own cables, without smart cables: 33847. Seed: 5097 
+
+run: 71
+No valid solution generated 
+
+run: 72
+No valid solution generated 
+
+run: 73
+No valid solution generated 
+
+run: 74
+No valid solution generated 
+
+run: 75
+No valid solution generated 
+
+run: 76
+No valid solution generated 
+
+run: 77
+No valid solution generated 
+
+run: 78
+No valid solution generated 
+
+run: 79
+No valid solution generated 
+
+run: 80
+No valid solution generated 
+
+run: 81
+Costs before hillclimber, with own cables, without smart cables: 37384
+Costs after hillclimber, with own cables, without smart cables: 33964. Seed: 8029 
+
+run: 82
+No valid solution generated 
+
+run: 83
+No valid solution generated 
+
+run: 84
+No valid solution generated 
+
+run: 85
+No valid solution generated 
+
+run: 86
+No valid solution generated 
+
+run: 87
+No valid solution generated 
+
+run: 88
+No valid solution generated 
+
+run: 89
+No valid solution generated 
+
+run: 90
+No valid solution generated 
+
+run: 91
+No valid solution generated 
+
+run: 92
+No valid solution generated 
+
+run: 93
+No valid solution generated 
+
+run: 94
+No valid solution generated 
+
+run: 95
+No valid solution generated 
+
+run: 96
+No valid solution generated 
+
+run: 97
+Costs before hillclimber, with own cables, without smart cables: 35512
+Costs after hillclimber, with own cables, without smart cables: 33919. Seed: 9597 
+
+run: 98
+No valid solution generated 
+
+run: 99
+No valid solution generated 
+
+run: 100
+No valid solution generated 
+
+run: 101
+No valid solution generated 
+
+run: 102
+No valid solution generated 
+
+run: 103
+No valid solution generated 
+
+run: 104
+No valid solution generated 
+
+run: 105
+No valid solution generated 
+
+run: 106
+No valid solution generated 
+
+run: 107
+No valid solution generated 
+
+run: 108
+No valid solution generated 
+
+run: 109
+No valid solution generated 
+
+run: 110
+No valid solution generated 
+
+run: 111
+No valid solution generated 
+
+run: 112
+No valid solution generated 
+
+run: 113
+No valid solution generated 
+
+run: 114
+No valid solution generated 
+
+run: 115
+No valid solution generated 
+
+run: 116
+No valid solution generated 
+
+run: 117
+No valid solution generated 
+
+run: 118
+No valid solution generated 
+
+run: 119
+No valid solution generated 
+
+run: 120
+No valid solution generated 
+
+run: 121
+No valid solution generated 
+
+run: 122
+No valid solution generated 
+
+run: 123
+No valid solution generated 
+
+run: 124
+No valid solution generated 
+
+run: 125
+No valid solution generated 
+
+run: 126
+No valid solution generated 
+
+run: 127
+No valid solution generated 
+
+run: 128
+No valid solution generated 
+
+run: 129
+No valid solution generated 
+
+run: 130
+No valid solution generated 
+
+run: 131
+No valid solution generated 
+
+run: 132
+No valid solution generated 
+
+run: 133
+No valid solution generated 
+
+run: 134
+No valid solution generated 
+
+run: 135
+No valid solution generated 
+
+run: 136
+No valid solution generated 
+
+run: 137
+No valid solution generated 
+
+run: 138
+No valid solution generated 
+
+run: 139
+No valid solution generated 
+
+run: 140
+No valid solution generated 
+
+run: 141
+No valid solution generated 
+
+run: 142
+No valid solution generated 
+
+run: 143
+No valid solution generated 
+
+run: 144
+No valid solution generated 
+
+run: 145
+No valid solution generated 
+
+run: 146
+No valid solution generated 
+
+run: 147
+No valid solution generated 
+
+run: 148
+No valid solution generated 
+
+run: 149
+No valid solution generated 
+
+run: 150
+No valid solution generated 
+
+run: 151
+No valid solution generated 
+
+run: 152
+No valid solution generated 
+
+run: 153
+No valid solution generated 
+
+run: 154
+No valid solution generated 
+
+run: 155
+No valid solution generated 
+
+run: 156
+No valid solution generated 
+
+run: 157
+No valid solution generated 
+
+run: 158
+No valid solution generated 
+
+run: 159
+No valid solution generated 
+
+run: 160
+No valid solution generated 
+
+run: 161
+No valid solution generated 
+
+run: 162
+No valid solution generated 
+
+run: 163
+No valid solution generated 
+
+run: 164
+No valid solution generated 
+
+run: 165
+No valid solution generated 
+
+run: 166
+No valid solution generated 
+
+run: 167
+No valid solution generated 
+
+run: 168
+No valid solution generated 
+
+run: 169
+No valid solution generated 
+
+run: 170
+No valid solution generated 
+
+run: 171
+Costs before hillclimber, with own cables, without smart cables: 36979
+Costs after hillclimber, with own cables, without smart cables: 34000. Seed: 326 
+
+run: 172
+No valid solution generated 
+
+run: 173
+No valid solution generated 
+
+run: 174
+No valid solution generated 
+
+run: 175
+No valid solution generated 
+
+run: 176
+No valid solution generated 
+
+run: 177
+No valid solution generated 
+
+run: 178
+No valid solution generated 
+
+run: 179
+No valid solution generated 
+
+run: 180
+No valid solution generated 
+
+run: 181
+No valid solution generated 
+
+run: 182
+No valid solution generated 
+
+run: 183
+Costs before hillclimber, with own cables, without smart cables: 35917
+Costs after hillclimber, with own cables, without smart cables: 33901. Seed: 7076 
+
+run: 184
+No valid solution generated 
+
+run: 185
+Costs before hillclimber, with own cables, without smart cables: 36322
+Costs after hillclimber, with own cables, without smart cables: 33514. Seed: 938 
+
+run: 186
+No valid solution generated 
+
+run: 187
+No valid solution generated 
+
+run: 188
+No valid solution generated 
+
+run: 189
+No valid solution generated 
+
+run: 190
+No valid solution generated 
+
+run: 191
+No valid solution generated 
+
+run: 192
+No valid solution generated 
+
+run: 193
+Costs before hillclimber, with own cables, without smart cables: 36169
+Costs after hillclimber, with own cables, without smart cables: 33649. Seed: 4343 
+
+run: 194
+No valid solution generated 
+
+run: 195
+No valid solution generated 
+
+run: 196
+No valid solution generated 
+
+run: 197
+No valid solution generated 
+
+run: 198
+No valid solution generated 
+
+run: 199
+No valid solution generated 
+
+run: 200
+No valid solution generated 
+
+run: 201
+Costs before hillclimber, with own cables, without smart cables: 35656
+Costs after hillclimber, with own cables, without smart cables: 34045. Seed: 114 
+
+run: 202
+No valid solution generated 
+
+run: 203
+No valid solution generated 
+
+run: 204
+No valid solution generated 
+
+run: 205
+No valid solution generated 
+
+run: 206
+No valid solution generated 
+
+run: 207
+Costs before hillclimber, with own cables, without smart cables: 35800
+Costs after hillclimber, with own cables, without smart cables: 34504. Seed: 9057 
+
+run: 208
+No valid solution generated 
+
+run: 209
+No valid solution generated 
+
+run: 210
+No valid solution generated 
+
+run: 211
+No valid solution generated 
+
+run: 212
+Costs before hillclimber, with own cables, without smart cables: 36610
+Costs after hillclimber, with own cables, without smart cables: 33775. Seed: 8468 
+
+run: 213
+Costs before hillclimber, with own cables, without smart cables: 35845
+Costs after hillclimber, with own cables, without smart cables: 33676. Seed: 7949 
+
+run: 214
+No valid solution generated 
+
+run: 215
+No valid solution generated 
+
+run: 216
+No valid solution generated 
+
+run: 217
+No valid solution generated 
+
+run: 218
+No valid solution generated 
+
+run: 219
+No valid solution generated 
+
+run: 220
+No valid solution generated 
+
+run: 221
+No valid solution generated 
+
+run: 222
+No valid solution generated 
+
+run: 223
+No valid solution generated 
+
+run: 224
+No valid solution generated 
+
+run: 225
+No valid solution generated 
+
+run: 226
+No valid solution generated 
+
+run: 227
+No valid solution generated 
+
+run: 228
+No valid solution generated 
+
+run: 229
+No valid solution generated 
+
+run: 230
+No valid solution generated 
+
+run: 231
+No valid solution generated 
+
+run: 232
+No valid solution generated 
+
+run: 233
+No valid solution generated 
+
+run: 234
+No valid solution generated 
+
+run: 235
+No valid solution generated 
+
+run: 236
+No valid solution generated 
+
+run: 237
+No valid solution generated 
+
+run: 238
+No valid solution generated 
+
+run: 239
+No valid solution generated 
+
+run: 240
+No valid solution generated 
+
+run: 241
+No valid solution generated 
+
+run: 242
+No valid solution generated 
+
+run: 243
+No valid solution generated 
+
+run: 244
+No valid solution generated 
+
+run: 245
+No valid solution generated 
+
+run: 246
+No valid solution generated 
+
+run: 247
+No valid solution generated 
+
+run: 248
+No valid solution generated 
+
+run: 249
+No valid solution generated 
+
+run: 250
+No valid solution generated 
+
+run: 251
+No valid solution generated 
+
+run: 252
+No valid solution generated 
+
+run: 253
+No valid solution generated 
+
+run: 254
+No valid solution generated 
+
+run: 255
+No valid solution generated 
+
+run: 256
+No valid solution generated 
+
+run: 257
+No valid solution generated 
+
+run: 258
+No valid solution generated 
+
+run: 259
+No valid solution generated 
+
+run: 260
+No valid solution generated 
+
+run: 261
+No valid solution generated 
+
+run: 262
+No valid solution generated 
+
+run: 263
+No valid solution generated 
+
+run: 264
+No valid solution generated 
+
+run: 265
+No valid solution generated 
+
+run: 266
+No valid solution generated 
+
+run: 267
+No valid solution generated 
+
+run: 268
+No valid solution generated 
+
+run: 269
+No valid solution generated 
+
+run: 270
+No valid solution generated 
+
+run: 271
+No valid solution generated 
+
+run: 272
+No valid solution generated 
+
+run: 273
+Costs before hillclimber, with own cables, without smart cables: 35503
+Costs after hillclimber, with own cables, without smart cables: 33577. Seed: 3963 
+
+run: 274
+No valid solution generated 
+
+run: 275
+No valid solution generated 
+
+run: 276
+No valid solution generated 
+
+run: 277
+No valid solution generated 
+
+run: 278
+No valid solution generated 
+
+run: 279
+No valid solution generated 
+
+run: 280
+No valid solution generated 
+
+run: 281
+No valid solution generated 
+
+run: 282
+Costs before hillclimber, with own cables, without smart cables: 35080
+Costs after hillclimber, with own cables, without smart cables: 33955. Seed: 1895 
+
+run: 283
+No valid solution generated 
+
+run: 284
+Costs before hillclimber, with own cables, without smart cables: 35323
+Costs after hillclimber, with own cables, without smart cables: 33577. Seed: 4025 
+
+run: 285
+No valid solution generated 
+
+run: 286
+No valid solution generated 
+
+run: 287
+Costs before hillclimber, with own cables, without smart cables: 35503
+Costs after hillclimber, with own cables, without smart cables: 33739. Seed: 4725 
+
+run: 288
+No valid solution generated 
+
+run: 289
+No valid solution generated 
+
+run: 290
+No valid solution generated 
+
+run: 291
+No valid solution generated 
+
+run: 292
+No valid solution generated 
+
+run: 293
+No valid solution generated 
+
+run: 294
+No valid solution generated 
+
+run: 295
+No valid solution generated 
+
+run: 296
+No valid solution generated 
+
+run: 297
+No valid solution generated 
+
+run: 298
+No valid solution generated 
+
+run: 299
+No valid solution generated 
+
+run: 300
+No valid solution generated 
+
+run: 301
+No valid solution generated 
+
+run: 302
+Costs before hillclimber, with own cables, without smart cables: 36115
+Costs after hillclimber, with own cables, without smart cables: 33883. Seed: 5117 
+
+run: 303
+No valid solution generated 
+
+run: 304
+No valid solution generated 
+
+run: 305
+No valid solution generated 
+
+run: 306
+No valid solution generated 
+
+run: 307
+No valid solution generated 
+
+run: 308
+No valid solution generated 
+
+run: 309
+No valid solution generated 
+
+run: 310
+No valid solution generated 
+
+run: 311
+No valid solution generated 
+
+run: 312
+No valid solution generated 
+
+run: 313
+No valid solution generated 
+
+run: 314
+No valid solution generated 
+
+run: 315
+Costs before hillclimber, with own cables, without smart cables: 35719
+Costs after hillclimber, with own cables, without smart cables: 33901. Seed: 6175 
+
+run: 316
+No valid solution generated 
+
+run: 317
+No valid solution generated 
+
+run: 318
+No valid solution generated 
+
+run: 319
+No valid solution generated 
+
+run: 320
+No valid solution generated 
+
+run: 321
+No valid solution generated 
+
+run: 322
+No valid solution generated 
+
+run: 323
+No valid solution generated 
+
+run: 324
+No valid solution generated 
+
+run: 325
+No valid solution generated 
+
+run: 326
+No valid solution generated 
+
+run: 327
+No valid solution generated 
+
+run: 328
+No valid solution generated 
+
+run: 329
+No valid solution generated 
+
+run: 330
+No valid solution generated 
+
+run: 331
+No valid solution generated 
+
+run: 332
+No valid solution generated 
+
+run: 333
+No valid solution generated 
+
+run: 334
+No valid solution generated 
+
+run: 335
+No valid solution generated 
+
+run: 336
+No valid solution generated 
+
+run: 337
+No valid solution generated 
+
+run: 338
+No valid solution generated 
+
+run: 339
+No valid solution generated 
+
+run: 340
+No valid solution generated 
+
+run: 341
+No valid solution generated 
+
+run: 342
+No valid solution generated 
+
+run: 343
+No valid solution generated 
+
+run: 344
+No valid solution generated 
+
+run: 345
+No valid solution generated 
+
+run: 346
+No valid solution generated 
+
+run: 347
+No valid solution generated 
+
+run: 348
+No valid solution generated 
+
+run: 349
+No valid solution generated 
+
+run: 350
+No valid solution generated 
+
+run: 351
+No valid solution generated 
+
+run: 352
+Costs before hillclimber, with own cables, without smart cables: 36313
+Costs after hillclimber, with own cables, without smart cables: 33577. Seed: 8468 
+
+run: 353
+No valid solution generated 
+
+run: 354
+No valid solution generated 
+
+run: 355
+No valid solution generated 
+
+run: 356
+No valid solution generated 
+
+run: 357
+No valid solution generated 
+
+run: 358
+No valid solution generated 
+
+run: 359
+No valid solution generated 
+
+run: 360
+No valid solution generated 
+
+run: 361
+No valid solution generated 
+
+run: 362
+No valid solution generated 
+
+run: 363
+No valid solution generated 
+
+run: 364
+No valid solution generated 
+
+run: 365
+No valid solution generated 
+
+run: 366
+Costs before hillclimber, with own cables, without smart cables: 35386
+Costs after hillclimber, with own cables, without smart cables: 33433. Seed: 3244 
+
+run: 367
+No valid solution generated 
+
+run: 368
+No valid solution generated 
+
+run: 369
+No valid solution generated 
+
+run: 370
+No valid solution generated 
+
+run: 371
+No valid solution generated 
+
+run: 372
+No valid solution generated 
+
+run: 373
+No valid solution generated 
+
+run: 374
+No valid solution generated 
+
+run: 375
+No valid solution generated 
+
+run: 376
+No valid solution generated 
+
+run: 377
+No valid solution generated 
+
+run: 378
+No valid solution generated 
+
+run: 379
+No valid solution generated 
+
+run: 380
+No valid solution generated 
+
+run: 381
+No valid solution generated 
+
+run: 382
+No valid solution generated 
+
+run: 383
+No valid solution generated 
+
+run: 384
+No valid solution generated 
+
+run: 385
+No valid solution generated 
+
+run: 386
+No valid solution generated 
+
+run: 387
+No valid solution generated 
+
+run: 388
+No valid solution generated 
+
+run: 389
+Costs before hillclimber, with own cables, without smart cables: 35197
+Costs after hillclimber, with own cables, without smart cables: 33739. Seed: 3821 
+
+run: 390
+No valid solution generated 
+
+run: 391
+No valid solution generated 
+
+run: 392
+No valid solution generated 
+
+run: 393
+No valid solution generated 
+
+run: 394
+No valid solution generated 
+
+run: 395
+No valid solution generated 
+
+run: 396
+No valid solution generated 
+
+run: 397
+No valid solution generated 
+
+run: 398
+No valid solution generated 
+
+run: 399
+No valid solution generated 
+
+run: 400
+No valid solution generated 
+
+run: 401
+No valid solution generated 
+
+run: 402
+No valid solution generated 
+
+run: 403
+No valid solution generated 
+
+run: 404
+No valid solution generated 
+
+run: 405
+No valid solution generated 
+
+run: 406
+No valid solution generated 
+
+run: 407
+No valid solution generated 
+
+run: 408
+No valid solution generated 
+
+run: 409
+No valid solution generated 
+
+run: 410
+No valid solution generated 
+
+run: 411
+No valid solution generated 
+
+run: 412
+No valid solution generated 
+
+run: 413
+No valid solution generated 
+
+run: 414
+No valid solution generated 
+
+run: 415
+No valid solution generated 
+
+run: 416
+No valid solution generated 
+
+run: 417
+No valid solution generated 
+
+run: 418
+No valid solution generated 
+
+run: 419
+No valid solution generated 
+
+run: 420
+No valid solution generated 
+
+run: 421
+No valid solution generated 
+
+run: 422
+No valid solution generated 
+
+run: 423
+No valid solution generated 
+
+run: 424
+No valid solution generated 
+
+run: 425
+No valid solution generated 
+
+run: 426
+No valid solution generated 
+
+run: 427
+No valid solution generated 
+
+run: 428
+No valid solution generated 
+
+run: 429
+No valid solution generated 
+
+run: 430
+No valid solution generated 
+
+run: 431
+No valid solution generated 
+
+run: 432
+No valid solution generated 
+
+run: 433
+No valid solution generated 
+
+run: 434
+No valid solution generated 
+
+run: 435
+No valid solution generated 
+
+run: 436
+No valid solution generated 
+
+run: 437
+No valid solution generated 
+
+run: 438
+No valid solution generated 
+
+run: 439
+No valid solution generated 
+
+run: 440
+No valid solution generated 
+
+run: 441
+No valid solution generated 
+
+run: 442
+No valid solution generated 
+
+run: 443
+No valid solution generated 
+
+run: 444
+Costs before hillclimber, with own cables, without smart cables: 35350
+Costs after hillclimber, with own cables, without smart cables: 33388. Seed: 4213 
+
+run: 445
+No valid solution generated 
+
+run: 446
+Costs before hillclimber, with own cables, without smart cables: 36880
+Costs after hillclimber, with own cables, without smart cables: 33604. Seed: 3596 
+
+run: 447
+No valid solution generated 
+
+run: 448
+No valid solution generated 
+
+run: 449
+Costs before hillclimber, with own cables, without smart cables: 36205
+Costs after hillclimber, with own cables, without smart cables: 33541. Seed: 7777 
+
+run: 450
+No valid solution generated 
+
+run: 451
+No valid solution generated 
+
+run: 452
+No valid solution generated 
+
+run: 453
+No valid solution generated 
+
+run: 454
+Costs before hillclimber, with own cables, without smart cables: 35575
+Costs after hillclimber, with own cables, without smart cables: 33496. Seed: 3894 
+
+run: 455
+No valid solution generated 
+
+run: 456
+No valid solution generated 
+
+run: 457
+Costs before hillclimber, with own cables, without smart cables: 35143
+Costs after hillclimber, with own cables, without smart cables: 33703. Seed: 8026 
+
+run: 458
+No valid solution generated 
+
+run: 459
+No valid solution generated 
+
+run: 460
+No valid solution generated 
+
+run: 461
+No valid solution generated 
+
+run: 462
+No valid solution generated 
+
+run: 463
+No valid solution generated 
+
+run: 464
+No valid solution generated 
+
+run: 465
+No valid solution generated 
+
+run: 466
+No valid solution generated 
+
+run: 467
+No valid solution generated 
+
+run: 468
+No valid solution generated 
+
+run: 469
+No valid solution generated 
+
+run: 470
+No valid solution generated 
+
+run: 471
+No valid solution generated 
+
+run: 472
+No valid solution generated 
+
+run: 473
+No valid solution generated 
+
+run: 474
+No valid solution generated 
+
+run: 475
+No valid solution generated 
+
+run: 476
+No valid solution generated 
+
+run: 477
+No valid solution generated 
+
+run: 478
+No valid solution generated 
+
+run: 479
+No valid solution generated 
+
+run: 480
+Costs before hillclimber, with own cables, without smart cables: 36205
+Costs after hillclimber, with own cables, without smart cables: 33676. Seed: 3832 
+
+run: 481
+No valid solution generated 
+
+run: 482
+No valid solution generated 
+
+run: 483
+No valid solution generated 
+
+run: 484
+No valid solution generated 
+
+run: 485
+No valid solution generated 
+
+run: 486
+No valid solution generated 
+
+run: 487
+No valid solution generated 
+
+run: 488
+No valid solution generated 
+
+run: 489
+No valid solution generated 
+
+run: 490
+No valid solution generated 
+
+run: 491
+No valid solution generated 
+
+run: 492
+No valid solution generated 
+
+run: 493
+No valid solution generated 
+
+run: 494
+No valid solution generated 
+
+run: 495
+No valid solution generated 
+
+run: 496
+No valid solution generated 
+
+run: 497
+No valid solution generated 
+
+run: 498
+No valid solution generated 
+
+run: 499
+No valid solution generated 
+
+run: 500
+No valid solution generated 
+
+run: 501
+No valid solution generated 
+
+run: 502
+No valid solution generated 
+
+run: 503
+No valid solution generated 
+
+run: 504
+No valid solution generated 
+
+run: 505
+No valid solution generated 
+
+run: 506
+Costs before hillclimber, with own cables, without smart cables: 36439
+Costs after hillclimber, with own cables, without smart cables: 33289. Seed: 4061 
+
+run: 507
+No valid solution generated 
+
+run: 508
+No valid solution generated 
+
+run: 509
+No valid solution generated 
+
+run: 510
+No valid solution generated 
+
+run: 511
+No valid solution generated 
+
+run: 512
+No valid solution generated 
+
+run: 513
+No valid solution generated 
+
+run: 514
+No valid solution generated 
+
+run: 515
+No valid solution generated 
+
+run: 516
+No valid solution generated 
+
+run: 517
+Costs before hillclimber, with own cables, without smart cables: 35368
+Costs after hillclimber, with own cables, without smart cables: 33766. Seed: 1860 
+
+run: 518
+No valid solution generated 
+
+run: 519
+No valid solution generated 
+
+run: 520
+No valid solution generated 
+
+run: 521
+No valid solution generated 
+
+run: 522
+No valid solution generated 
+
+run: 523
+No valid solution generated 
+
+run: 524
+No valid solution generated 
+
+run: 525
+No valid solution generated 
+
+run: 526
+No valid solution generated 
+
+run: 527
+No valid solution generated 
+
+run: 528
+No valid solution generated 
+
+run: 529
+No valid solution generated 
+
+run: 530
+No valid solution generated 
+
+run: 531
+No valid solution generated 
+
+run: 532
+No valid solution generated 
+
+run: 533
+No valid solution generated 
+
+run: 534
+No valid solution generated 
+
+run: 535
+No valid solution generated 
+
+run: 536
+No valid solution generated 
+
+run: 537
+No valid solution generated 
+
+run: 538
+Costs before hillclimber, with own cables, without smart cables: 35593
+Costs after hillclimber, with own cables, without smart cables: 33775. Seed: 5655 
+
+run: 539
+No valid solution generated 
+
+run: 540
+No valid solution generated 
+
+run: 541
+No valid solution generated 
+
+run: 542
+No valid solution generated 
+
+run: 543
+No valid solution generated 
+
+run: 544
+No valid solution generated 
+
+run: 545
+No valid solution generated 
+
+run: 546
+No valid solution generated 
+
+run: 547
+No valid solution generated 
+
+run: 548
+No valid solution generated 
+
+run: 549
+No valid solution generated 
+
+run: 550
+No valid solution generated 
+
+run: 551
+No valid solution generated 
+
+run: 552
+No valid solution generated 
+
+run: 553
+No valid solution generated 
+
+run: 554
+No valid solution generated 
+
+run: 555
+No valid solution generated 
+
+run: 556
+No valid solution generated 
+
+run: 557
+No valid solution generated 
+
+run: 558
+No valid solution generated 
+
+run: 559
+No valid solution generated 
+
+run: 560
+No valid solution generated 
+
+run: 561
+No valid solution generated 
+
+run: 562
+No valid solution generated 
+
+run: 563
+No valid solution generated 
+
+run: 564
+Costs before hillclimber, with own cables, without smart cables: 35557
+Costs after hillclimber, with own cables, without smart cables: 33379. Seed: 1147 
+
+run: 565
+Costs before hillclimber, with own cables, without smart cables: 35098
+Costs after hillclimber, with own cables, without smart cables: 33622. Seed: 2847 
+
+run: 566
+No valid solution generated 
+
+run: 567
+No valid solution generated 
+
+run: 568
+No valid solution generated 
+
+run: 569
+No valid solution generated 
+
+run: 570
+No valid solution generated 
+
+run: 571
+No valid solution generated 
+
+run: 572
+No valid solution generated 
+
+run: 573
+Costs before hillclimber, with own cables, without smart cables: 36034
+Costs after hillclimber, with own cables, without smart cables: 33370. Seed: 6975 
+
+run: 574
+No valid solution generated 
+
+run: 575
+No valid solution generated 
+
+run: 576
+No valid solution generated 
+
+run: 577
+No valid solution generated 
+
+run: 578
+No valid solution generated 
+
+run: 579
+No valid solution generated 
+
+run: 580
+No valid solution generated 
+
+run: 581
+No valid solution generated 
+
+run: 582
+No valid solution generated 
+
+run: 583
+No valid solution generated 
+
+run: 584
+No valid solution generated 
+
+run: 585
+No valid solution generated 
+
+run: 586
+Costs before hillclimber, with own cables, without smart cables: 35665
+Costs after hillclimber, with own cables, without smart cables: 33883. Seed: 3249 
+
+run: 587
+No valid solution generated 
+
+run: 588
+No valid solution generated 
+
+run: 589
+No valid solution generated 
+
+run: 590
+No valid solution generated 
+
+run: 591
+No valid solution generated 
+
+run: 592
+No valid solution generated 
+
+run: 593
+No valid solution generated 
+
+run: 594
+No valid solution generated 
+
+run: 595
+No valid solution generated 
+
+run: 596
+No valid solution generated 
+
+run: 597
+No valid solution generated 
+
+run: 598
+No valid solution generated 
+
+run: 599
+No valid solution generated 
+
+run: 600
+No valid solution generated 
+
+run: 601
+No valid solution generated 
+
+run: 602
+No valid solution generated 
+
+run: 603
+No valid solution generated 
+
+run: 604
+No valid solution generated 
+
+run: 605
+No valid solution generated 
+
+run: 606
+No valid solution generated 
+
+run: 607
+No valid solution generated 
+
+run: 608
+No valid solution generated 
+
+run: 609
+No valid solution generated 
+
+run: 610
+No valid solution generated 
+
+run: 611
+No valid solution generated 
+
+run: 612
+No valid solution generated 
+
+run: 613
+No valid solution generated 
+
+run: 614
+No valid solution generated 
+
+run: 615
+No valid solution generated 
+
+run: 616
+No valid solution generated 
+
+run: 617
+No valid solution generated 
+
+run: 618
+No valid solution generated 
+
+run: 619
+No valid solution generated 
+
+run: 620
+No valid solution generated 
+
+run: 621
+No valid solution generated 
+
+run: 622
+Costs before hillclimber, with own cables, without smart cables: 35530
+Costs after hillclimber, with own cables, without smart cables: 33892. Seed: 6874 
+
+run: 623
+No valid solution generated 
+
+run: 624
+No valid solution generated 
+
+run: 625
+No valid solution generated 
+
+run: 626
+No valid solution generated 
+
+run: 627
+No valid solution generated 
+
+run: 628
+No valid solution generated 
+
+run: 629
+No valid solution generated 
+
+run: 630
+No valid solution generated 
+
+run: 631
+No valid solution generated 
+
+run: 632
+Costs before hillclimber, with own cables, without smart cables: 36097
+Costs after hillclimber, with own cables, without smart cables: 34495. Seed: 7228 
+
+run: 633
+No valid solution generated 
+
+run: 634
+No valid solution generated 
+
+run: 635
+No valid solution generated 
+
+run: 636
+No valid solution generated 
+
+run: 637
+No valid solution generated 
+
+run: 638
+No valid solution generated 
+
+run: 639
+No valid solution generated 
+
+run: 640
+No valid solution generated 
+
+run: 641
+No valid solution generated 
+
+run: 642
+No valid solution generated 
+
+run: 643
+No valid solution generated 
+
+run: 644
+No valid solution generated 
+
+run: 645
+No valid solution generated 
+
+run: 646
+Costs before hillclimber, with own cables, without smart cables: 35395
+Costs after hillclimber, with own cables, without smart cables: 33694. Seed: 7813 
+
+run: 647
+No valid solution generated 
+
+run: 648
+run: 648
+No valid solution generated 
+
+run: 649
+No valid solution generated 
+
+run: 650
+No valid solution generated 
+
+run: 651
+No valid solution generated 
+
+run: 652
+No valid solution generated 
+
+run: 653
+Costs before hillclimber, with own cables, without smart cables: 36673
+Costs after hillclimber, with own cables, without smart cables: 33694. Seed: 8894 
+
+run: 654
+No valid solution generated 
+
+run: 655
+No valid solution generated 
+
+run: 656
+No valid solution generated 
+
+run: 657
+No valid solution generated 
+
+run: 658
+No valid solution generated 
+
+run: 659
+No valid solution generated 
+
+run: 660
+No valid solution generated 
+
+run: 661
+No valid solution generated 
+
+run: 662
+No valid solution generated 
+
+run: 663
+No valid solution generated 
+
+run: 664
+No valid solution generated 
+
+run: 665
+No valid solution generated 
+
+run: 666
+No valid solution generated 
+
+run: 667
+No valid solution generated 
+
+run: 668
+No valid solution generated 
+
+run: 669
+Costs before hillclimber, with own cables, without smart cables: 35089
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 9248 
+
+run: 670
+No valid solution generated 
+
+run: 671
+Costs before hillclimber, with own cables, without smart cables: 36079
+Costs after hillclimber, with own cables, without smart cables: 33388. Seed: 5065 
+
+run: 672
+Costs before hillclimber, with own cables, without smart cables: 35323
+Costs after hillclimber, with own cables, without smart cables: 33433. Seed: 2883 
+
+run: 673
+No valid solution generated 
+
+run: 674
+No valid solution generated 
+
+run: 675
+No valid solution generated 
+
+run: 676
+No valid solution generated 
+
+run: 677
+No valid solution generated 
+
+run: 678
+No valid solution generated 
+
+run: 679
+No valid solution generated 
+
+run: 680
+No valid solution generated 
+
+run: 681
+No valid solution generated 
+
+run: 682
+No valid solution generated 
+
+run: 683
+No valid solution generated 
+
+run: 684
+No valid solution generated 
+
+run: 685
+Costs before hillclimber, with own cables, without smart cables: 35638
+Costs after hillclimber, with own cables, without smart cables: 33712. Seed: 5531 
+
+run: 686
+No valid solution generated 
+
+run: 687
+No valid solution generated 
+
+run: 688
+No valid solution generated 
+
+run: 689
+No valid solution generated 
+
+run: 690
+No valid solution generated 
+
+run: 691
+No valid solution generated 
+
+run: 692
+No valid solution generated 
+
+run: 693
+No valid solution generated 
+
+run: 694
+No valid solution generated 
+
+run: 695
+No valid solution generated 
+
+run: 696
+No valid solution generated 
+
+run: 697
+No valid solution generated 
+
+run: 698
+No valid solution generated 
+
+run: 699
+No valid solution generated 
+
+run: 700
+No valid solution generated 
+
+run: 701
+No valid solution generated 
+
+run: 702
+No valid solution generated 
+
+run: 703
+No valid solution generated 
+
+run: 704
+No valid solution generated 
+
+run: 705
+No valid solution generated 
+
+run: 706
+No valid solution generated 
+
+run: 707
+No valid solution generated 
+
+run: 708
+Costs before hillclimber, with own cables, without smart cables: 36106
+Costs after hillclimber, with own cables, without smart cables: 33775. Seed: 8155 
+
+run: 709
+No valid solution generated 
+
+run: 710
+No valid solution generated 
+
+run: 711
+No valid solution generated 
+
+run: 712
+No valid solution generated 
+
+run: 713
+No valid solution generated 
+
+run: 714
+No valid solution generated 
+
+run: 715
+No valid solution generated 
+
+run: 716
+No valid solution generated 
+
+run: 717
+No valid solution generated 
+
+run: 718
+No valid solution generated 
+
+run: 719
+No valid solution generated 
+
+run: 720
+No valid solution generated 
+
+run: 721
+No valid solution generated 
+
+run: 722
+No valid solution generated 
+
+run: 723
+No valid solution generated 
+
+run: 724
+No valid solution generated 
+
+run: 725
+No valid solution generated 
+
+run: 726
+No valid solution generated 
+
+run: 727
+No valid solution generated 
+
+run: 728
+No valid solution generated 
+
+run: 729
+No valid solution generated 
+
+run: 730
+No valid solution generated 
+
+run: 731
+No valid solution generated 
+
+run: 732
+No valid solution generated 
+
+run: 733
+No valid solution generated 
+
+run: 734
+No valid solution generated 
+
+run: 735
+Costs before hillclimber, with own cables, without smart cables: 36772
+Costs after hillclimber, with own cables, without smart cables: 33631. Seed: 6001 
+
+run: 736
+No valid solution generated 
+
+run: 737
+No valid solution generated 
+
+run: 738
+No valid solution generated 
+
+run: 739
+No valid solution generated 
+
+run: 740
+No valid solution generated 
+
+run: 741
+No valid solution generated 
+
+run: 742
+No valid solution generated 
+
+run: 743
+No valid solution generated 
+
+run: 744
+No valid solution generated 
+
+run: 745
+No valid solution generated 
+
+run: 746
+No valid solution generated 
+
+run: 747
+No valid solution generated 
+
+run: 748
+No valid solution generated 
+
+run: 749
+No valid solution generated 
+
+run: 750
+No valid solution generated 
+
+run: 751
+No valid solution generated 
+
+run: 752
+No valid solution generated 
+
+run: 753
+No valid solution generated 
+
+run: 754
+No valid solution generated 
+
+run: 755
+No valid solution generated 
+
+run: 756
+No valid solution generated 
+
+run: 757
+No valid solution generated 
+
+run: 758
+No valid solution generated 
+
+run: 759
+No valid solution generated 
+
+run: 760
+No valid solution generated 
+
+run: 761
+No valid solution generated 
+
+run: 762
+Costs before hillclimber, with own cables, without smart cables: 35512
+Costs after hillclimber, with own cables, without smart cables: 33919. Seed: 9597 
+
+run: 763
+No valid solution generated 
+
+run: 764
+No valid solution generated 
+
+run: 765
+Costs before hillclimber, with own cables, without smart cables: 35620
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 1900 
+
+run: 766
+No valid solution generated 
+
+run: 767
+Costs before hillclimber, with own cables, without smart cables: 35737
+Costs after hillclimber, with own cables, without smart cables: 33847. Seed: 8529 
+
+run: 768
+No valid solution generated 
+
+run: 769
+No valid solution generated 
+
+run: 770
+No valid solution generated 
+
+run: 771
+No valid solution generated 
+
+run: 772
+No valid solution generated 
+
+run: 773
+No valid solution generated 
+
+run: 774
+No valid solution generated 
+
+run: 775
+No valid solution generated 
+
+run: 776
+No valid solution generated 
+
+run: 777
+No valid solution generated 
+
+run: 778
+No valid solution generated 
+
+run: 779
+No valid solution generated 
+
+run: 780
+No valid solution generated 
+
+run: 781
+No valid solution generated 
+
+run: 782
+No valid solution generated 
+
+run: 783
+No valid solution generated 
+
+run: 784
+No valid solution generated 
+
+run: 785
+No valid solution generated 
+
+run: 786
+No valid solution generated 
+
+run: 787
+No valid solution generated 
+
+run: 788
+No valid solution generated 
+
+run: 789
+No valid solution generated 
+
+run: 790
+No valid solution generated 
+
+run: 791
+No valid solution generated 
+
+run: 792
+No valid solution generated 
+
+run: 793
+No valid solution generated 
+
+run: 794
+No valid solution generated 
+
+run: 795
+No valid solution generated 
+
+run: 796
+No valid solution generated 
+
+run: 797
+No valid solution generated 
+
+run: 798
+Costs before hillclimber, with own cables, without smart cables: 36025
+Costs after hillclimber, with own cables, without smart cables: 33892. Seed: 7025 
+
+run: 799
+No valid solution generated 
+
+run: 800
+No valid solution generated 
+
+run: 801
+No valid solution generated 
+
+run: 802
+No valid solution generated 
+
+run: 803
+No valid solution generated 
+
+run: 804
+No valid solution generated 
+
+run: 805
+No valid solution generated 
+
+run: 806
+No valid solution generated 
+
+run: 807
+Costs before hillclimber, with own cables, without smart cables: 35620
+Costs after hillclimber, with own cables, without smart cables: 33874. Seed: 7115 
+
+run: 808
+No valid solution generated 
+
+run: 809
+No valid solution generated 
+
+run: 810
+No valid solution generated 
+
+run: 811
+No valid solution generated 
+
+run: 812
+No valid solution generated 
+
+run: 813
+No valid solution generated 
+
+run: 814
+No valid solution generated 
+
+run: 815
+No valid solution generated 
+
+run: 816
+No valid solution generated 
+
+run: 817
+No valid solution generated 
+
+run: 818
+No valid solution generated 
+
+run: 819
+No valid solution generated 
+
+run: 820
+No valid solution generated 
+
+run: 821
+No valid solution generated 
+
+run: 822
+No valid solution generated 
+
+run: 823
+No valid solution generated 
+
+run: 824
+Costs before hillclimber, with own cables, without smart cables: 35467
+Costs after hillclimber, with own cables, without smart cables: 33694. Seed: 4953 
+
+run: 825
+No valid solution generated 
+
+run: 826
+No valid solution generated 
+
+run: 827
+Costs before hillclimber, with own cables, without smart cables: 35431
+Costs after hillclimber, with own cables, without smart cables: 33802. Seed: 9797 
+
+run: 828
+No valid solution generated 
+
+run: 829
+No valid solution generated 
+
+run: 830
+No valid solution generated 
+
+run: 831
+No valid solution generated 
+
+run: 832
+No valid solution generated 
+
+run: 833
+No valid solution generated 
+
+run: 834
+No valid solution generated 
+
+run: 835
+No valid solution generated 
+
+run: 836
+No valid solution generated 
+
+run: 837
+No valid solution generated 
+
+run: 838
+No valid solution generated 
+
+run: 839
+No valid solution generated 
+
+run: 840
+No valid solution generated 
+
+run: 841
+Costs before hillclimber, with own cables, without smart cables: 36052
+Costs after hillclimber, with own cables, without smart cables: 33901. Seed: 6551 
+
+run: 842
+Costs before hillclimber, with own cables, without smart cables: 34981
+Costs after hillclimber, with own cables, without smart cables: 33676. Seed: 1027 
+
+run: 843
+No valid solution generated 
+
+run: 844
+No valid solution generated 
+
+run: 845
+No valid solution generated 
+
+run: 846
+No valid solution generated 
+
+run: 847
+No valid solution generated 
+
+run: 848
+No valid solution generated 
+
+run: 849
+No valid solution generated 
+
+run: 850
+No valid solution generated 
+
+run: 851
+No valid solution generated 
+
+run: 852
+No valid solution generated 
+
+run: 853
+Costs before hillclimber, with own cables, without smart cables: 35062
+Costs after hillclimber, with own cables, without smart cables: 33928. Seed: 6638 
+
+run: 854
+No valid solution generated 
+
+run: 855
+No valid solution generated 
+
+run: 856
+No valid solution generated 
+
+run: 857
+No valid solution generated 
+
+run: 858
+Costs before hillclimber, with own cables, without smart cables: 36187
+Costs after hillclimber, with own cables, without smart cables: 33802. Seed: 2651 
+
+run: 859
+No valid solution generated 
+
+run: 860
+No valid solution generated 
+
+run: 861
+No valid solution generated 
+
+run: 862
+No valid solution generated 
+
+run: 863
+Costs before hillclimber, with own cables, without smart cables: 36196
+Costs after hillclimber, with own cables, without smart cables: 33496. Seed: 1323 
+
+run: 864
+No valid solution generated 
+
+run: 865
+No valid solution generated 
+
+run: 866
+No valid solution generated 
+
+run: 867
+No valid solution generated 
+
+run: 868
+No valid solution generated 
+
+run: 869
+No valid solution generated 
+
+run: 870
+No valid solution generated 
+
+run: 871
+No valid solution generated 
+
+run: 872
+No valid solution generated 
+
+run: 873
+No valid solution generated 
+
+run: 874
+No valid solution generated 
+
+run: 875
+No valid solution generated 
+
+run: 876
+No valid solution generated 
+
+run: 877
+No valid solution generated 
+
+run: 878
+No valid solution generated 
+
+run: 879
+No valid solution generated 
+
+run: 880
+No valid solution generated 
+
+run: 881
+No valid solution generated 
+
+run: 882
+No valid solution generated 
+
+run: 883
+No valid solution generated 
+
+run: 884
+No valid solution generated 
+
+run: 885
+No valid solution generated 
+
+run: 886
+No valid solution generated 
+
+run: 887
+Costs before hillclimber, with own cables, without smart cables: 35827
+Costs after hillclimber, with own cables, without smart cables: 34243. Seed: 2249 
+
+run: 888
+No valid solution generated 
+
+run: 889
+No valid solution generated 
+
+run: 890
+No valid solution generated 
+
+run: 891
+No valid solution generated 
+
+run: 892
+No valid solution generated 
+
+run: 893
+No valid solution generated 
+
+run: 894
+No valid solution generated 
+
+run: 895
+No valid solution generated 
+
+run: 896
+No valid solution generated 
+
+run: 897
+No valid solution generated 
+
+run: 898
+No valid solution generated 
+
+run: 899
+No valid solution generated 
+
+run: 900
+No valid solution generated 
+
+run: 901
+No valid solution generated 
+
+run: 902
+No valid solution generated 
+
+run: 903
+No valid solution generated 
+
+run: 904
+No valid solution generated 
+
+run: 905
+No valid solution generated 
+
+run: 906
+No valid solution generated 
+
+run: 907
+No valid solution generated 
+
+run: 908
+No valid solution generated 
+
+run: 909
+No valid solution generated 
+
+run: 910
+Costs before hillclimber, with own cables, without smart cables: 34558
+Costs after hillclimber, with own cables, without smart cables: 33451. Seed: 1954 
+
+run: 911
+No valid solution generated 
+
+run: 912
+No valid solution generated 
+
+run: 913
+No valid solution generated 
+
+run: 914
+No valid solution generated 
+
+run: 915
+No valid solution generated 
+
+run: 916
+No valid solution generated 
+
+run: 917
+No valid solution generated 
+
+run: 918
+No valid solution generated 
+
+run: 919
+No valid solution generated 
+
+run: 920
+No valid solution generated 
+
+run: 921
+No valid solution generated 
+
+run: 922
+No valid solution generated 
+
+run: 923
+No valid solution generated 
+
+run: 924
+No valid solution generated 
+
+run: 925
+No valid solution generated 
+
+run: 926
+No valid solution generated 
+
+run: 927
+No valid solution generated 
+
+run: 928
+No valid solution generated 
+
+run: 929
+No valid solution generated 
+
+run: 930
+No valid solution generated 
+
+run: 931
+No valid solution generated 
+
+run: 932
+No valid solution generated 
+
+run: 933
+No valid solution generated 
+
+run: 934
+No valid solution generated 
+
+run: 935
+No valid solution generated 
+
+run: 936
+No valid solution generated 
+
+run: 937
+No valid solution generated 
+
+run: 938
+No valid solution generated 
+
+run: 939
+No valid solution generated 
+
+run: 940
+No valid solution generated 
+
+run: 941
+No valid solution generated 
+
+run: 942
+No valid solution generated 
+
+run: 943
+No valid solution generated 
+
+run: 944
+No valid solution generated 
+
+run: 945
+No valid solution generated 
+
+run: 946
+No valid solution generated 
+
+run: 947
+No valid solution generated 
+
+run: 948
+No valid solution generated 
+
+run: 949
+No valid solution generated 
+
+run: 950
+No valid solution generated 
+
+run: 951
+No valid solution generated 
+
+run: 952
+No valid solution generated 
+
+run: 953
+No valid solution generated 
+
+run: 954
+No valid solution generated 
+
+run: 955
+No valid solution generated 
+
+run: 956
+No valid solution generated 
+
+run: 957
+No valid solution generated 
+
+run: 958
+No valid solution generated 
+
+run: 959
+Costs before hillclimber, with own cables, without smart cables: 35422
+Costs after hillclimber, with own cables, without smart cables: 33595. Seed: 2070 
+
+run: 960
+No valid solution generated 
+
+run: 961
+No valid solution generated 
+
+run: 962
+No valid solution generated 
+
+run: 963
+No valid solution generated 
+
+run: 964
+No valid solution generated 
+
+run: 965
+No valid solution generated 
+
+run: 966
+No valid solution generated 
+
+run: 967
+No valid solution generated 
+
+run: 968
+Costs before hillclimber, with own cables, without smart cables: 35440
+Costs after hillclimber, with own cables, without smart cables: 33595. Seed: 8708 
+
+run: 969
+No valid solution generated 
+
+run: 970
+Costs before hillclimber, with own cables, without smart cables: 34693
+Costs after hillclimber, with own cables, without smart cables: 33424. Seed: 2982 
+
+run: 971
+No valid solution generated 
+
+run: 972
+No valid solution generated 
+
+run: 973
+No valid solution generated 
+
+run: 974
+No valid solution generated 
+
+run: 975
+No valid solution generated 
+
+run: 976
+No valid solution generated 
+
+run: 977
+No valid solution generated 
+
+run: 978
+No valid solution generated 
+
+run: 979
+No valid solution generated 
+
+run: 980
+Costs before hillclimber, with own cables, without smart cables: 35755
+Costs after hillclimber, with own cables, without smart cables: 33865. Seed: 9220 
+
+run: 981
+No valid solution generated 
+
+run: 982
+No valid solution generated 
+
+run: 983
+No valid solution generated 
+
+run: 984
+No valid solution generated 
+
+run: 985
+No valid solution generated 
+
+run: 986
+No valid solution generated 
+
+run: 987
+No valid solution generated 
+
+run: 988
+No valid solution generated 
+
+run: 989
+Costs before hillclimber, with own cables, without smart cables: 35674
+Costs after hillclimber, with own cables, without smart cables: 33469. Seed: 2759 
+
+run: 990
+No valid solution generated 
+
+run: 991
+No valid solution generated 
+
+run: 992
+No valid solution generated 
+
+run: 993
+No valid solution generated 
+
+run: 994
+No valid solution generated 
+
+run: 995
+No valid solution generated 
+
+run: 996
+No valid solution generated 
+
+run: 997
+No valid solution generated 
+
+run: 998
+No valid solution generated 
+
+run: 999
+No valid solution generated 
+
+run: 1000
+No valid solution generated 
+
+run: 1001
+No valid solution generated 
+
+run: 1002
+No valid solution generated 
+
+run: 1003
+No valid solution generated 
+
+run: 1004
+No valid solution generated 
+
+run: 1005
+No valid solution generated 
+
+run: 1006
+No valid solution generated 
+
+run: 1007
+No valid solution generated 
+
+run: 1008
+No valid solution generated 
+
+run: 1009
+No valid solution generated 
+
+run: 1010
+No valid solution generated 
+
+run: 1011
+No valid solution generated 
+
+run: 1012
+No valid solution generated 
+
+run: 1013
+No valid solution generated 
+
+run: 1014
+No valid solution generated 
+
+run: 1015
+No valid solution generated 
+
+run: 1016
+No valid solution generated 
+
+run: 1017
+No valid solution generated 
+
+run: 1018
+No valid solution generated 
+
+run: 1019
+Costs before hillclimber, with own cables, without smart cables: 37195
+Costs after hillclimber, with own cables, without smart cables: 33703. Seed: 6043 
+
+run: 1020
+No valid solution generated 
+
+run: 1021
+No valid solution generated 
+
+run: 1022
+No valid solution generated 
+
+run: 1023
+No valid solution generated 
+
+run: 1024
+No valid solution generated 
+
+run: 1025
+Costs before hillclimber, with own cables, without smart cables: 35350
+Costs after hillclimber, with own cables, without smart cables: 33694. Seed: 6005 
+
+run: 1026
+No valid solution generated 
+
+run: 1027
+No valid solution generated 
+
+run: 1028
+No valid solution generated 
+
+run: 1029
+No valid solution generated 
+
+run: 1030
+Costs before hillclimber, with own cables, without smart cables: 36340
+Costs after hillclimber, with own cables, without smart cables: 33667. Seed: 4775 
+
+run: 1031
+No valid solution generated 
+
+run: 1032
+No valid solution generated 
+
+run: 1033
+No valid solution generated 
+
+run: 1034
+No valid solution generated 
+
+run: 1035
+No valid solution generated 
+
+run: 1036
+No valid solution generated 
+
+run: 1037
+No valid solution generated 
+
+run: 1038
+No valid solution generated 
+
+run: 1039
+No valid solution generated 
+
+run: 1040
+No valid solution generated 
+
+run: 1041
+No valid solution generated 
+
+run: 1042
+No valid solution generated 
+
+run: 1043
+No valid solution generated 
+
+run: 1044
+No valid solution generated 
+
+run: 1045
+No valid solution generated 
+
+run: 1046
+Costs before hillclimber, with own cables, without smart cables: 36214
+Costs after hillclimber, with own cables, without smart cables: 33496. Seed: 998 
+
+run: 1047
+No valid solution generated 
+
+run: 1048
+No valid solution generated 
+
+run: 1049
+No valid solution generated 
+
+run: 1050
+No valid solution generated 
+
+run: 1051
+No valid solution generated 
+
+run: 1052
+No valid solution generated 
+
+run: 1053
+No valid solution generated 
+
+run: 1054
+Costs before hillclimber, with own cables, without smart cables: 36241
+Costs after hillclimber, with own cables, without smart cables: 33757. Seed: 5199 
+
+run: 1055
+No valid solution generated 
+
+run: 1056
+No valid solution generated 
+
+run: 1057
+No valid solution generated 
+
+run: 1058
+No valid solution generated 
+
+run: 1059
+No valid solution generated 
+
+run: 1060
+No valid solution generated 
+
+run: 1061
+No valid solution generated 
+
+run: 1062
+No valid solution generated 
+
+run: 1063
+No valid solution generated 
+
+run: 1064
+No valid solution generated 
+
+run: 1065
+No valid solution generated 
+
+run: 1066
+No valid solution generated 
+
+run: 1067
+No valid solution generated 
+
+run: 1068
+Costs before hillclimber, with own cables, without smart cables: 36043
+Costs after hillclimber, with own cables, without smart cables: 33577. Seed: 3574 
+
+run: 1069
+No valid solution generated 
+
+run: 1070
+No valid solution generated 
+
+run: 1071
+No valid solution generated 
+
+run: 1072
+No valid solution generated 
+
+run: 1073
+No valid solution generated 
+
+run: 1074
+No valid solution generated 
+
+run: 1075
+No valid solution generated 
+
+run: 1076
+No valid solution generated 
+
+run: 1077
+No valid solution generated 
+
+run: 1078
+No valid solution generated 
+
+run: 1079
+No valid solution generated 
+
+run: 1080
+No valid solution generated 
+
+run: 1081
+No valid solution generated 
+
+run: 1082
+No valid solution generated 
+
+run: 1083
+No valid solution generated 
+
+run: 1084
+No valid solution generated 
+
+run: 1085
+No valid solution generated 
+
+run: 1086
+Costs before hillclimber, with own cables, without smart cables: 35773
+Costs after hillclimber, with own cables, without smart cables: 33532. Seed: 663 
+
+run: 1087
+No valid solution generated 
+
+run: 1088
+No valid solution generated 
+
+run: 1089
+No valid solution generated 
+
+run: 1090
+Costs before hillclimber, with own cables, without smart cables: 35278
+Costs after hillclimber, with own cables, without smart cables: 33667. Seed: 4942 
+
+run: 1091
+No valid solution generated 
+
+run: 1092
+No valid solution generated 
+
+run: 1093
+No valid solution generated 
+
+run: 1094
+No valid solution generated 
+
+run: 1095
+Costs before hillclimber, with own cables, without smart cables: 36133
+Costs after hillclimber, with own cables, without smart cables: 33856. Seed: 2219 
+
+run: 1096
+No valid solution generated 
+
+run: 1097
+No valid solution generated 
+
+run: 1098
+No valid solution generated 
+
+run: 1099
+No valid solution generated 
+
+run: 1100
+No valid solution generated 
+
+run: 1101
+No valid solution generated 
+
+run: 1102
+No valid solution generated 
+
+run: 1103
+No valid solution generated 
+
+run: 1104
+No valid solution generated 
+
+run: 1105
+No valid solution generated 
+
+run: 1106
+No valid solution generated 
+
+run: 1107
+No valid solution generated 
+
+run: 1108
+No valid solution generated 
+
+run: 1109
+No valid solution generated 
+
+run: 1110
+No valid solution generated 
+
+run: 1111
+Costs before hillclimber, with own cables, without smart cables: 35791
+Costs after hillclimber, with own cables, without smart cables: 33424. Seed: 2168 
+
+run: 1112
+No valid solution generated 
+
+run: 1113
+No valid solution generated 
+
+run: 1114
+No valid solution generated 
+
+run: 1115
+No valid solution generated 
+
+run: 1116
+No valid solution generated 
+
+run: 1117
+No valid solution generated 
+
+run: 1118
+Costs before hillclimber, with own cables, without smart cables: 35944
+Costs after hillclimber, with own cables, without smart cables: 33883. Seed: 1683 
+
+run: 1119
+No valid solution generated 
+
+run: 1120
+No valid solution generated 
+
+run: 1121
+No valid solution generated 
+
+run: 1122
+No valid solution generated 
+
+run: 1123
+No valid solution generated 
+
+run: 1124
+No valid solution generated 
+
+run: 1125
+No valid solution generated 
+
+run: 1126
+No valid solution generated 
+
+run: 1127
+No valid solution generated 
+
+run: 1128
+No valid solution generated 
+
+run: 1129
+No valid solution generated 
+
+run: 1130
+No valid solution generated 
+
+run: 1131
+No valid solution generated 
+
+run: 1132
+No valid solution generated 
+
+run: 1133
+No valid solution generated 
+
+run: 1134
+No valid solution generated 
+
+run: 1135
+No valid solution generated 
+
+run: 1136
+No valid solution generated 
+
+run: 1137
+No valid solution generated 
+
+run: 1138
+No valid solution generated 
+
+run: 1139
+No valid solution generated 
+
+run: 1140
+No valid solution generated 
+
+run: 1141
+No valid solution generated 
+
+run: 1142
+Costs before hillclimber, with own cables, without smart cables: 35656
+Costs after hillclimber, with own cables, without smart cables: 34045. Seed: 114 
+
+run: 1143
+No valid solution generated 
+
+run: 1144
+No valid solution generated 
+
+run: 1145
+No valid solution generated 
+
+run: 1146
+No valid solution generated 
+
+run: 1147
+No valid solution generated 
+
+run: 1148
+No valid solution generated 
+
+run: 1149
+No valid solution generated 
+
+run: 1150
+No valid solution generated 
+
+run: 1151
+Costs before hillclimber, with own cables, without smart cables: 35953
+Costs after hillclimber, with own cables, without smart cables: 33910. Seed: 7530 
+
+run: 1152
+No valid solution generated 
+
+run: 1153
+Costs before hillclimber, with own cables, without smart cables: 35287
+Costs after hillclimber, with own cables, without smart cables: 34189. Seed: 9114 
+
+run: 1154
+No valid solution generated 
+
+run: 1155
+No valid solution generated 
+
+run: 1156
+No valid solution generated 
+
+run: 1157
+No valid solution generated 
+
+run: 1158
+No valid solution generated 
+
+run: 1159
+No valid solution generated 
+
+run: 1160
+No valid solution generated 
+
+run: 1161
+No valid solution generated 
+
+run: 1162
+No valid solution generated 
+
+run: 1163
+No valid solution generated 
+
+run: 1164
+No valid solution generated 
+
+run: 1165
+No valid solution generated 
+
+run: 1166
+No valid solution generated 
+
+run: 1167
+No valid solution generated 
+
+run: 1168
+No valid solution generated 
+
+run: 1169
+No valid solution generated 
+
+run: 1170
+No valid solution generated 
+
+run: 1171
+No valid solution generated 
+
+run: 1172
+No valid solution generated 
+
+run: 1173
+No valid solution generated 
+
+run: 1174
+No valid solution generated 
+
+run: 1175
+No valid solution generated 
+
+run: 1176
+No valid solution generated 
+
+run: 1177
+No valid solution generated 
+
+run: 1178
+No valid solution generated 
+
+run: 1179
+No valid solution generated 
+
+run: 1180
+No valid solution generated 
+
+run: 1181
+No valid solution generated 
+
+run: 1182
+No valid solution generated 
+
+run: 1183
+No valid solution generated 
+
+run: 1184
+No valid solution generated 
+
+run: 1185
+No valid solution generated
+
+
+1186 runs in 30 minutes, but only about 150 have a valid outcome!
