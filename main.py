@@ -1,9 +1,11 @@
 
+from code.calculations.sharedCosts import calculateCostShared
 import code.classes.loader
 from sys import argv
 from code.classes.randomizer import Randomizer
 from code.classes.grid import Grid
 from astarloop import iterateAstar
+
 
 if __name__ == "__main__":
     if len(argv) != 2:
@@ -16,12 +18,12 @@ if __name__ == "__main__":
     except Exception:
         print('district not found')
         exit(2)
-
     loops = 10
     grid = iterateAstar(grid, loops)
     grid.printOutput()
 
     # random_algorithm
-    # random_grid = Randomizer(grid)
-    # grids = random_grid.multiple_random()
-    # random_grid.calc_average(grids)
+    random_grid = Randomizer(grid)
+    grids = random_grid.multiple_random()
+    random_grid.calc_average(grids)
+
