@@ -1,8 +1,9 @@
-import loader
+from code.classes import loader
 import json
 
+
 class Grid():
-    
+
     def __init__(self, district):
         '''
             * Loads the information from relevant district
@@ -20,8 +21,7 @@ class Grid():
         self.district = grid[0]
         self.batteries = grid[1]
         self.houses = grid[2]
-    
-        
+
     def returnHouses(self):
         return self.houses
 
@@ -66,7 +66,7 @@ class Grid():
 
             # put the district and batteries together, adding some syntax for the json file
             jsonOutput = '[' + jsonStringDistrict.replace(
-                "ownCosts", "costs-own") + ', ' + batteryList + ']'
+                "ownCosts", "costs-shared") + ', ' + batteryList + ']'
 
             # print the result in output.json
             with open("output.json", 'w') as f:
