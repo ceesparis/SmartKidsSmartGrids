@@ -21,16 +21,19 @@ if __name__ == "__main__":
     except Exception:
         print('district not found')
         exit(2)
+
+    # check if input is only letters, if so, capitalize input
     algorithm = argv[2]
     if algorithm.isalpha():
         algorithm = algorithm.upper()
 
-
+    # if smartdistribution is asked for, run this alogrithm
     if algorithm in "SD":
         loops = 10
         grid = iterateAstar(grid, loops)
         grid.printOutput()
         trying = False
+    # if clusterwebz is asked for, run this algorithm
     elif algorithm in "CW":
         cluster_grid = Clusalgo(grid)
         cluster_grid.cluster_houses()
@@ -40,6 +43,7 @@ if __name__ == "__main__":
         print(total_shared)
         visualize(cluster_grid)
         trying = False
+    # if not, tell the user what they should be doing better
     else:
         print("be more clear please\n")
         print("choose your algorithm: clusterWebz(CW), smartDistribution(SD)\n")
