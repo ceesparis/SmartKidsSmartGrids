@@ -5,7 +5,8 @@ import random
 
 class Clusalgo():
     """
-    Add a small description for the class!
+    Initialises the cluster algorithm, grouping certain houses together before distributing
+    over the batteries, making it easier to share cables, and therefore most likely cheaper.
     """
 
     def __init__(self, grid):
@@ -104,4 +105,3 @@ class Clusalgo():
         # finally, change current grid into valid connected grid      
         self.house_clusters = clusters_copy
         self.batteries = batteries_copy
- 

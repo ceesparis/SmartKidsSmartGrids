@@ -6,7 +6,7 @@ from code.algorithms.smartCableClimber import *
 
 class GenerateSmartCables():
     """
-    Add description for class
+    Lays cables based on groupings of houses within x radius, making sharing cables more likely.
     """
 
     def __init__(self, batteries, houses, houseBattery, seed):
@@ -47,27 +47,29 @@ class GenerateSmartCables():
 
     def returnRadius(self):
         """
-        Small description?
+        Returns the size of the radius, small or big.
         """
         return [self._smallRadius, self._bestBigRadius]
 
 
     def updateCentralPoints(self, radius):
         """
-        Add small description
+        Retrieves a central point within the small and big radiuses.
         """
         self._bestBigRadius = radius[0]
         self._smallRadius = radius[1]
         return self.findCentralPoint()
 
+
     def calculateDistance(self, house, battery):
         """
-        Add small description
+        Calculates the distance between a battery and house.
         """
         distance = 0
         distance += abs(battery.location[0] - house.location[0])
         distance += abs(battery.location[1] - house.location[1])
         return distance
+
 
     def bigRadiusLoop(self):
         """
@@ -161,9 +163,10 @@ class GenerateSmartCables():
 
     def returnCentralPoints(self):
         """
-        Add a small description
+        Retrieves the central points from the radiuses within the bigger radius.
         """
         centralPoints = []
+        
         for radius in self._bestBigRadius:
             centralPoints.append(radius[0].location)
         return tuple(centralPoints)

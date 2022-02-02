@@ -5,6 +5,10 @@ from .distributionClimber import distributionHillClimber
 
 
 class DistributeBatteries():
+    """
+    Spreads battery connections over the houses closest to them, or ones with close
+    or nearly similar distances in case of an invalid capacity/output ratio.
+    """
 
     def __init__(self, houses, batteries, seed):
         self._houses = houses
@@ -21,7 +25,8 @@ class DistributeBatteries():
 
     def getDistances(self):
         """
-        Add a small description
+        Calculates the distance between houses and the first or second batteries
+        closest to them.
         """
         
         # dictionary of all the houses containing the closest batteries
@@ -71,7 +76,7 @@ class DistributeBatteries():
 
     def closestHouses(self, distanceDict, batteryDict):
         """
-        Add a small description
+        Finds the closest group of houses to x battery.
         """
 
         # sort the difference between the distances of the batteries in descending order
@@ -111,7 +116,9 @@ class DistributeBatteries():
 
     def initialDistribution(self, houseBattery, house):
         """
-        Add a small description
+        The first attempt at a valid result spreading the houses over batteries,
+        starting off at the closest battery, but rerouting if it overtakes the
+        maximum capacity.
         """
 
         # set the closest distance to a battery mber higher than any distance possible
