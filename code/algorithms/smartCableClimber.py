@@ -16,6 +16,7 @@ class CableClimber():
         return distance
 
     def betterSmall(self):
+
         centralPoints = {}
 
         for bigRadiusID in range(len(self._smallRadius)-1):
@@ -40,17 +41,20 @@ class CableClimber():
     def betterBig(self):
         centralPoints = []
         for radius in self._bigRadius:
-            centralPoints.append(radius[0])
+            centralPoints.append(radius[0].location)
         self._allCentrals = tuple(centralPoints)
 
         for centralPointID in range(len(centralPoints)-1):
             for house in self._bigRadius[centralPointID]:
                 currentDistance = self.calculateDistance(
-                    house.location, centralPoints[centralPointID].location)
+                    house.location, centralPoints[centralPointID])
                 for centralPointTwoID in range(len(centralPoints)-1):
-                    if currentDistance > self.calculateDistance(house.location, centralPoints[centralPointTwoID].location):
-                        self.swapBigRadius(
-                            house, centralPointTwoID, centralPointID)
+                    if centralPointID != centralPointTwoID:
+                        if currentDistance > self.calculateDistance(house.location, centralPoints[centralPointTwoID]):
+                            # print(
+                            #     f"current distance: {currentDistance}, new: {self.calculateDistance(house.location, centralPoints[centralPointTwoID])}")
+                            self.swapBigRadius(
+                                house, centralPointTwoID, centralPointID)
 
         return self._bigRadius
 
@@ -64,7 +68,7 @@ class CableClimber():
             self._bigRadius[centralPointTwoID].append(house)
 
     def betterRadiuses(self):
-        return [self.betterSmall(), self.betterBig()]
+        return [self.betterBig(), self.betterSmall()]
 
     def returnCentralPoints(self):
-        return self._centralPoints
+        return self._allCentrals

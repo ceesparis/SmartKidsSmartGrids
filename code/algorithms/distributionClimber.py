@@ -4,19 +4,20 @@ import copy
 from matplotlib.pyplot import close
 
 
-class astarHillClimber():
+class distributionHillClimber():
     ''' 
     Loop through the current best solution, first placing the houses in the closest battery to them, if
     it's an improvement, then randomly comparing the houses to find better distances.
     '''
 
-    def __init__(self, initialResult, batteries, houses, currentCapacities, distances):
+    def __init__(self, initialResult, batteries, houses, currentCapacities, distances, seed):
         self._bestResult = initialResult
         self._allBatteries = batteries
         self._allHouses = houses
         self._capacities = currentCapacities
         self._distancesToBatteries = distances
         self._batteryDict = None
+        self._seed = seed
         self.batteryvHouses()
         self.getPerfectDistances()
 
@@ -41,7 +42,7 @@ class astarHillClimber():
         self._bestResult[randomHouseOne] = batteryHouseTwo
         self._bestResult[randomHouseTwo] = batteryHouseOne
 
-        # update capcities
+        # update capacities
         self._capacities[batteryHouseOne] = self._capacities[batteryHouseOne] + \
             randomHouseOne.output - randomHouseTwo.output
         self._capacities[batteryHouseTwo] = self._capacities[batteryHouseTwo] + \
@@ -52,8 +53,9 @@ class astarHillClimber():
         loop n amount of times to the current state, comparing two random houses to eachother to 
         see if the total distance to batteries will improve. If so, make the swap
         '''
-        for i in range(10000):
+        for i in range(250000):
             # pick random house
+            random.seed(self._seed)
             randomHouseOne = self._allHouses[random.randint(0, 149)]
             randomHouseTwo = self._allHouses[random.randint(0, 149)]
 
@@ -101,7 +103,7 @@ class astarHillClimber():
         loop through the current state to see if each can be placed in it's closest battery, 
         if it improves the distance.
         '''
-        for i in range(10):
+        for i in range(250):
             # loop through all houses
             for houseOne in self._bestResult:
                 batteryOne = self._bestResult[houseOne]
@@ -114,7 +116,7 @@ class astarHillClimber():
                     closestDistance)
                 closestBatteryOne = self._allBatteries[closestDistanceIndex]
 
-                # zcheck if the house is not yet in the battery
+                # check if the house is not yet in the battery
                 if closestBatteryOne != batteryOne:
                     # 	get a house in the closest battery
                     for houseTwo in self._batteryDict[closestBatteryOne]:

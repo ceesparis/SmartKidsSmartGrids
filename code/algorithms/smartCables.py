@@ -1,9 +1,11 @@
 from cgitb import small
+from os import remove
 import random
+from code.algorithms.smartCableClimber import *
 
 
 class GenerateSmartCables():
-    def __init__(self, batteries, houses, houseBattery):
+    def __init__(self, batteries, houses, houseBattery, seed):
         self._batteries = batteries
         self._houses = houses
         self._radius = []
@@ -11,7 +13,9 @@ class GenerateSmartCables():
         self._bestBigRadius = None
         self._smallRadius = None
         self._centralPoints = {}
+        self._seed = seed
         self.bigRadiusLoop()
+        self.radiusClimber = None
 
     def findCentralPoint(self):
         '''
@@ -39,8 +43,8 @@ class GenerateSmartCables():
         return [self._smallRadius, self._bestBigRadius]
 
     def updateCentralPoints(self, radius):
-        self._smallRadius = radius[0]
-        self._bestBigRadius = radius[1]
+        self._bestBigRadius = radius[0]
+        self._smallRadius = radius[1]
         return self.findCentralPoint()
 
     def calculateDistance(self, house, battery):
@@ -60,33 +64,38 @@ class GenerateSmartCables():
         n amount of times, to find the best score of big radiuses.
         '''
         bestScore = 9999
-        for i in range(10):
+        for i in range(100):
             # randomize the houses order, size of each radius and the limit of houses
             # that are allowed to not have a radius.
+            random.seed(self._seed)
             random.shuffle(self._houses)
-            radius = random.randint(15, 60)
-            houseLimit = random.randint(50, 80)
+            radius = random.randint(5, 60)
+            houseLimit = random.randint(0, 20)
             removedItems = []
             radiusHouses = []
 
             loopAmount = 0
-            # keep finding radius until enough houses are placed in one,
-            # depending on the limit that is set
-            while len(self._houses) > houseLimit:
-                loopAmount += 1
-                mostHousesInRadius = self.generateRadius(radius, self._houses)
-                # remove house that was placed in a radius
-                for house in mostHousesInRadius:
-                    if house in self._houses:
+            for battery in self._batteries:
+                # keep finding radius until enough houses are placed in one,
+                # depending on the limit that is set
+                while len(self._houses) > houseLimit:
+                    loopAmount += 1
+                    mostHousesInRadius = self.generateRadius(
+                        radius, battery.houses)
+                    # remove house that was placed in a radius
+                    for house in mostHousesInRadius:
                         removedItems.append(house)
-                        self._houses.remove(house)
-                    else:
-                        mostHousesInRadius.remove(house)
-                radiusHouses.append(mostHousesInRadius)
+                        battery.houses.remove(house)
+                    if len(mostHousesInRadius) > 0:
+                        radiusHouses.append(mostHousesInRadius)
 
-                # make sure the loop doesn't become endless
-                if loopAmount > 20:
-                    break
+                    # make sure the loop doesn't become endless
+                    if loopAmount > 20:
+                        break
+
+                for item in removedItems:
+                    battery.houses.append(item)
+                removedItems = []
 
             # calculate the total proximity to batteries for all central points
             batteryProximity = 0
@@ -98,7 +107,7 @@ class GenerateSmartCables():
             # calculate the score on the current distribution, the lower the score, the better
             # the distribution. Score is based on: amount of houses not placed in a radius,
             # amount of radiuses, and proximity to batteries for all central points
-            score = len(self._houses) + \
+            score = \
                 (len(radiusHouses) * 2) + batteryProximity
 
             # keep track of the best distribution
@@ -106,9 +115,9 @@ class GenerateSmartCables():
                 self._bestBigRadius = radiusHouses
                 bestScore = score
 
-            for item in removedItems:
-                self._houses.append(item)
-
+        # cableClimber = CableClimber(
+        #     self._centralPoints, self._smallRadius, self._bestBigRadius, self._houseBattery)
+        # self._bestBigRadius = cableClimber.betterBig()
         self.smallRadiusLoop()
 
     def smallRadiusLoop(self):
@@ -135,6 +144,16 @@ class GenerateSmartCables():
             smallRadius.append(smallRadiusHouses)
 
         self._smallRadius = smallRadius
+
+        # cableClimber = CableClimber(
+        #     self._centralPoints, self._smallRadius, self._bestBigRadius, self._houseBattery)
+        # self._smallRadius = cableClimber.betterSmall()
+
+    def returnCentralPoints(self):
+        centralPoints = []
+        for radius in self._bestBigRadius:
+            centralPoints.append(radius[0].location)
+        return tuple(centralPoints)
 
     def generateRadius(self, radius, houses):
         '''

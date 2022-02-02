@@ -2,14 +2,14 @@ from code.algorithms.randomCables import randomizeCables
 
 
 class ClimbConnections():
-    def __init__(self, batteries, houses, centralPoints, allCentrals):
+    def __init__(self, batteries, houses, centralPoints, allCentrals, batteryHouses):
         self._batteries = batteries
         self._houses = houses
         self._centralPoints = centralPoints
         self._allCentrals = allCentrals
         self._batteryLocs = []
+        self._batteryHouses = batteryHouses
         self.findBatteries()
-        print(self._batteryLocs)
 
     def findBatteries(self):
         for battery in self._batteries:
@@ -24,7 +24,6 @@ class ClimbConnections():
         return distance
 
     def findConnections(self):
-        lockedHouses = []
         cableTuples = {}
         # Maak per batterij een tuple van tuples van alle kabels
         for battery in self._batteries:
@@ -33,16 +32,23 @@ class ClimbConnections():
 
         # loop door alle batterijen
         for battery in self._batteries:
+            lockedHouses = set()
             # loop door alle huizen:
             for houseOne in battery.houses:
-                if houseOne not in self._centralPoints or tuple(houseOne.location) in self._allCentrals or house in lockedHouses:
+                if tuple(houseOne.location) in self._allCentrals:
+                    continue
+                if houseOne in lockedHouses:
                     continue
                 bestImprovement = 0
                 cableHouseOne = None
                 coordinateCableTwo = None
                 # Bereken de afstand naar het centrale punt vanaf het huis
-                distanceCentral = self.calculateDistance(
-                    houseOne.location, self._centralPoints[houseOne])
+                if houseOne in self._centralPoints:
+                    distanceCentral = self.calculateDistance(
+                        houseOne.location, self._centralPoints[houseOne])
+                else:
+                    distanceCentral = self.calculateDistance(
+                        houseOne.location, self._batteryHouses[houseOne].location)
                 # Loop door al de kabels van dit huis heen
                 for cableOne in houseOne.cables:
                     distanceCentral -= 1
@@ -69,16 +75,23 @@ class ClimbConnections():
 
                 if coordinateCableTwo != None:
                     indexCable = houseOne.cables.index(
-                        list(cableHouseOne))
+                        list(cableHouseOne)) + 1
+                    # print(f"coordinate: {cableHouseOne}")
+                    # print(f"cables: {houseOne.cables}")
+
                     houseOne.cables = houseOne.cables[:indexCable]
+                    # print(f"after remove: {houseOne.cables}")
                     pathToNew = randomizeCables(
                         houseOne.location, [coordinateCableTwo[0], coordinateCableTwo[1]])
-                    houseOne.cables = pathToNew + houseOne.cables
+                    pathToGattery = randomizeCables(
+                        [coordinateCableTwo[0], coordinateCableTwo[1]], self._batteryHouses[houseOne].location)
+                    houseOne.cables = pathToNew + pathToGattery
 
                     for house in battery.houses:
-                        if secondCentral in tuple(map(tuple, house.cables)):
-                            lockedHouses.append(house)
-                            break
+                        if house != houseOne:
+                            if secondCentral in tuple(map(tuple, house.cables)):
+                                lockedHouses.add(house)
+                                break
 
             # Verwijder alles na de beste index
             # Maak een pad naar de coordinaat van de andere kabel

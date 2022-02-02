@@ -1,25 +1,30 @@
 import random
-from code.algorithms.astar import astar
+from code.algorithms.batteryDistribution import DistributeBatteries
 from code.algorithms.randomCables import *
 from code.calculations.costCalculation import *
 from code.visualisation.visualisation import visualize
 from code.algorithms.smartCables import GenerateSmartCables
 from code.calculations.sharedCosts import *
-from code.algorithms.smartCableClimber import CableClimber
 from code.algorithms.connectionClimber import ClimbConnections
+from code.algorithms.simpleCables import *
+import sys
 
 
-def iterateAstar(grid, loops):
-    ''' Loop through the astar algorithm, printing out all costs and visualizing the improvements '''
+def iterateDistribution(grid, loops):
+    ''' Loop through the distribution algorithm, printing out all costs and visualizing the improvements '''
     bestCosts = 100000
     bestResult = None
+
+    seed = random.randint(0, 10000)
 
     # find the best solution by looping through the first algorithm n amount of times
     for i in range(loops):
         # random element #1
+        random.seed(seed)
         random.shuffle(grid.houses)
-        astarTest = astar(grid.houses, grid.batteries)
-        results = astarTest.returnResults()
+        batteryDistribution = DistributeBatteries(
+            grid.houses, grid.batteries, seed)
+        results = batteryDistribution.returnResults()
         if results != "invalid":
             # lay all cables down
             for house in results:
@@ -34,7 +39,7 @@ def iterateAstar(grid, loops):
             if grid.district.ownCosts < bestCosts:
                 bestCosts = grid.district.ownCosts
                 bestResult = results
-                bestState = astarTest
+                bestState = batteryDistribution
             results[house].houses = []
 
     # reset the grid
@@ -51,12 +56,28 @@ def iterateAstar(grid, loops):
             house.location, bestResult[house].location)
         bestResult[house].houses.append(house)
     grid.district.ownCosts = bestCosts
-    visualize(grid, "initial")
-    print(
-        f"Costs before hillclimber, with shared cables, without smarter cables: {grid.district.ownCosts}")
+    # visualize(grid, "initial")
+    # print(
+    #     f"Costs before hillclimber, with shared cables, without smarter cables: {grid.district.ownCosts}")
+
+    # newCablesTest = GenerateSmartCables(
+    #     grid.batteries, grid.houses, bestResult, e)
+    # result = newCablesTest.simpleSmall()
+
+    # for house in result:
+    #     # print([result[house][0], result[house][1]])
+    #     house.cables = randomizeCables(
+    #         house.location, [result[house][0], result[house][1]])
+
+    # grid.district.ownCosts = calculateCostShared(
+    #     len(grid.batteries), grid.batteries)
+    # print(
+    #     f"Costs before hillclimber, with shared cables, simpleSmart cables: {grid.district.ownCosts}")
+    # visualize(grid, "simpleSmart")
 
     # lay the smarter cables down
-    newCables = GenerateSmartCables(grid.batteries, grid.houses, bestResult)
+    newCables = GenerateSmartCables(
+        grid.batteries, grid.houses, bestResult, seed)
     result = newCables.findCentralPoint()
     for house in result:
         house.cables = randomizeCables(
@@ -66,9 +87,9 @@ def iterateAstar(grid, loops):
 
     grid.district.ownCosts = calculateCostShared(
         len(grid.batteries), grid.batteries)
-    print(
-        f"Costs before hillclimber, with shared cables, smart cables: {grid.district.ownCosts}")
-    visualize(grid, "sharedInitial")
+    # print(
+    #     f"Costs before hillclimber, with shared cables, smart cables: {grid.district.ownCosts}")
+    # visualize(grid, "sharedInitial")
 
     # use hillclimber to improve the current best solution
     bestResult = bestState.returnHillClimber()
@@ -84,10 +105,11 @@ def iterateAstar(grid, loops):
         bestResult[house].houses.append(house)
     grid.district.ownCosts = calculateCostShared(
         len(grid.batteries), grid.batteries)
-    visualize(grid, "climber")
+    # visualize(grid, "climber")
 
     # lay the cables down smarter
-    newCables = GenerateSmartCables(grid.batteries, grid.houses, bestResult)
+    newCables = GenerateSmartCables(
+        grid.batteries, grid.houses, bestResult, seed)
     result = newCables.findCentralPoint()
 
     for house in result:
@@ -96,37 +118,36 @@ def iterateAstar(grid, loops):
         house.cables = house.cables + (randomizeCables(
             [result[house][0], result[house][1]], bestResult[house].location))
 
-    grid.district.ownCosts = calculateCostShared(
-        len(grid.batteries), grid.batteries)
-    print(
-        f"Costs after hillclimber, with shared cables, smart cables:{grid.district.ownCosts}")
-    visualize(grid, "sharedClimber")
+    # grid.district.ownCosts = calculateCostShared(
+    #     len(grid.batteries), grid.batteries)
+    # print(
+    #     f"Costs after hillclimber, with shared cables, smart cables:{grid.district.ownCosts}")
+    # visualize(grid, "sharedClimber")
 
-    cableClimber = CableClimber(result, newCables.returnRadius()[
-                                0], newCables.returnRadius()[1], bestResult)
-    newPoints = cableClimber.betterRadiuses()
-    result = newCables.updateCentralPoints(newPoints)
+    # cableClimber = CableClimber(result, newCables.returnRadius()[
+    #                             0], newCables.returnRadius()[1], bestResult)
+    # newPoints = cableClimber.betterRadiuses()
+    # result = newCables.updateCentralPoints(newPoints)
 
-    for house in result:
-        house.cables = randomizeCables(
-            house.location, [result[house][0], result[house][1]])
-        house.cables = house.cables + (randomizeCables(
-            [result[house][0], result[house][1]], bestResult[house].location))
+    # for house in result:
+    #     house.cables = randomizeCables(
+    #         house.location, [result[house][0], result[house][1]])
+    #     house.cables = house.cables + (randomizeCables(
+    #         [result[house][0], result[house][1]], bestResult[house].location))
 
-    grid.district.ownCosts = calculateCostShared(
-        len(grid.batteries), grid.batteries)
-    print(
-        f"Costs after cable hillclimber:{grid.district.ownCosts}")
-    visualize(grid, "radiusClimber")
+    # grid.district.ownCosts = calculateCostShared(
+    #     len(grid.batteries), grid.batteries)
+    # print(
+    #     f"Costs after cable hillclimber:{grid.district.ownCosts}")
+    # visualize(grid, "radiusClimber")
 
-    centralPoints = cableClimber.returnCentralPoints()
+    centralPoints = newCables.returnCentralPoints()
 
     connectionClimber = ClimbConnections(
-        grid.batteries, grid.houses, result, centralPoints)
+        grid.batteries, grid.houses, result, centralPoints, bestResult)
     connectionClimber.findConnections()
     grid.district.ownCosts = calculateCostShared(
         len(grid.batteries), grid.batteries)
-    visualize(grid, "connectionClimber")
-    print(f"Last climber to find connections: {grid.district.ownCosts}")
-
+    visualize(grid, "bestGrid")
+    print(f"{grid.district.ownCosts} {seed}")
     return grid

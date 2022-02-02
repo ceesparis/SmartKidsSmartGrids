@@ -3,7 +3,7 @@ import code.classes.loader
 from sys import argv
 from code.classes.randomizer import Randomizer
 from code.classes.grid import Grid
-from astarloop import iterateAstar
+from distributeLoop import iterateDistribution
 
 if __name__ == "__main__":
     if len(argv) != 2:
@@ -17,8 +17,8 @@ if __name__ == "__main__":
         print('district not found')
         exit(2)
 
-    loops = 10
-    grid = iterateAstar(grid, loops)
+    loops = 25
+    grid = iterateDistribution(grid, loops)
     grid.printOutput()
 
     # random_algorithm

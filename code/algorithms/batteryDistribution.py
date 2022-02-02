@@ -1,17 +1,18 @@
 from os import close, replace
 import copy
 import random
-from .astarHill import astarHillClimber
+from .distributionClimber import distributionHillClimber
 
 
-class astar():
-    def __init__(self, houses, batteries):
+class DistributeBatteries():
+    def __init__(self, houses, batteries, seed):
         self._houses = houses
         self._batteries = batteries
         self._batteryProx = {}
         self._result = None
         self._capacities = None
         self._allDistances = {}
+        self._seed = seed
         self.fillCapacity()
         self.getDistances()
         self.findBattery()
@@ -70,6 +71,7 @@ class astar():
         # a list containing all houses that have the highest distance between closest batteries
         priorityHouses = []
         i = 0
+        random.seed(self._seed)
         randomLimit = random.randint(0, 150)
 
         # add fifty houses to the priority list
@@ -199,6 +201,6 @@ class astar():
         return self._result
 
     def returnHillClimber(self):
-        climber = astarHillClimber(
-            self._result, self._batteries, self._houses, self._capacities, self._allDistances)
+        climber = distributionHillClimber(
+            self._result, self._batteries, self._houses, self._capacities, self._allDistances, self._seed)
         return climber.mutateState()
