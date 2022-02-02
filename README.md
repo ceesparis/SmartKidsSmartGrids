@@ -38,7 +38,7 @@ Dit algoritme staat helemaal los van eerder beschreven algoritmes. Het centrale 
 De huizen van een 'huizencluster' worden onderling verbonden in drie stappen. De eerste stap bestaat uit een greedy algoritme, dat vanaf elk huis in het cluster begint, en de meest voordelige route om de huizen met elkaar te verbinden onthoudt. Bij de tweede stap wordt er in het cluster nog een laatste kabel gelegd van het laatste huis tot het eerste huis, waardoor er een gesloten cirkel van kabels tussen de huizen ontstaat. Bij de laatste stap wordt er gekeken naar de langste kabel van het cluster, en deze wordt vernietigd. De huizen zijn dan nog steeds onderling verbonden vanwege stap 2. 
 Vervolgens worden deze clusters in een random volgorde verbonden aan de dichstbijzijnde mogelijke batterij. Mocht de grid dan nog niet geldig zijn, husselt het algoritme met de clusters net zo lang tot het wel mogelijk is een geldige grid te maken. 
 
-Bestandsnaam: ___clusterAlgo.py___
+Bestandsnaam: ___cluster_alg.py___
 
 ## Structuur
 Alle code die we hebben gebruikt, met uitzondering van de main, staat in onze code folder. In onze data map staan de initieel gegeven district csv bestanden die wij hebben gebruikt om grids in te lezen, en in de results map zijn zowel onze volledige experiment runs als diens beste uitkomsten te vinden, ingedeeld per experiment.
