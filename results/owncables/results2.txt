@@ -1,8 +1,8 @@
 -- A* and A* HillClimber results for district 2
 
-Cheapest no-hill result: tbd
-Cheapest hill result: tbd
-Biggest difference: tbd
+Cheapest no-hill result: 33091 (Seed: 5056)
+Cheapest hill result: 32416 (Seed: 8700)
+Biggest difference: 2088 (34873 - 32785) (Seed: 891)
 
 Code ran for this result list:
 
