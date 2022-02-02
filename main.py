@@ -3,6 +3,7 @@ from code.classes.randomizer import Randomizer
 from code.classes.grid import Grid
 from astarloop import iterateAstar
 from code.visualisation.old_visualisation import visualize
+from code.visualisation.visualize_clus_exp import visualize_exp
 from code.algorithms.cluster_alg import Clusalgo
 from code.calculations.clus_cost_shared import calculateCostShared
 from code.experiments.experiment import experiment
@@ -21,9 +22,10 @@ if __name__ == "__main__":
         print('district not found')
         exit(2)
     
-    experiment(1)
+    # experiment(1)
+    visualize_exp("./local_results/cluster_results_district1.csv")
     # ask user what algorithm they want to employ for laying the smartgrid
-    print(f"choose your algorithm for district {district}: clusterWebz or smartDistribution\n")
+    print(f"\nchoose your algorithm for district {district}: clusterWebz or smartDistribution\n")
     algo_choice = input("Make your choice here(CW or SD): ")
     algo_choice = algo_choice.upper()
     trying = True
