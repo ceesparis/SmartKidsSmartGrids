@@ -1,6 +1,5 @@
 from house_cluster import Cluster
 import copy
-from house import House
 
 class Clusalgo():
 

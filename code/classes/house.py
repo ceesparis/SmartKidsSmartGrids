@@ -24,7 +24,7 @@ class House():
         x1 = self.location[0]
         y1 = self.location[1]
         # determine range (amount of ticks that will be searched around reference point)
-        search_range = 4
+        search_range = 5
         local_house_list = []
         # check for ungrouped houses in vicinity of reference point
         for house in houses:

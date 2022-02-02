@@ -92,6 +92,4 @@ class Clusalgo():
         # finally, change current grid into valid connected grid      
         self.house_clusters = clusters_copy
         self.batteries = batteries_copy
-
-
  
