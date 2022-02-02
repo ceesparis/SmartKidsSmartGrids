@@ -10,8 +10,8 @@ from code.classes.grid import Grid
 
 if __name__ == "__main__":
     # check for correct usage
-    if len(argv) != 3:
-        print('Usage: Python3 main.py [district number] ALGORITHM(CW or SD)')
+    if len(argv) < 3:
+        print('Usage: Python3 main.py [district number] [ALGORITHM(CW or SD)]')
         exit(1)
     district = argv[1]
     # check if district number is valid
