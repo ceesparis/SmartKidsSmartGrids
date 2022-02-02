@@ -7,8 +7,8 @@ n_runs = 0
 lowestCosts = 100000
 
 # writing the runs and results into a txt file
-with open("smartDistributionResultDis1.txt", 'w') as f:
-    
+with open("smartDistributionResults.txt", 'w') as f:
+
     while time.time() - start < 60:
         print(f"run: {n_runs}")
         f.write(f"run: {n_runs} \n")

@@ -34,5 +34,14 @@ Vervolgens worden deze clusters in een random volgorde verbonden aan de dichstbi
 Bestandsnaam: cluster_alg.py
 
 ## Commands
-- Hoe run je de main?
-- Hoe run je het experiment?
+- Run de algoritmes:
+    Command line: python3 main.py [district nummer] [algorime afkorting]
+    De districts zijn: 1, 2, 3
+    De algorimes zijn: Smart Distribution (SD) and ClusterWebz (CW)
+- Hoe run je de experimenten?
+    Het experiment van de smart distribution run je door de experimentSmartDistribution.py te verplaatsen naar het mapje waar de main in geplaatst is. Vervolgens run je het experimentSmartDistribution.py bestand.
+
+    Het experiment van de clusterwebz run je door in de main de file te importeren:
+    from code.experiments.clus_exp import clus_experiment
+    Vervolgens roep je clus_exp() aan als bovenaan de code. 
+    Roep main als normaal aan. Dit zal het experiment starten.
