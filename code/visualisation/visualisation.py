@@ -65,7 +65,8 @@ def visualize(grid, state):
     # show grid
     ax.grid(b=True, lw=1.1)
     ax.grid(b=True, which='minor')
-    plt.show()
+
+    # plt.show()
 
     plt.plot(range(10))
-    fig.savefig('./gridTests/grid' + state + '.png', dpi=fig.dpi)
+    fig.savefig('./grid.png', dpi=fig.dpi)
