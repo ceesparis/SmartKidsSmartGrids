@@ -1,6 +1,7 @@
 def calculateCostShared(houses, batteries):
-    '''Calculates the cost of the cables and batteries when cables can be shared'''
-
+    """
+    Calculates the cost of the cables and batteries when cables can be shared.
+    """
     unique_cables = []
     for house in houses:
         cables = house.cables

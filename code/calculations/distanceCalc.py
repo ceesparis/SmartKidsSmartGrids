@@ -3,11 +3,11 @@ import math
 
 
 def calc_distance():
-    '''Calculates the distance between two points on the grid.'''
+    """
+    Calculates the distance between two points on the grid.
+    """
     
-    # x = location[0]
-    # y = location[1]
-    
+    # ex: x = location[0], y = location[1]
     x = 2
     y = 50
     

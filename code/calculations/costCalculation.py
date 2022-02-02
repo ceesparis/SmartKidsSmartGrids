@@ -1,6 +1,7 @@
 def calculateCost(houses, batterySum):
-    '''Calculates the cost of the cables and batteries.'''
-
+    """
+    Calculates the cost of the cables and batteries.
+    """
     completeCableSet = []
     cables = 0
 
