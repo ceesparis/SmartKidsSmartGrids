@@ -23,7 +23,7 @@ if __name__ == "__main__":
         exit(2)
     
     # experiment(1)
-    visualize_exp("./local_results/cluster_results_district1.csv")
+    visualize_exp("./local_results/cluster_results_district1.csv", district)
     # ask user what algorithm they want to employ for laying the smartgrid
     print(f"\nchoose your algorithm for district {district}: clusterWebz or smartDistribution\n")
     algo_choice = input("Make your choice here(CW or SD): ")

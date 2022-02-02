@@ -1,8 +1,3 @@
-# import os
-# print(os.getcwd())
-# os.chdir("..")
-# print(os.getcwd())
-# print(os.listdir())
 from code.classes.grid import Grid
 import csv
 from code.algorithms.cluster_alg import Clusalgo

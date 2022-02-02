@@ -4,7 +4,7 @@ from matplotlib.ticker import (MultipleLocator)
 import csv
 
 
-def visualize_exp(csv_file):
+def visualize_exp(csv_file, district):
     '''
         Takes csv_file.
         Shows visual representation of all results.
@@ -24,6 +24,8 @@ def visualize_exp(csv_file):
     data.sort()
     plt.ylim(30000, 40000)
     plt.bar(order, data, width=1)
-    plt.show()
+    plt.xlabel("number of grids")
+    plt.ylabel("grid costs")
+    plt.savefig(f"./results/sharedcables/cluster_experiment_district_{district}.png")
     
    
