@@ -1,6 +1,8 @@
-
-
 class Node():
+    """
+    Add description for class
+    """
+
     def __init__(self, batteryLocations, location):
         self._coordinates = location
         self._options = None
@@ -8,11 +10,16 @@ class Node():
         self.getOptions(location)
         self.checkBattery(batteryLocations)
 
+
     def getOptions(self, coordinate):
+        """
+        Add small description
+        """
         optionList = [[coordinate[0] + 1, coordinate[1]], [coordinate[0] - 1, coordinate[1]],
                       [coordinate[0], coordinate[1] - 1], [coordinate[0], coordinate[1] + 1]]
 
         removeItems = []
+        
         for option in optionList:
             for coordinate in option:
                 if coordinate > 50 or coordinate < 0:
@@ -23,10 +30,17 @@ class Node():
 
         self._options = optionList
 
+
     def checkBattery(self, batteryLocations):
+        """
+        Add small description
+        """
         for location in batteryLocations:
             if location == self._coordinates:
                 self._hasBattery = True
 
     def printOptions(self):
+        """
+        Small description?
+        """
         print(self._options)

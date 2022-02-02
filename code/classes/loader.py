@@ -5,10 +5,10 @@ from .district import District
 
 
 def load_grid(dis_number):
-    '''
+    """
         Takes district-number.
         Creates and returns grid with data from corresponding district.
-    '''
+    """
 
     # make a list to store batteries and housess from csv in
     batteries = []
@@ -17,8 +17,10 @@ def load_grid(dis_number):
     # open the batteries-csv from the district you want to represent
     with open(f"./data/districts/district_{dis_number}/district-{dis_number}_batteries.csv", "r") as f:
         csv_reader = csv.reader(f)
+        
         # skip the first row with the row-names
         next(csv_reader)
+        
         # make battery objects from the remaining rows
         for line in csv_reader:
             location = tuple(map(int, line[0].split(',')))
@@ -29,9 +31,11 @@ def load_grid(dis_number):
     # open the housess-csv from the district you want to represent
     with open(f"./data/districts/district_{dis_number}/district-{dis_number}_houses.csv", "r") as f:
         csv_reader = csv.reader(f)
-        # skipt the first row with the row-names
+        
+        # skips the first row with the row-names
         next(csv_reader)
-        # make house objects from the remaining rows
+        
+        # makes house objects from the remaining rows
         for line in csv_reader:
             location = (int(line[0]), int(line[1]))
             power = float(line[2])
