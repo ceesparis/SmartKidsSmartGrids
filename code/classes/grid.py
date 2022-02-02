@@ -18,7 +18,6 @@ class Grid():
         self.batteries = []
         self.houses = []
 
-
     def load_from_csv(self):
         """
         Loads the district from the desired/given csv file.
@@ -29,13 +28,11 @@ class Grid():
         self.batteries = grid[1]
         self.houses = grid[2]
 
-
     def returnHouses(self):
         """
         Returns the grid's house coords.
         """
         return self.houses
-
 
     def returnBatteries(self):
         """
@@ -43,13 +40,11 @@ class Grid():
         """
         return self.batteries
 
-
     def addCables(self, house, cableRoute):
         """
         Adds an order of cables to the houses.
         """
         house.cables = cableRoute
-
 
     def addHouse(self, batteryID, house):
         """
@@ -57,7 +52,6 @@ class Grid():
         gets appended to a list from the battery.
         """
         self.batteries[batteryID].houses.append(house)
-
 
     def printOutput(self):
         """
@@ -71,26 +65,26 @@ class Grid():
 
         # loop through all batteries to convert their contents to the json format
         for battery in self.batteries:
-            
+
             # convert the location list to a string containing the coordinates
             battery.location = ','.join(map(str, battery.location))
-            
+
             for house in battery.houses:
                 house.location = ','.join(map(str, house.location))
-                
+
                 # make a new list that will be filled with all coordinates in a string format
                 newCableList = []
-                
+
                 for cable in house.cables:
                     newCable = ','.join(map(str, cable))
                     newCableList.append(newCable)
-                
+
                 house.cables = newCableList
-            
+
             # convert the battery class to the json format
             jsonString = json.dumps(
                 battery, default=lambda o: o.__dict__).replace("\\", "")
-            
+
             # add the battery to the list of all batteries
             if batteryList == '':
                 batteryList = jsonString

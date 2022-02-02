@@ -3,12 +3,12 @@ import numpy as np
 from matplotlib.ticker import (MultipleLocator)
 
 
-def visualize(grid, state):
+def visualize(grid):
     """
         Takes grid.
         Shows visual representation of grid.
     """
-    
+
     # make seperate lists for x and y coordinates
     houses_x = []
     houses_y = []
@@ -56,7 +56,6 @@ def visualize(grid, state):
     fig, ax = plt.subplots()
     ax.scatter(houses_x, houses_y)
     ax.scatter(batteries_x, batteries_y)
-
     # make line plot for every cable
     for i in range(len(cables_x)):
         ax.plot(cables_x[i], cables_y[i], color=cable_color[i], lw=0.6)

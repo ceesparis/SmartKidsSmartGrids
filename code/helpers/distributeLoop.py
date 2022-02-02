@@ -112,7 +112,7 @@ def iterateDistribution(grid, loops):
     grid.district.ownCosts = calculateCostShared(
         len(grid.batteries), grid.batteries)
 
-    visualize(grid, "bestGrid")
+    visualize(grid)
 
     print(f"{grid.district.ownCosts} {seed}")
     return grid
