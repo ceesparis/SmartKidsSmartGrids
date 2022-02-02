@@ -1,0 +1,3148 @@
+-- A* and A* HillClimber results for district 2
+
+Cheapest no-hill result: 33091 (Seed: 5056)
+Cheapest hill result: 32416 (Seed: 8700)
+Biggest difference: 2088 (34873 - 32785) (Seed: 891)
+
+Code ran for this result list:
+
+"testdrive.py"
+import subprocess
+import time
+
+start = time.time()
+n_runs = 0
+
+while time.time() - start < 1800:
+    print(f"run: {n_runs}")
+    subprocess.call(["python3", "main.py", "2"])
+    n_runs += 1
+
+cmd: "python3 testdrive.py"
+
+run: 0
+Costs before hillclimber, with own cables, without smart cables: 33820
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 1566 
+
+run: 1
+Costs before hillclimber, with own cables, without smart cables: 34252
+Costs after hillclimber, with own cables, without smart cables: 33298. Seed: 7228 
+
+run: 2
+Costs before hillclimber, with own cables, without smart cables: 33946
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 1506 
+
+run: 3
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 2394 
+
+run: 4
+Costs before hillclimber, with own cables, without smart cables: 33559
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 4025 
+
+run: 5
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 33442. Seed: 3817 
+
+run: 6
+Costs before hillclimber, with own cables, without smart cables: 33991
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 4006 
+
+run: 7
+Costs before hillclimber, with own cables, without smart cables: 33172
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 7959 
+
+run: 8
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 6759 
+
+run: 9
+Costs before hillclimber, with own cables, without smart cables: 34387
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 7557 
+
+run: 10
+Costs before hillclimber, with own cables, without smart cables: 34387
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 5776 
+
+run: 11
+Costs before hillclimber, with own cables, without smart cables: 33964
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 9797 
+
+run: 12
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 3750 
+
+run: 13
+Costs before hillclimber, with own cables, without smart cables: 33307
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 6290 
+
+run: 14
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 33442. Seed: 5302 
+
+run: 15
+Costs before hillclimber, with own cables, without smart cables: 33226
+Costs after hillclimber, with own cables, without smart cables: 32479. Seed: 705 
+
+run: 16
+Costs before hillclimber, with own cables, without smart cables: 33874
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 225 
+
+run: 17
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 5288 
+
+run: 18
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 941 
+
+run: 19
+Costs before hillclimber, with own cables, without smart cables: 34873
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 891 
+
+run: 20
+Costs before hillclimber, with own cables, without smart cables: 33352
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 6762 
+
+run: 21
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 9057 
+
+run: 22
+Costs before hillclimber, with own cables, without smart cables: 33685
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 3837 
+
+run: 23
+Costs before hillclimber, with own cables, without smart cables: 34027
+Costs after hillclimber, with own cables, without smart cables: 33289. Seed: 5097 
+
+run: 24
+Costs before hillclimber, with own cables, without smart cables: 33757
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7710 
+
+run: 25
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 6214 
+
+run: 26
+Costs before hillclimber, with own cables, without smart cables: 33145
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 9396 
+
+run: 27
+Costs before hillclimber, with own cables, without smart cables: 34171
+Costs after hillclimber, with own cables, without smart cables: 33199. Seed: 3796 
+
+run: 28
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 343 
+
+run: 29
+Costs before hillclimber, with own cables, without smart cables: 33991
+Costs after hillclimber, with own cables, without smart cables: 32524. Seed: 2007 
+
+run: 30
+Costs before hillclimber, with own cables, without smart cables: 33811
+Costs after hillclimber, with own cables, without smart cables: 32740. Seed: 9988 
+
+run: 31
+Costs before hillclimber, with own cables, without smart cables: 33478
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 1949 
+
+run: 32
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 6041 
+
+run: 33
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 5611 
+
+run: 34
+Costs before hillclimber, with own cables, without smart cables: 34162
+Costs after hillclimber, with own cables, without smart cables: 33478. Seed: 88 
+
+run: 35
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 7917 
+
+run: 36
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 3831 
+
+run: 37
+Costs before hillclimber, with own cables, without smart cables: 34441
+Costs after hillclimber, with own cables, without smart cables: 33397. Seed: 2331 
+
+run: 38
+Costs before hillclimber, with own cables, without smart cables: 34576
+Costs after hillclimber, with own cables, without smart cables: 33289. Seed: 625 
+
+run: 39
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 4025 
+
+run: 40
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 33190. Seed: 9528 
+
+run: 41
+Costs before hillclimber, with own cables, without smart cables: 33352
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 5850 
+
+run: 42
+Costs before hillclimber, with own cables, without smart cables: 33496
+Costs after hillclimber, with own cables, without smart cables: 32533. Seed: 1191 
+
+run: 43
+Costs before hillclimber, with own cables, without smart cables: 33550
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 1554 
+
+run: 44
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 3985 
+
+run: 45
+Costs before hillclimber, with own cables, without smart cables: 33802
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 4714 
+
+run: 46
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 2187 
+
+run: 47
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33091. Seed: 4773 
+
+run: 48
+Costs before hillclimber, with own cables, without smart cables: 34486
+Costs after hillclimber, with own cables, without smart cables: 33415. Seed: 6265 
+
+run: 49
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 1852 
+
+run: 50
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 33163. Seed: 8002 
+
+run: 51
+Costs before hillclimber, with own cables, without smart cables: 33766
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 7710 
+
+run: 52
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 32623. Seed: 8077 
+
+run: 53
+Costs before hillclimber, with own cables, without smart cables: 34045
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 9737 
+
+run: 54
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 6484 
+
+run: 55
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 199 
+
+run: 56
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 32434. Seed: 7154 
+
+run: 57
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 7808 
+
+run: 58
+Costs before hillclimber, with own cables, without smart cables: 33631
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 4163 
+
+run: 59
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 7777 
+
+run: 60
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 7530 
+
+run: 61
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 5655 
+
+run: 62
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 8303 
+
+run: 63
+Costs before hillclimber, with own cables, without smart cables: 33982
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 4928 
+
+run: 64
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 6545 
+
+run: 65
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 8872 
+
+run: 66
+Costs before hillclimber, with own cables, without smart cables: 33460
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 161 
+
+run: 67
+Costs before hillclimber, with own cables, without smart cables: 34171
+Costs after hillclimber, with own cables, without smart cables: 33226. Seed: 6793 
+
+run: 68
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 9976 
+
+run: 69
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 33064. Seed: 8185 
+
+run: 70
+Costs before hillclimber, with own cables, without smart cables: 33397
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 1949 
+
+run: 71
+Costs before hillclimber, with own cables, without smart cables: 33100
+Costs after hillclimber, with own cables, without smart cables: 32686. Seed: 225 
+
+run: 72
+Costs before hillclimber, with own cables, without smart cables: 33325
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 651 
+
+run: 73
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 7409 
+
+run: 74
+Costs before hillclimber, with own cables, without smart cables: 34045
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 4349 
+
+run: 75
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 20 
+
+run: 76
+Costs before hillclimber, with own cables, without smart cables: 33343
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 8026 
+
+run: 77
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 3046 
+
+run: 78
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 33496. Seed: 4899 
+
+run: 79
+Costs before hillclimber, with own cables, without smart cables: 34459
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 6711 
+
+run: 80
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 3103 
+
+run: 81
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 2972 
+
+run: 82
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 8462 
+
+run: 83
+Costs before hillclimber, with own cables, without smart cables: 33721
+Costs after hillclimber, with own cables, without smart cables: 33559. Seed: 7409 
+
+run: 84
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 7971 
+
+run: 85
+Costs before hillclimber, with own cables, without smart cables: 33820
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 6543 
+
+run: 86
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 302 
+
+run: 87
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 1658 
+
+run: 88
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 33226. Seed: 6845 
+
+run: 89
+Costs before hillclimber, with own cables, without smart cables: 33460
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 1073 
+
+run: 90
+Costs before hillclimber, with own cables, without smart cables: 34432
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 6638 
+
+run: 91
+Costs before hillclimber, with own cables, without smart cables: 34063
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 2287 
+
+run: 92
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 10000 
+
+run: 93
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 9053 
+
+run: 94
+Costs before hillclimber, with own cables, without smart cables: 33829
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 6874 
+
+run: 95
+Costs before hillclimber, with own cables, without smart cables: 34090
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 4477 
+
+run: 96
+Costs before hillclimber, with own cables, without smart cables: 33163
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 538 
+
+run: 97
+Costs before hillclimber, with own cables, without smart cables: 33190
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 3561 
+
+run: 98
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 1031 
+
+run: 99
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 5480 
+
+run: 100
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 121 
+
+run: 101
+Costs before hillclimber, with own cables, without smart cables: 33559
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 4071 
+
+run: 102
+Costs before hillclimber, with own cables, without smart cables: 34378
+Costs after hillclimber, with own cables, without smart cables: 32686. Seed: 6523 
+
+run: 103
+Costs before hillclimber, with own cables, without smart cables: 33235
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 2291 
+
+run: 104
+Costs before hillclimber, with own cables, without smart cables: 33892
+Costs after hillclimber, with own cables, without smart cables: 33325. Seed: 8058 
+
+run: 105
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32515. Seed: 9383 
+
+run: 106
+Costs before hillclimber, with own cables, without smart cables: 34090
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 9291 
+
+run: 107
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 7742 
+
+run: 108
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 6975 
+
+run: 109
+Costs before hillclimber, with own cables, without smart cables: 33811
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 2772 
+
+run: 110
+Costs before hillclimber, with own cables, without smart cables: 33766
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 3446 
+
+run: 111
+Costs before hillclimber, with own cables, without smart cables: 33181
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 2759 
+
+run: 112
+Costs before hillclimber, with own cables, without smart cables: 33874
+Costs after hillclimber, with own cables, without smart cables: 33217. Seed: 1987 
+
+run: 113
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32596. Seed: 1658 
+
+run: 114
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 1231 
+
+run: 115
+Costs before hillclimber, with own cables, without smart cables: 34090
+Costs after hillclimber, with own cables, without smart cables: 33199. Seed: 459 
+
+run: 116
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 33055. Seed: 1554 
+
+run: 117
+Costs before hillclimber, with own cables, without smart cables: 33721
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 3902 
+
+run: 118
+Costs before hillclimber, with own cables, without smart cables: 33433
+Costs after hillclimber, with own cables, without smart cables: 33217. Seed: 5710 
+
+run: 119
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 33244. Seed: 2609 
+
+run: 120
+Costs before hillclimber, with own cables, without smart cables: 34171
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 7425 
+
+run: 121
+Costs before hillclimber, with own cables, without smart cables: 33559
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 9553 
+
+run: 122
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32740. Seed: 2228 
+
+run: 123
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 8004 
+
+run: 124
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 3703 
+
+run: 125
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 5707 
+
+run: 126
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 7977 
+
+run: 127
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 7238 
+
+run: 128
+Costs before hillclimber, with own cables, without smart cables: 33865
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 5591 
+
+run: 129
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 33424. Seed: 8395 
+
+run: 130
+Costs before hillclimber, with own cables, without smart cables: 34162
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 7048 
+
+run: 131
+Costs before hillclimber, with own cables, without smart cables: 33478
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 9064 
+
+run: 132
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 2914 
+
+run: 133
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 3046 
+
+run: 134
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 4531 
+
+run: 135
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 5391 
+
+run: 136
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32416. Seed: 3446 
+
+run: 137
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 33208. Seed: 6559 
+
+run: 138
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 3379 
+
+run: 139
+Costs before hillclimber, with own cables, without smart cables: 33262
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 251 
+
+run: 140
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 8761 
+
+run: 141
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 4560 
+
+run: 142
+Costs before hillclimber, with own cables, without smart cables: 34243
+Costs after hillclimber, with own cables, without smart cables: 33397. Seed: 5480 
+
+run: 143
+Costs before hillclimber, with own cables, without smart cables: 34252
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 4220 
+
+run: 144
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 614 
+
+run: 145
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 33280. Seed: 2508 
+
+run: 146
+Costs before hillclimber, with own cables, without smart cables: 33343
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7263 
+
+run: 147
+Costs before hillclimber, with own cables, without smart cables: 33829
+Costs after hillclimber, with own cables, without smart cables: 32614. Seed: 8296 
+
+run: 148
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 8724 
+
+run: 149
+Costs before hillclimber, with own cables, without smart cables: 33352
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 7751 
+
+run: 150
+Costs before hillclimber, with own cables, without smart cables: 34828
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 3050 
+
+run: 151
+Costs before hillclimber, with own cables, without smart cables: 34558
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 3854 
+
+run: 152
+Costs before hillclimber, with own cables, without smart cables: 33433
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 9997 
+
+run: 153
+Costs before hillclimber, with own cables, without smart cables: 33325
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7889 
+
+run: 154
+Costs before hillclimber, with own cables, without smart cables: 33100
+Costs after hillclimber, with own cables, without smart cables: 32434. Seed: 8975 
+
+run: 155
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 2519 
+
+run: 156
+Costs before hillclimber, with own cables, without smart cables: 33172
+Costs after hillclimber, with own cables, without smart cables: 32461. Seed: 404 
+
+run: 157
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 5409 
+
+run: 158
+Costs before hillclimber, with own cables, without smart cables: 33163
+Costs after hillclimber, with own cables, without smart cables: 33262. Seed: 9404 
+
+run: 159
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 1193 
+
+run: 160
+Costs before hillclimber, with own cables, without smart cables: 33307
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 6512 
+
+run: 161
+Costs before hillclimber, with own cables, without smart cables: 33325
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 3643 
+
+run: 162
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 9751 
+
+run: 163
+Costs before hillclimber, with own cables, without smart cables: 33037
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 9801 
+
+run: 164
+Costs before hillclimber, with own cables, without smart cables: 34036
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 9713 
+
+run: 165
+Costs before hillclimber, with own cables, without smart cables: 33118
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 7438 
+
+run: 166
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 2945 
+
+run: 167
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 785 
+
+run: 168
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 33091. Seed: 5646 
+
+run: 169
+Costs before hillclimber, with own cables, without smart cables: 34684
+Costs after hillclimber, with own cables, without smart cables: 33334. Seed: 984 
+
+run: 170
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 2394 
+
+run: 171
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32533. Seed: 8344 
+
+run: 172
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 5002 
+
+run: 173
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 6079 
+
+run: 174
+Costs before hillclimber, with own cables, without smart cables: 33460
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 9160 
+
+run: 175
+Costs before hillclimber, with own cables, without smart cables: 34855
+Costs after hillclimber, with own cables, without smart cables: 33550. Seed: 9613 
+
+run: 176
+Costs before hillclimber, with own cables, without smart cables: 33433
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 4160 
+
+run: 177
+Costs before hillclimber, with own cables, without smart cables: 33865
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 3931 
+
+run: 178
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 1694 
+
+run: 179
+Costs before hillclimber, with own cables, without smart cables: 34234
+Costs after hillclimber, with own cables, without smart cables: 33244. Seed: 2607 
+
+run: 180
+Costs before hillclimber, with own cables, without smart cables: 33343
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 4344 
+
+run: 181
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 7991 
+
+run: 182
+Costs before hillclimber, with own cables, without smart cables: 33208
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 3226 
+
+run: 183
+Costs before hillclimber, with own cables, without smart cables: 34117
+Costs after hillclimber, with own cables, without smart cables: 33163. Seed: 834 
+
+run: 184
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 4761 
+
+run: 185
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 6649 
+
+run: 186
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 1694 
+
+run: 187
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 4764 
+
+run: 188
+Costs before hillclimber, with own cables, without smart cables: 33550
+Costs after hillclimber, with own cables, without smart cables: 32632. Seed: 3968 
+
+run: 189
+Costs before hillclimber, with own cables, without smart cables: 33379
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 244 
+
+run: 190
+Costs before hillclimber, with own cables, without smart cables: 33172
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 3952 
+
+run: 191
+Costs before hillclimber, with own cables, without smart cables: 33838
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 1435 
+
+run: 192
+Costs before hillclimber, with own cables, without smart cables: 33478
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 8290 
+
+run: 193
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 2665 
+
+run: 194
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 6001 
+
+run: 195
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 998 
+
+run: 196
+Costs before hillclimber, with own cables, without smart cables: 34189
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 7752 
+
+run: 197
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 5820 
+
+run: 198
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 9321 
+
+run: 199
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32614. Seed: 8626 
+
+run: 200
+Costs before hillclimber, with own cables, without smart cables: 34684
+Costs after hillclimber, with own cables, without smart cables: 33280. Seed: 7985 
+
+run: 201
+Costs before hillclimber, with own cables, without smart cables: 33199
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 8947 
+
+run: 202
+Costs before hillclimber, with own cables, without smart cables: 34657
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 9649 
+
+run: 203
+Costs before hillclimber, with own cables, without smart cables: 33136
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 4702 
+
+run: 204
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 5365 
+
+run: 205
+Costs before hillclimber, with own cables, without smart cables: 33514
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 8026 
+
+run: 206
+Costs before hillclimber, with own cables, without smart cables: 33379
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 914 
+
+run: 207
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 33217. Seed: 8203 
+
+run: 208
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 8551 
+
+run: 209
+Costs before hillclimber, with own cables, without smart cables: 34576
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 8831 
+
+run: 210
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 33226. Seed: 4742 
+
+run: 211
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 9113 
+
+run: 212
+Costs before hillclimber, with own cables, without smart cables: 34558
+Costs after hillclimber, with own cables, without smart cables: 33208. Seed: 4042 
+
+run: 213
+Costs before hillclimber, with own cables, without smart cables: 34225
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 3948 
+
+run: 214
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 7777 
+
+run: 215
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 2151 
+
+run: 216
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 2228 
+
+run: 217
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 801 
+
+run: 218
+Costs before hillclimber, with own cables, without smart cables: 33766
+Costs after hillclimber, with own cables, without smart cables: 33064. Seed: 3342 
+
+run: 219
+Costs before hillclimber, with own cables, without smart cables: 33280
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 1641 
+
+run: 220
+Costs before hillclimber, with own cables, without smart cables: 34162
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 9133 
+
+run: 221
+Costs before hillclimber, with own cables, without smart cables: 33136
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 459 
+
+run: 222
+Costs before hillclimber, with own cables, without smart cables: 34369
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 2606 
+
+run: 223
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 3452 
+
+run: 224
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 9138 
+
+run: 225
+Costs before hillclimber, with own cables, without smart cables: 34360
+Costs after hillclimber, with own cables, without smart cables: 33172. Seed: 2710 
+
+run: 226
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 7813 
+
+run: 227
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 32479. Seed: 3773 
+
+run: 228
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 1320 
+
+run: 229
+Costs before hillclimber, with own cables, without smart cables: 33892
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 6649 
+
+run: 230
+Costs before hillclimber, with own cables, without smart cables: 33712
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 8772 
+
+run: 231
+Costs before hillclimber, with own cables, without smart cables: 33892
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 1669 
+
+run: 232
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 5032 
+
+run: 233
+Costs before hillclimber, with own cables, without smart cables: 33721
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 8735 
+
+run: 234
+Costs before hillclimber, with own cables, without smart cables: 34261
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 7678 
+
+run: 235
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 7753 
+
+run: 236
+Costs before hillclimber, with own cables, without smart cables: 33082
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 3817 
+
+run: 237
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 4903 
+
+run: 238
+Costs before hillclimber, with own cables, without smart cables: 33892
+Costs after hillclimber, with own cables, without smart cables: 33334. Seed: 3452 
+
+run: 239
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 9053 
+
+run: 240
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 8827 
+
+run: 241
+Costs before hillclimber, with own cables, without smart cables: 33100
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 1544 
+
+run: 242
+Costs before hillclimber, with own cables, without smart cables: 32992
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 5099 
+
+run: 243
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 538 
+
+run: 244
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 1467 
+
+run: 245
+Costs before hillclimber, with own cables, without smart cables: 33883
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 6079 
+
+run: 246
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 6638 
+
+run: 247
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 5032 
+
+run: 248
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 1860 
+
+run: 249
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 8584 
+
+run: 250
+Costs before hillclimber, with own cables, without smart cables: 34108
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 2945 
+
+run: 251
+Costs before hillclimber, with own cables, without smart cables: 33199
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 3839 
+
+run: 252
+Costs before hillclimber, with own cables, without smart cables: 33028
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 7272 
+
+run: 253
+Costs before hillclimber, with own cables, without smart cables: 33307
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 974 
+
+run: 254
+Costs before hillclimber, with own cables, without smart cables: 33631
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 7714 
+
+run: 255
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 2972 
+
+run: 256
+Costs before hillclimber, with own cables, without smart cables: 33415
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 5605 
+
+run: 257
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 3046 
+
+run: 258
+Costs before hillclimber, with own cables, without smart cables: 34027
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 2519 
+
+run: 259
+Costs before hillclimber, with own cables, without smart cables: 34198
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 975 
+
+run: 260
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32416. Seed: 8700 
+
+run: 261
+Costs before hillclimber, with own cables, without smart cables: 33901
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 4283 
+
+run: 262
+Costs before hillclimber, with own cables, without smart cables: 33478
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 3638 
+
+run: 263
+Costs before hillclimber, with own cables, without smart cables: 34027
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 6638 
+
+run: 264
+Costs before hillclimber, with own cables, without smart cables: 33262
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 9472 
+
+run: 265
+Costs before hillclimber, with own cables, without smart cables: 34108
+Costs after hillclimber, with own cables, without smart cables: 33433. Seed: 4025 
+
+run: 266
+Costs before hillclimber, with own cables, without smart cables: 33550
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7004 
+
+run: 267
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 6245 
+
+run: 268
+Costs before hillclimber, with own cables, without smart cables: 33352
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 722 
+
+run: 269
+Costs before hillclimber, with own cables, without smart cables: 33721
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 7567 
+
+run: 270
+Costs before hillclimber, with own cables, without smart cables: 33397
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 6861 
+
+run: 271
+Costs before hillclimber, with own cables, without smart cables: 34297
+Costs after hillclimber, with own cables, without smart cables: 33460. Seed: 4693 
+
+run: 272
+Costs before hillclimber, with own cables, without smart cables: 34315
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 459 
+
+run: 273
+Costs before hillclimber, with own cables, without smart cables: 33919
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 4632 
+
+run: 274
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 8177 
+
+run: 275
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 11 
+
+run: 276
+Costs before hillclimber, with own cables, without smart cables: 33550
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 8002 
+
+run: 277
+Costs before hillclimber, with own cables, without smart cables: 34261
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 5478 
+
+run: 278
+Costs before hillclimber, with own cables, without smart cables: 33757
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 6874 
+
+run: 279
+Costs before hillclimber, with own cables, without smart cables: 35620
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 3270 
+
+run: 280
+Costs before hillclimber, with own cables, without smart cables: 34054
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 3409 
+
+run: 281
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 33649. Seed: 1934 
+
+run: 282
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 1937 
+
+run: 283
+Costs before hillclimber, with own cables, without smart cables: 33199
+Costs after hillclimber, with own cables, without smart cables: 32740. Seed: 1394 
+
+run: 284
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 5534 
+
+run: 285
+Costs before hillclimber, with own cables, without smart cables: 34666
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 1027 
+
+run: 286
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 34 
+
+run: 287
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 6182 
+
+run: 288
+Costs before hillclimber, with own cables, without smart cables: 33496
+Costs after hillclimber, with own cables, without smart cables: 32632. Seed: 1324 
+
+run: 289
+Costs before hillclimber, with own cables, without smart cables: 34594
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 2344 
+
+run: 290
+Costs before hillclimber, with own cables, without smart cables: 33631
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7530 
+
+run: 291
+Costs before hillclimber, with own cables, without smart cables: 33667
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 9220 
+
+run: 292
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 3493 
+
+run: 293
+Costs before hillclimber, with own cables, without smart cables: 33919
+Costs after hillclimber, with own cables, without smart cables: 32569. Seed: 4928 
+
+run: 294
+Costs before hillclimber, with own cables, without smart cables: 33109
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 7940 
+
+run: 295
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 5387 
+
+run: 296
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 2057 
+
+run: 297
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 6016 
+
+run: 298
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 6743 
+
+run: 299
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 3963 
+
+run: 300
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 8969 
+
+run: 301
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 8128 
+
+run: 302
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 8143 
+
+run: 303
+Costs before hillclimber, with own cables, without smart cables: 33955
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 4160 
+
+run: 304
+Costs before hillclimber, with own cables, without smart cables: 34135
+Costs after hillclimber, with own cables, without smart cables: 33163. Seed: 8038 
+
+run: 305
+Costs before hillclimber, with own cables, without smart cables: 33262
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 9472 
+
+run: 306
+Costs before hillclimber, with own cables, without smart cables: 33496
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 7530 
+
+run: 307
+Costs before hillclimber, with own cables, without smart cables: 33721
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 5128 
+
+run: 308
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 33091. Seed: 8303 
+
+run: 309
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 6068 
+
+run: 310
+Costs before hillclimber, with own cables, without smart cables: 33289
+Costs after hillclimber, with own cables, without smart cables: 32686. Seed: 3985 
+
+run: 311
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 33199. Seed: 3284 
+
+run: 312
+Costs before hillclimber, with own cables, without smart cables: 33397
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 9649 
+
+run: 313
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 3145 
+
+run: 314
+Costs before hillclimber, with own cables, without smart cables: 33388
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 3428 
+
+run: 315
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 32515. Seed: 3849 
+
+run: 316
+Costs before hillclimber, with own cables, without smart cables: 33280
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 6483 
+
+run: 317
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 4412 
+
+run: 318
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 5089 
+
+run: 319
+Costs before hillclimber, with own cables, without smart cables: 33892
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 3574 
+
+run: 320
+Costs before hillclimber, with own cables, without smart cables: 33685
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 6009 
+
+run: 321
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 5509 
+
+run: 322
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 8761 
+
+run: 323
+Costs before hillclimber, with own cables, without smart cables: 34315
+Costs after hillclimber, with own cables, without smart cables: 33307. Seed: 4693 
+
+run: 324
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 4577 
+
+run: 325
+Costs before hillclimber, with own cables, without smart cables: 33397
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 4805 
+
+run: 326
+Costs before hillclimber, with own cables, without smart cables: 34522
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 6914 
+
+run: 327
+Costs before hillclimber, with own cables, without smart cables: 32857
+Costs after hillclimber, with own cables, without smart cables: 32551. Seed: 3361 
+
+run: 328
+Costs before hillclimber, with own cables, without smart cables: 33982
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 8029 
+
+run: 329
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 32605. Seed: 6307 
+
+run: 330
+Costs before hillclimber, with own cables, without smart cables: 33712
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 4761 
+
+run: 331
+Costs before hillclimber, with own cables, without smart cables: 33010
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 302 
+
+run: 332
+Costs before hillclimber, with own cables, without smart cables: 33550
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 6153 
+
+run: 333
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 33055. Seed: 3959 
+
+run: 334
+Costs before hillclimber, with own cables, without smart cables: 33955
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 362 
+
+run: 335
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 4783 
+
+run: 336
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 7217 
+
+run: 337
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 2952 
+
+run: 338
+Costs before hillclimber, with own cables, without smart cables: 33289
+Costs after hillclimber, with own cables, without smart cables: 32605. Seed: 6081 
+
+run: 339
+Costs before hillclimber, with own cables, without smart cables: 33280
+Costs after hillclimber, with own cables, without smart cables: 32515. Seed: 2894 
+
+run: 340
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 1410 
+
+run: 341
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 9820 
+
+run: 342
+Costs before hillclimber, with own cables, without smart cables: 33415
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 6897 
+
+run: 343
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 9443 
+
+run: 344
+Costs before hillclimber, with own cables, without smart cables: 33631
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 2772 
+
+run: 345
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 2250 
+
+run: 346
+Costs before hillclimber, with own cables, without smart cables: 33631
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 2210 
+
+run: 347
+Costs before hillclimber, with own cables, without smart cables: 34063
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 2585 
+
+run: 348
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 1166 
+
+run: 349
+Costs before hillclimber, with own cables, without smart cables: 34252
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 6958 
+
+run: 350
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32731. Seed: 8272 
+
+run: 351
+Costs before hillclimber, with own cables, without smart cables: 34720
+Costs after hillclimber, with own cables, without smart cables: 33289. Seed: 7879 
+
+run: 352
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 9760 
+
+run: 353
+Costs before hillclimber, with own cables, without smart cables: 33901
+Costs after hillclimber, with own cables, without smart cables: 32713. Seed: 1474 
+
+run: 354
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 121 
+
+run: 355
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 8166 
+
+run: 356
+Costs before hillclimber, with own cables, without smart cables: 35089
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 1474 
+
+run: 357
+Costs before hillclimber, with own cables, without smart cables: 33901
+Costs after hillclimber, with own cables, without smart cables: 33154. Seed: 1198 
+
+run: 358
+Costs before hillclimber, with own cables, without smart cables: 33829
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 6800 
+
+run: 359
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 3579 
+
+run: 360
+Costs before hillclimber, with own cables, without smart cables: 33964
+Costs after hillclimber, with own cables, without smart cables: 33208. Seed: 5770 
+
+run: 361
+Costs before hillclimber, with own cables, without smart cables: 33154
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 5408 
+
+run: 362
+Costs before hillclimber, with own cables, without smart cables: 33730
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 4030 
+
+run: 363
+Costs before hillclimber, with own cables, without smart cables: 34216
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 8685 
+
+run: 364
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 6290 
+
+run: 365
+Costs before hillclimber, with own cables, without smart cables: 33532
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 1983 
+
+run: 366
+Costs before hillclimber, with own cables, without smart cables: 32938
+Costs after hillclimber, with own cables, without smart cables: 32623. Seed: 7519 
+
+run: 367
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 6321 
+
+run: 368
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 9964 
+
+run: 369
+Costs before hillclimber, with own cables, without smart cables: 34315
+Costs after hillclimber, with own cables, without smart cables: 33217. Seed: 2697 
+
+run: 370
+Costs before hillclimber, with own cables, without smart cables: 33514
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 7112 
+
+run: 371
+Costs before hillclimber, with own cables, without smart cables: 34117
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 9226 
+
+run: 372
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 3244 
+
+run: 373
+Costs before hillclimber, with own cables, without smart cables: 34261
+Costs after hillclimber, with own cables, without smart cables: 33559. Seed: 7855 
+
+run: 374
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 1147 
+
+run: 375
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 3210 
+
+run: 376
+Costs before hillclimber, with own cables, without smart cables: 35152
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 1342 
+
+run: 377
+Costs before hillclimber, with own cables, without smart cables: 34549
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 7855 
+
+run: 378
+Costs before hillclimber, with own cables, without smart cables: 34198
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 4920 
+
+run: 379
+Costs before hillclimber, with own cables, without smart cables: 34567
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 5902 
+
+run: 380
+Costs before hillclimber, with own cables, without smart cables: 34504
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 4625 
+
+run: 381
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 3226 
+
+run: 382
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 33172. Seed: 3637 
+
+run: 383
+Costs before hillclimber, with own cables, without smart cables: 33865
+Costs after hillclimber, with own cables, without smart cables: 33172. Seed: 1554 
+
+run: 384
+Costs before hillclimber, with own cables, without smart cables: 33685
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 3284 
+
+run: 385
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 4071 
+
+run: 386
+Costs before hillclimber, with own cables, without smart cables: 34189
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 7627 
+
+run: 387
+Costs before hillclimber, with own cables, without smart cables: 33685
+Costs after hillclimber, with own cables, without smart cables: 32740. Seed: 5515 
+
+run: 388
+Costs before hillclimber, with own cables, without smart cables: 33514
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 4208 
+
+run: 389
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 5387 
+
+run: 390
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 9402 
+
+run: 391
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 7908 
+
+run: 392
+Costs before hillclimber, with own cables, without smart cables: 33811
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 2914 
+
+run: 393
+Costs before hillclimber, with own cables, without smart cables: 34666
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 5002 
+
+run: 394
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32686. Seed: 197 
+
+run: 395
+Costs before hillclimber, with own cables, without smart cables: 33964
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 5203 
+
+run: 396
+Costs before hillclimber, with own cables, without smart cables: 33622
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 4771 
+
+run: 397
+Costs before hillclimber, with own cables, without smart cables: 33901
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 4497 
+
+run: 398
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 3795 
+
+run: 399
+Costs before hillclimber, with own cables, without smart cables: 33820
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 5203 
+
+run: 400
+Costs before hillclimber, with own cables, without smart cables: 33334
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 3561 
+
+run: 401
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 355 
+
+run: 402
+Costs before hillclimber, with own cables, without smart cables: 33271
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 9918 
+
+run: 403
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 6551 
+
+run: 404
+Costs before hillclimber, with own cables, without smart cables: 34009
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 8900 
+
+run: 405
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 33163. Seed: 8002 
+
+run: 406
+Costs before hillclimber, with own cables, without smart cables: 34558
+Costs after hillclimber, with own cables, without smart cables: 33559. Seed: 9645 
+
+run: 407
+Costs before hillclimber, with own cables, without smart cables: 33865
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 5899 
+
+run: 408
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32416. Seed: 8664 
+
+run: 409
+Costs before hillclimber, with own cables, without smart cables: 34054
+Costs after hillclimber, with own cables, without smart cables: 32731. Seed: 4615 
+
+run: 410
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 5531 
+
+run: 411
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 9138 
+
+run: 412
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 5902 
+
+run: 413
+Costs before hillclimber, with own cables, without smart cables: 33109
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 4417 
+
+run: 414
+Costs before hillclimber, with own cables, without smart cables: 33811
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 743 
+
+run: 415
+Costs before hillclimber, with own cables, without smart cables: 34243
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 3904 
+
+run: 416
+Costs before hillclimber, with own cables, without smart cables: 33991
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 3310 
+
+run: 417
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 33325. Seed: 9009 
+
+run: 418
+Costs before hillclimber, with own cables, without smart cables: 34090
+Costs after hillclimber, with own cables, without smart cables: 33541. Seed: 7904 
+
+run: 419
+Costs before hillclimber, with own cables, without smart cables: 34171
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 8969 
+
+run: 420
+Costs before hillclimber, with own cables, without smart cables: 33226
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 8982 
+
+run: 421
+Costs before hillclimber, with own cables, without smart cables: 33991
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 2000 
+
+run: 422
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 889 
+
+run: 423
+Costs before hillclimber, with own cables, without smart cables: 34234
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 4160 
+
+run: 424
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 6953 
+
+run: 425
+Costs before hillclimber, with own cables, without smart cables: 34891
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 2000 
+
+run: 426
+Costs before hillclimber, with own cables, without smart cables: 33064
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 646 
+
+run: 427
+Costs before hillclimber, with own cables, without smart cables: 34882
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 9472 
+
+run: 428
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 9204 
+
+run: 429
+Costs before hillclimber, with own cables, without smart cables: 34711
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 4139 
+
+run: 430
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 1602 
+
+run: 431
+Costs before hillclimber, with own cables, without smart cables: 33289
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 5993 
+
+run: 432
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 3561 
+
+run: 433
+Costs before hillclimber, with own cables, without smart cables: 33919
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 8531 
+
+run: 434
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 33496. Seed: 5770 
+
+run: 435
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 33226. Seed: 9800 
+
+run: 436
+Costs before hillclimber, with own cables, without smart cables: 33379
+Costs after hillclimber, with own cables, without smart cables: 32713. Seed: 3345 
+
+run: 437
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 1166 
+
+run: 438
+Costs before hillclimber, with own cables, without smart cables: 33379
+Costs after hillclimber, with own cables, without smart cables: 33190. Seed: 7169 
+
+run: 439
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 32515. Seed: 5958 
+
+run: 440
+Costs before hillclimber, with own cables, without smart cables: 33514
+Costs after hillclimber, with own cables, without smart cables: 32740. Seed: 694 
+
+run: 441
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 7260 
+
+run: 442
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 8128 
+
+run: 443
+Costs before hillclimber, with own cables, without smart cables: 34369
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 2952 
+
+run: 444
+Costs before hillclimber, with own cables, without smart cables: 34387
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 116 
+
+run: 445
+Costs before hillclimber, with own cables, without smart cables: 33955
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 6845 
+
+run: 446
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 121 
+
+run: 447
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 3583 
+
+run: 448
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 7230 
+
+run: 449
+Costs before hillclimber, with own cables, without smart cables: 33838
+Costs after hillclimber, with own cables, without smart cables: 33433. Seed: 5056 
+
+run: 450
+Costs before hillclimber, with own cables, without smart cables: 34135
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 4257 
+
+run: 451
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 9963 
+
+run: 452
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 8969 
+
+run: 453
+Costs before hillclimber, with own cables, without smart cables: 33145
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 3090 
+
+run: 454
+Costs before hillclimber, with own cables, without smart cables: 33037
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 5779 
+
+run: 455
+Costs before hillclimber, with own cables, without smart cables: 33262
+Costs after hillclimber, with own cables, without smart cables: 33406. Seed: 65 
+
+run: 456
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 2210 
+
+run: 457
+Costs before hillclimber, with own cables, without smart cables: 34639
+Costs after hillclimber, with own cables, without smart cables: 33352. Seed: 6131 
+
+run: 458
+Costs before hillclimber, with own cables, without smart cables: 34243
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 2237 
+
+run: 459
+Costs before hillclimber, with own cables, without smart cables: 33037
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 4160 
+
+run: 460
+Costs before hillclimber, with own cables, without smart cables: 34054
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 4783 
+
+run: 461
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 6817 
+
+run: 462
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 1320 
+
+run: 463
+Costs before hillclimber, with own cables, without smart cables: 34846
+Costs after hillclimber, with own cables, without smart cables: 32695. Seed: 3817 
+
+run: 464
+Costs before hillclimber, with own cables, without smart cables: 34144
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 9937 
+
+run: 465
+Costs before hillclimber, with own cables, without smart cables: 33181
+Costs after hillclimber, with own cables, without smart cables: 32632. Seed: 1190 
+
+run: 466
+Costs before hillclimber, with own cables, without smart cables: 34477
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 6265 
+
+run: 467
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 3831 
+
+run: 468
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 7245 
+
+run: 469
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 32731. Seed: 1096 
+
+run: 470
+Costs before hillclimber, with own cables, without smart cables: 34333
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 3561 
+
+run: 471
+Costs before hillclimber, with own cables, without smart cables: 34027
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 8702 
+
+run: 472
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 5245 
+
+run: 473
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 531 
+
+run: 474
+Costs before hillclimber, with own cables, without smart cables: 33730
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 2508 
+
+run: 475
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 5569 
+
+run: 476
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 468 
+
+run: 477
+Costs before hillclimber, with own cables, without smart cables: 34171
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 5409 
+
+run: 478
+Costs before hillclimber, with own cables, without smart cables: 34189
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 3672 
+
+run: 479
+Costs before hillclimber, with own cables, without smart cables: 33622
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 1428 
+
+run: 480
+Costs before hillclimber, with own cables, without smart cables: 33766
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 4496 
+
+run: 481
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 4349 
+
+run: 482
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 3298 
+
+run: 483
+Costs before hillclimber, with own cables, without smart cables: 34261
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 114 
+
+run: 484
+Costs before hillclimber, with own cables, without smart cables: 33730
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 2710 
+
+run: 485
+Costs before hillclimber, with own cables, without smart cables: 33505
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 8004 
+
+run: 486
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 9961 
+
+run: 487
+Costs before hillclimber, with own cables, without smart cables: 33388
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 2328 
+
+run: 488
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 5451 
+
+run: 489
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 3167 
+
+run: 490
+Costs before hillclimber, with own cables, without smart cables: 33478
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 6512 
+
+run: 491
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 2435 
+
+run: 492
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 7788 
+
+run: 493
+Costs before hillclimber, with own cables, without smart cables: 33982
+Costs after hillclimber, with own cables, without smart cables: 33226. Seed: 8070 
+
+run: 494
+Costs before hillclimber, with own cables, without smart cables: 33757
+Costs after hillclimber, with own cables, without smart cables: 33064. Seed: 5435 
+
+run: 495
+Costs before hillclimber, with own cables, without smart cables: 33433
+Costs after hillclimber, with own cables, without smart cables: 32524. Seed: 6186 
+
+run: 496
+Costs before hillclimber, with own cables, without smart cables: 33415
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 6897 
+
+run: 497
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 3703 
+
+run: 498
+Costs before hillclimber, with own cables, without smart cables: 33091
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 5056 
+
+run: 499
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 3858 
+
+run: 500
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 410 
+
+run: 501
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 3210 
+
+run: 502
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 33208. Seed: 1765 
+
+run: 503
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 114 
+
+run: 504
+Costs before hillclimber, with own cables, without smart cables: 33118
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 2759 
+
+run: 505
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 33118. Seed: 8969 
+
+run: 506
+Costs before hillclimber, with own cables, without smart cables: 33631
+Costs after hillclimber, with own cables, without smart cables: 33217. Seed: 1320 
+
+run: 507
+Costs before hillclimber, with own cables, without smart cables: 33199
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 2048 
+
+run: 508
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 9981 
+
+run: 509
+Costs before hillclimber, with own cables, without smart cables: 34180
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 9332 
+
+run: 510
+Costs before hillclimber, with own cables, without smart cables: 33190
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 3966 
+
+run: 511
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 6306 
+
+run: 512
+Costs before hillclimber, with own cables, without smart cables: 33127
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 2868 
+
+run: 513
+Costs before hillclimber, with own cables, without smart cables: 34081
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 1503 
+
+run: 514
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 6543 
+
+run: 515
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 3249 
+
+run: 516
+Costs before hillclimber, with own cables, without smart cables: 33811
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 9961 
+
+run: 517
+Costs before hillclimber, with own cables, without smart cables: 33829
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 5032 
+
+run: 518
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 8303 
+
+run: 519
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 33226. Seed: 531 
+
+run: 520
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32740. Seed: 4903 
+
+run: 521
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 6290 
+
+run: 522
+Costs before hillclimber, with own cables, without smart cables: 33307
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 3795 
+
+run: 523
+Costs before hillclimber, with own cables, without smart cables: 34270
+Costs after hillclimber, with own cables, without smart cables: 33370. Seed: 2284 
+
+run: 524
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33055. Seed: 514 
+
+run: 525
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32506. Seed: 6068 
+
+run: 526
+Costs before hillclimber, with own cables, without smart cables: 34369
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 2952 
+
+run: 527
+Costs before hillclimber, with own cables, without smart cables: 33523
+Costs after hillclimber, with own cables, without smart cables: 32713. Seed: 3601 
+
+run: 528
+Costs before hillclimber, with own cables, without smart cables: 34846
+Costs after hillclimber, with own cables, without smart cables: 33523. Seed: 4554 
+
+run: 529
+Costs before hillclimber, with own cables, without smart cables: 33379
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 7436 
+
+run: 530
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 8612 
+
+run: 531
+Costs before hillclimber, with own cables, without smart cables: 33388
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 5128 
+
+run: 532
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32524. Seed: 8224 
+
+run: 533
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 33190. Seed: 6923 
+
+run: 534
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 1135 
+
+run: 535
+Costs before hillclimber, with own cables, without smart cables: 34369
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 2986 
+
+run: 536
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 33334. Seed: 4861 
+
+run: 537
+Costs before hillclimber, with own cables, without smart cables: 33415
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 6561 
+
+run: 538
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 4973 
+
+run: 539
+Costs before hillclimber, with own cables, without smart cables: 34090
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 4025 
+
+run: 540
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33253. Seed: 943 
+
+run: 541
+Costs before hillclimber, with own cables, without smart cables: 34018
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 9504 
+
+run: 542
+Costs before hillclimber, with own cables, without smart cables: 33100
+Costs after hillclimber, with own cables, without smart cables: 33055. Seed: 9058 
+
+run: 543
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 332 
+
+run: 544
+Costs before hillclimber, with own cables, without smart cables: 33388
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 785 
+
+run: 545
+Costs before hillclimber, with own cables, without smart cables: 33667
+Costs after hillclimber, with own cables, without smart cables: 32425. Seed: 4789 
+
+run: 546
+Costs before hillclimber, with own cables, without smart cables: 33757
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7710 
+
+run: 547
+Costs before hillclimber, with own cables, without smart cables: 34126
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 8488 
+
+run: 548
+Costs before hillclimber, with own cables, without smart cables: 33883
+Costs after hillclimber, with own cables, without smart cables: 32731. Seed: 2972 
+
+run: 549
+Costs before hillclimber, with own cables, without smart cables: 34000
+Costs after hillclimber, with own cables, without smart cables: 32524. Seed: 8969 
+
+run: 550
+Costs before hillclimber, with own cables, without smart cables: 33388
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 3166 
+
+run: 551
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 5480 
+
+run: 552
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 7973 
+
+run: 553
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 5776 
+
+run: 554
+Costs before hillclimber, with own cables, without smart cables: 33010
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 754 
+
+run: 555
+Costs before hillclimber, with own cables, without smart cables: 33352
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 6011 
+
+run: 556
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 33082. Seed: 9220 
+
+run: 557
+Costs before hillclimber, with own cables, without smart cables: 33226
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 648 
+
+run: 558
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 6725 
+
+run: 559
+Costs before hillclimber, with own cables, without smart cables: 33685
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 1783 
+
+run: 560
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 33172. Seed: 9629 
+
+run: 561
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 5785 
+
+run: 562
+Costs before hillclimber, with own cables, without smart cables: 33757
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 1783 
+
+run: 563
+Costs before hillclimber, with own cables, without smart cables: 34414
+Costs after hillclimber, with own cables, without smart cables: 33415. Seed: 8070 
+
+run: 564
+Costs before hillclimber, with own cables, without smart cables: 33208
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 3226 
+
+run: 565
+Costs before hillclimber, with own cables, without smart cables: 33505
+Costs after hillclimber, with own cables, without smart cables: 32533. Seed: 2249 
+
+run: 566
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32713. Seed: 5650 
+
+run: 567
+Costs before hillclimber, with own cables, without smart cables: 33685
+Costs after hillclimber, with own cables, without smart cables: 32416. Seed: 2210 
+
+run: 568
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 7015 
+
+run: 569
+Costs before hillclimber, with own cables, without smart cables: 33100
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 5734 
+
+run: 570
+Costs before hillclimber, with own cables, without smart cables: 33460
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 7128 
+
+run: 571
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 128 
+
+run: 572
+Costs before hillclimber, with own cables, without smart cables: 32974
+Costs after hillclimber, with own cables, without smart cables: 32524. Seed: 6228 
+
+run: 573
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 33019. Seed: 9654 
+
+run: 574
+Costs before hillclimber, with own cables, without smart cables: 33811
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 2914 
+
+run: 575
+Costs before hillclimber, with own cables, without smart cables: 33550
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 8410 
+
+run: 576
+Costs before hillclimber, with own cables, without smart cables: 33451
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 355 
+
+run: 577
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 2081 
+
+run: 578
+Costs before hillclimber, with own cables, without smart cables: 34198
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 9890 
+
+run: 579
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 8208 
+
+run: 580
+Costs before hillclimber, with own cables, without smart cables: 33874
+Costs after hillclimber, with own cables, without smart cables: 32632. Seed: 8431 
+
+run: 581
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 7925 
+
+run: 582
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 1239 
+
+run: 583
+Costs before hillclimber, with own cables, without smart cables: 33730
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 1883 
+
+run: 584
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 33064. Seed: 7867 
+
+run: 585
+Costs before hillclimber, with own cables, without smart cables: 33046
+Costs after hillclimber, with own cables, without smart cables: 32542. Seed: 2972 
+
+run: 586
+Costs before hillclimber, with own cables, without smart cables: 34252
+Costs after hillclimber, with own cables, without smart cables: 32938. Seed: 9359 
+
+run: 587
+Costs before hillclimber, with own cables, without smart cables: 33829
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 1900 
+
+run: 588
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 1592 
+
+run: 589
+Costs before hillclimber, with own cables, without smart cables: 33937
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7169 
+
+run: 590
+Costs before hillclimber, with own cables, without smart cables: 33505
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 620 
+
+run: 591
+Costs before hillclimber, with own cables, without smart cables: 34378
+Costs after hillclimber, with own cables, without smart cables: 32713. Seed: 8181 
+
+run: 592
+Costs before hillclimber, with own cables, without smart cables: 33037
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 705 
+
+run: 593
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 3226 
+
+run: 594
+Costs before hillclimber, with own cables, without smart cables: 33514
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 246 
+
+run: 595
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 8776 
+
+run: 596
+Costs before hillclimber, with own cables, without smart cables: 33586
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 8868 
+
+run: 597
+Costs before hillclimber, with own cables, without smart cables: 34117
+Costs after hillclimber, with own cables, without smart cables: 33271. Seed: 5942 
+
+run: 598
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 8626 
+
+run: 599
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 3137 
+
+run: 600
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 33235. Seed: 9288 
+
+run: 601
+Costs before hillclimber, with own cables, without smart cables: 33901
+Costs after hillclimber, with own cables, without smart cables: 33523. Seed: 1460 
+
+run: 602
+Costs before hillclimber, with own cables, without smart cables: 33361
+Costs after hillclimber, with own cables, without smart cables: 32488. Seed: 4850 
+
+run: 603
+Costs before hillclimber, with own cables, without smart cables: 33280
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 6483 
+
+run: 604
+Costs before hillclimber, with own cables, without smart cables: 33289
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 1566 
+
+run: 605
+Costs before hillclimber, with own cables, without smart cables: 33424
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 3750 
+
+run: 606
+Costs before hillclimber, with own cables, without smart cables: 33487
+Costs after hillclimber, with own cables, without smart cables: 33334. Seed: 9124 
+
+run: 607
+Costs before hillclimber, with own cables, without smart cables: 33820
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 9751 
+
+run: 608
+Costs before hillclimber, with own cables, without smart cables: 33460
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 7160 
+
+run: 609
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 1410 
+
+run: 610
+Costs before hillclimber, with own cables, without smart cables: 34504
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 1554 
+
+run: 611
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 8585 
+
+run: 612
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 9947 
+
+run: 613
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 32641. Seed: 5650 
+
+run: 614
+Costs before hillclimber, with own cables, without smart cables: 33676
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 6290 
+
+run: 615
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 944 
+
+run: 616
+Costs before hillclimber, with own cables, without smart cables: 33397
+Costs after hillclimber, with own cables, without smart cables: 32416. Seed: 2159 
+
+run: 617
+Costs before hillclimber, with own cables, without smart cables: 34207
+Costs after hillclimber, with own cables, without smart cables: 33289. Seed: 6538 
+
+run: 618
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32416. Seed: 2115 
+
+run: 619
+Costs before hillclimber, with own cables, without smart cables: 33253
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 998 
+
+run: 620
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 33217. Seed: 9347 
+
+run: 621
+Costs before hillclimber, with own cables, without smart cables: 33541
+Costs after hillclimber, with own cables, without smart cables: 32983. Seed: 3789 
+
+run: 622
+Costs before hillclimber, with own cables, without smart cables: 33388
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 8831 
+
+run: 623
+Costs before hillclimber, with own cables, without smart cables: 34198
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 3499 
+
+run: 624
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 33172. Seed: 7346 
+
+run: 625
+Costs before hillclimber, with own cables, without smart cables: 34648
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 8150 
+
+run: 626
+Costs before hillclimber, with own cables, without smart cables: 33964
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 5203 
+
+run: 627
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 7542 
+
+run: 628
+Costs before hillclimber, with own cables, without smart cables: 34234
+Costs after hillclimber, with own cables, without smart cables: 33262. Seed: 8894 
+
+run: 629
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 32722. Seed: 1128 
+
+run: 630
+Costs before hillclimber, with own cables, without smart cables: 33244
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 8708 
+
+run: 631
+Costs before hillclimber, with own cables, without smart cables: 34018
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 1198 
+
+run: 632
+Costs before hillclimber, with own cables, without smart cables: 33118
+Costs after hillclimber, with own cables, without smart cables: 32722. Seed: 9807 
+
+run: 633
+Costs before hillclimber, with own cables, without smart cables: 34585
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 5783 
+
+run: 634
+Costs before hillclimber, with own cables, without smart cables: 33604
+Costs after hillclimber, with own cables, without smart cables: 33163. Seed: 5673 
+
+run: 635
+Costs before hillclimber, with own cables, without smart cables: 34009
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 7991 
+
+run: 636
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 8532 
+
+run: 637
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 513 
+
+run: 638
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 51 
+
+run: 639
+Costs before hillclimber, with own cables, without smart cables: 33163
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 9753 
+
+run: 640
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32803. Seed: 4933 
+
+run: 641
+Costs before hillclimber, with own cables, without smart cables: 34333
+Costs after hillclimber, with own cables, without smart cables: 33208. Seed: 9404 
+
+run: 642
+Costs before hillclimber, with own cables, without smart cables: 34360
+Costs after hillclimber, with own cables, without smart cables: 33199. Seed: 2449 
+
+run: 643
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32434. Seed: 5456 
+
+run: 644
+Costs before hillclimber, with own cables, without smart cables: 33415
+Costs after hillclimber, with own cables, without smart cables: 33154. Seed: 2435 
+
+run: 645
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 32686. Seed: 2531 
+
+run: 646
+Costs before hillclimber, with own cables, without smart cables: 34018
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 3428 
+
+run: 647
+Costs before hillclimber, with own cables, without smart cables: 33091
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 1029 
+
+run: 648
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 6131 
+
+run: 649
+Costs before hillclimber, with own cables, without smart cables: 34594
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 7254 
+
+run: 650
+Costs before hillclimber, with own cables, without smart cables: 33748
+Costs after hillclimber, with own cables, without smart cables: 32686. Seed: 4761 
+
+run: 651
+Costs before hillclimber, with own cables, without smart cables: 33433
+Costs after hillclimber, with own cables, without smart cables: 32839. Seed: 5707 
+
+run: 652
+Costs before hillclimber, with own cables, without smart cables: 33082
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 8099 
+
+run: 653
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 32587. Seed: 6975 
+
+run: 654
+Costs before hillclimber, with own cables, without smart cables: 34036
+Costs after hillclimber, with own cables, without smart cables: 32731. Seed: 5731 
+
+run: 655
+Costs before hillclimber, with own cables, without smart cables: 33703
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 6005 
+
+run: 656
+Costs before hillclimber, with own cables, without smart cables: 33766
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 5869 
+
+run: 657
+Costs before hillclimber, with own cables, without smart cables: 34117
+Costs after hillclimber, with own cables, without smart cables: 32551. Seed: 6571 
+
+run: 658
+Costs before hillclimber, with own cables, without smart cables: 34459
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 8827 
+
+run: 659
+Costs before hillclimber, with own cables, without smart cables: 33163
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 2188 
+
+run: 660
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 3103 
+
+run: 661
+Costs before hillclimber, with own cables, without smart cables: 33559
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 5902 
+
+run: 662
+Costs before hillclimber, with own cables, without smart cables: 33307
+Costs after hillclimber, with own cables, without smart cables: 32749. Seed: 8947 
+
+run: 663
+Costs before hillclimber, with own cables, without smart cables: 34297
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 6551 
+
+run: 664
+Costs before hillclimber, with own cables, without smart cables: 33667
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 3604 
+
+run: 665
+Costs before hillclimber, with own cables, without smart cables: 34009
+Costs after hillclimber, with own cables, without smart cables: 32605. Seed: 7148 
+
+run: 666
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 33064. Seed: 8531 
+
+run: 667
+Costs before hillclimber, with own cables, without smart cables: 33460
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 7838 
+
+run: 668
+Costs before hillclimber, with own cables, without smart cables: 33712
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 451 
+
+run: 669
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 84 
+
+run: 670
+Costs before hillclimber, with own cables, without smart cables: 33784
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 9220 
+
+run: 671
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 6975 
+
+run: 672
+Costs before hillclimber, with own cables, without smart cables: 34189
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 7627 
+
+run: 673
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 7959 
+
+run: 674
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 7037 
+
+run: 675
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 7567 
+
+run: 676
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 33136. Seed: 4165 
+
+run: 677
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 32866. Seed: 614 
+
+run: 678
+Costs before hillclimber, with own cables, without smart cables: 33802
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 8868 
+
+run: 679
+Costs before hillclimber, with own cables, without smart cables: 33208
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 5779 
+
+run: 680
+Costs before hillclimber, with own cables, without smart cables: 33757
+Costs after hillclimber, with own cables, without smart cables: 33001. Seed: 7925 
+
+run: 681
+Costs before hillclimber, with own cables, without smart cables: 34045
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 4942 
+
+run: 682
+Costs before hillclimber, with own cables, without smart cables: 34720
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 6774 
+
+run: 683
+Costs before hillclimber, with own cables, without smart cables: 33379
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 6463 
+
+run: 684
+Costs before hillclimber, with own cables, without smart cables: 33883
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 7367 
+
+run: 685
+Costs before hillclimber, with own cables, without smart cables: 34117
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 5203 
+
+run: 686
+Costs before hillclimber, with own cables, without smart cables: 33613
+Costs after hillclimber, with own cables, without smart cables: 32677. Seed: 6131 
+
+run: 687
+Costs before hillclimber, with own cables, without smart cables: 34513
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 2221 
+
+run: 688
+Costs before hillclimber, with own cables, without smart cables: 33739
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 8532 
+
+run: 689
+Costs before hillclimber, with own cables, without smart cables: 33820
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 3166 
+
+run: 690
+Costs before hillclimber, with own cables, without smart cables: 33982
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 4928 
+
+run: 691
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 7160 
+
+run: 692
+Costs before hillclimber, with own cables, without smart cables: 33208
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 8497 
+
+run: 693
+Costs before hillclimber, with own cables, without smart cables: 34504
+Costs after hillclimber, with own cables, without smart cables: 32767. Seed: 387 
+
+run: 694
+Costs before hillclimber, with own cables, without smart cables: 33820
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 8225 
+
+run: 695
+Costs before hillclimber, with own cables, without smart cables: 34432
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 3741 
+
+run: 696
+Costs before hillclimber, with own cables, without smart cables: 33253
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 7813 
+
+run: 697
+Costs before hillclimber, with own cables, without smart cables: 34405
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 8969 
+
+run: 698
+Costs before hillclimber, with own cables, without smart cables: 33577
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 11 
+
+run: 699
+Costs before hillclimber, with own cables, without smart cables: 34072
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 267 
+
+run: 700
+Costs before hillclimber, with own cables, without smart cables: 33433
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 5480 
+
+run: 701
+Costs before hillclimber, with own cables, without smart cables: 33640
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 6098 
+
+run: 702
+Costs before hillclimber, with own cables, without smart cables: 33856
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 625 
+
+run: 703
+Costs before hillclimber, with own cables, without smart cables: 34324
+Costs after hillclimber, with own cables, without smart cables: 33343. Seed: 225 
+
+run: 704
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 32875. Seed: 2651 
+
+run: 705
+Costs before hillclimber, with own cables, without smart cables: 33514
+Costs after hillclimber, with own cables, without smart cables: 32848. Seed: 3643 
+
+run: 706
+Costs before hillclimber, with own cables, without smart cables: 33730
+Costs after hillclimber, with own cables, without smart cables: 33091. Seed: 2561 
+
+run: 707
+Costs before hillclimber, with own cables, without smart cables: 33649
+Costs after hillclimber, with own cables, without smart cables: 32533. Seed: 1816 
+
+run: 708
+Costs before hillclimber, with own cables, without smart cables: 33802
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 2015 
+
+run: 709
+Costs before hillclimber, with own cables, without smart cables: 34144
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 4928 
+
+run: 710
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32614. Seed: 7973 
+
+run: 711
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 32632. Seed: 3694 
+
+run: 712
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 33289. Seed: 5646 
+
+run: 713
+Costs before hillclimber, with own cables, without smart cables: 33730
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 4382 
+
+run: 714
+Costs before hillclimber, with own cables, without smart cables: 33622
+Costs after hillclimber, with own cables, without smart cables: 33487. Seed: 8070 
+
+run: 715
+Costs before hillclimber, with own cables, without smart cables: 34702
+Costs after hillclimber, with own cables, without smart cables: 32893. Seed: 3502 
+
+run: 716
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32704. Seed: 9053 
+
+run: 717
+Costs before hillclimber, with own cables, without smart cables: 33595
+Costs after hillclimber, with own cables, without smart cables: 33109. Seed: 3210 
+
+run: 718
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 32785. Seed: 4582 
+
+run: 719
+Costs before hillclimber, with own cables, without smart cables: 33775
+Costs after hillclimber, with own cables, without smart cables: 32947. Seed: 9291 
+
+run: 720
+Costs before hillclimber, with own cables, without smart cables: 33307
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 2457 
+
+run: 721
+Costs before hillclimber, with own cables, without smart cables: 33262
+Costs after hillclimber, with own cables, without smart cables: 33055. Seed: 20 
+
+run: 722
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 33145. Seed: 3210 
+
+run: 723
+Costs before hillclimber, with own cables, without smart cables: 34720
+Costs after hillclimber, with own cables, without smart cables: 33496. Seed: 5132 
+
+run: 724
+Costs before hillclimber, with own cables, without smart cables: 33901
+Costs after hillclimber, with own cables, without smart cables: 32533. Seed: 9791 
+
+run: 725
+Costs before hillclimber, with own cables, without smart cables: 34243
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 1544 
+
+run: 726
+Costs before hillclimber, with own cables, without smart cables: 33226
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 9284 
+
+run: 727
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 2772 
+
+run: 728
+Costs before hillclimber, with own cables, without smart cables: 33847
+Costs after hillclimber, with own cables, without smart cables: 32974. Seed: 6679 
+
+run: 729
+Costs before hillclimber, with own cables, without smart cables: 34423
+Costs after hillclimber, with own cables, without smart cables: 33154. Seed: 4942 
+
+run: 730
+Costs before hillclimber, with own cables, without smart cables: 33442
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 5734 
+
+run: 731
+Costs before hillclimber, with own cables, without smart cables: 34567
+Costs after hillclimber, with own cables, without smart cables: 32830. Seed: 3959 
+
+run: 732
+Costs before hillclimber, with own cables, without smart cables: 33262
+Costs after hillclimber, with own cables, without smart cables: 32722. Seed: 7519 
+
+run: 733
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 32722. Seed: 2396 
+
+run: 734
+Costs before hillclimber, with own cables, without smart cables: 33163
+Costs after hillclimber, with own cables, without smart cables: 33037. Seed: 787 
+
+run: 735
+Costs before hillclimber, with own cables, without smart cables: 34099
+Costs after hillclimber, with own cables, without smart cables: 33298. Seed: 9961 
+
+run: 736
+Costs before hillclimber, with own cables, without smart cables: 33928
+Costs after hillclimber, with own cables, without smart cables: 33415. Seed: 9232 
+
+run: 737
+Costs before hillclimber, with own cables, without smart cables: 34612
+Costs after hillclimber, with own cables, without smart cables: 33397. Seed: 252 
+
+run: 738
+Costs before hillclimber, with own cables, without smart cables: 33991
+Costs after hillclimber, with own cables, without smart cables: 33271. Seed: 3210 
+
+run: 739
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 33127. Seed: 6005 
+
+run: 740
+Costs before hillclimber, with own cables, without smart cables: 34252
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 3249 
+
+run: 741
+Costs before hillclimber, with own cables, without smart cables: 34261
+Costs after hillclimber, with own cables, without smart cables: 33676. Seed: 5682 
+
+run: 742
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 33064. Seed: 8748 
+
+run: 743
+Costs before hillclimber, with own cables, without smart cables: 33478
+Costs after hillclimber, with own cables, without smart cables: 32911. Seed: 6265 
+
+run: 744
+Costs before hillclimber, with own cables, without smart cables: 33352
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 4071 
+
+run: 745
+Costs before hillclimber, with own cables, without smart cables: 33568
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 8085 
+
+run: 746
+Costs before hillclimber, with own cables, without smart cables: 34027
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 6483 
+
+run: 747
+Costs before hillclimber, with own cables, without smart cables: 33721
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 8510 
+
+run: 748
+Costs before hillclimber, with own cables, without smart cables: 34288
+Costs after hillclimber, with own cables, without smart cables: 33505. Seed: 9289 
+
+run: 749
+Costs before hillclimber, with own cables, without smart cables: 33406
+Costs after hillclimber, with own cables, without smart cables: 33154. Seed: 5203 
+
+run: 750
+Costs before hillclimber, with own cables, without smart cables: 33838
+Costs after hillclimber, with own cables, without smart cables: 33028. Seed: 5664 
+
+run: 751
+Costs before hillclimber, with own cables, without smart cables: 34243
+Costs after hillclimber, with own cables, without smart cables: 32965. Seed: 2858 
+
+run: 752
+Costs before hillclimber, with own cables, without smart cables: 33991
+Costs after hillclimber, with own cables, without smart cables: 33181. Seed: 3740 
+
+run: 753
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 32884. Seed: 6309 
+
+run: 754
+Costs before hillclimber, with own cables, without smart cables: 34027
+Costs after hillclimber, with own cables, without smart cables: 32668. Seed: 726 
+
+run: 755
+Costs before hillclimber, with own cables, without smart cables: 34153
+Costs after hillclimber, with own cables, without smart cables: 32758. Seed: 454 
+
+run: 756
+Costs before hillclimber, with own cables, without smart cables: 33766
+Costs after hillclimber, with own cables, without smart cables: 32956. Seed: 7310 
+
+run: 757
+Costs before hillclimber, with own cables, without smart cables: 33316
+Costs after hillclimber, with own cables, without smart cables: 32659. Seed: 4750 
+
+run: 758
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 32776. Seed: 8070 
+
+run: 759
+Costs before hillclimber, with own cables, without smart cables: 34648
+Costs after hillclimber, with own cables, without smart cables: 33487. Seed: 2005 
+
+run: 760
+Costs before hillclimber, with own cables, without smart cables: 33883
+Costs after hillclimber, with own cables, without smart cables: 32929. Seed: 3683 
+
+run: 761
+Costs before hillclimber, with own cables, without smart cables: 33910
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 4764 
+
+run: 762
+Costs before hillclimber, with own cables, without smart cables: 33370
+Costs after hillclimber, with own cables, without smart cables: 32722. Seed: 8854 
+
+run: 763
+Costs before hillclimber, with own cables, without smart cables: 33118
+Costs after hillclimber, with own cables, without smart cables: 32794. Seed: 9760 
+
+run: 764
+Costs before hillclimber, with own cables, without smart cables: 33271
+Costs after hillclimber, with own cables, without smart cables: 32857. Seed: 6680 
+
+run: 765
+Costs before hillclimber, with own cables, without smart cables: 34009
+Costs after hillclimber, with own cables, without smart cables: 33100. Seed: 7991 
+
+run: 766
+Costs before hillclimber, with own cables, without smart cables: 34054
+Costs after hillclimber, with own cables, without smart cables: 32821. Seed: 964 
+
+run: 767
+Costs before hillclimber, with own cables, without smart cables: 32974
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 4412 
+
+run: 768
+Costs before hillclimber, with own cables, without smart cables: 33892
+Costs after hillclimber, with own cables, without smart cables: 33361. Seed: 2736 
+
+run: 769
+Costs before hillclimber, with own cables, without smart cables: 33100
+Costs after hillclimber, with own cables, without smart cables: 32650. Seed: 5734 
+
+run: 770
+Costs before hillclimber, with own cables, without smart cables: 33802
+Costs after hillclimber, with own cables, without smart cables: 33046. Seed: 2710 
+
+run: 771
+Costs before hillclimber, with own cables, without smart cables: 33973
+Costs after hillclimber, with own cables, without smart cables: 32902. Seed: 2729 
+
+run: 772
+Costs before hillclimber, with own cables, without smart cables: 34234
+Costs after hillclimber, with own cables, without smart cables: 33010. Seed: 8344 
+
+run: 773
+Costs before hillclimber, with own cables, without smart cables: 33658
+Costs after hillclimber, with own cables, without smart cables: 32992. Seed: 3503 
+
+run: 774
+Costs before hillclimber, with own cables, without smart cables: 33802
+Costs after hillclimber, with own cables, without smart cables: 33163. Seed: 5729 
+
+run: 775
+Costs before hillclimber, with own cables, without smart cables: 33181
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 3358 
+
+run: 776
+Costs before hillclimber, with own cables, without smart cables: 33982
+Costs after hillclimber, with own cables, without smart cables: 32713. Seed: 834 
+
+run: 777
+Costs before hillclimber, with own cables, without smart cables: 33694
+Costs after hillclimber, with own cables, without smart cables: 33073. Seed: 5764 
+
+run: 778
+Costs before hillclimber, with own cables, without smart cables: 33469
+Costs after hillclimber, with own cables, without smart cables: 33091. Seed: 3797 
+
+run: 779
+Costs before hillclimber, with own cables, without smart cables: 33127
+Costs after hillclimber, with own cables, without smart cables: 32812. Seed: 3895 
+
+run: 780
+Costs before hillclimber, with own cables, without smart cables: 33793
+Costs after hillclimber, with own cables, without smart cables: 32920. Seed: 987
+
+
+781 runs in 30 minutes

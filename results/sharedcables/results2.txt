@@ -1,0 +1,1582 @@
+Best Costs: 32443, seed: 525
+
+run: 0 
+result: 34333 
+seed: 403 
+run: 1 
+No valid solution found 
+run: 2 
+result: 34108 
+seed: 2285 
+run: 3 
+No valid solution found 
+run: 4 
+result: 33415 
+seed: 9283 
+run: 5 
+result: 33100 
+seed: 5008 
+run: 6 
+result: 34747 
+seed: 1545 
+run: 7 
+No valid solution found 
+run: 8 
+result: 34909 
+seed: 2903 
+run: 9 
+result: 32821 
+seed: 9804 
+run: 10 
+result: 33730 
+seed: 6473 
+run: 11 
+No valid solution found 
+run: 12 
+result: 33226 
+seed: 4563 
+run: 13 
+result: 34495 
+seed: 137 
+run: 14 
+No valid solution found 
+run: 15 
+No valid solution found 
+run: 16 
+result: 33154 
+seed: 471 
+run: 17 
+result: 34531 
+seed: 1709 
+run: 18 
+No valid solution found 
+run: 19 
+result: 33721 
+seed: 7730 
+run: 20 
+result: 34207 
+seed: 8501 
+run: 21 
+result: 33388 
+seed: 4822 
+run: 22 
+result: 34126 
+seed: 1421 
+run: 23 
+result: 32956 
+seed: 4989 
+run: 24 
+result: 32938 
+seed: 244 
+run: 25 
+result: 34036 
+seed: 8195 
+run: 26 
+result: 32938 
+seed: 1031 
+run: 27 
+result: 34630 
+seed: 3623 
+run: 28 
+result: 33478 
+seed: 7211 
+run: 29 
+result: 33766 
+seed: 2845 
+run: 30 
+No valid solution found 
+run: 31 
+No valid solution found 
+run: 32 
+No valid solution found 
+run: 33 
+result: 32596 
+seed: 4650 
+run: 34 
+result: 33181 
+seed: 2802 
+run: 35 
+result: 33685 
+seed: 554 
+run: 36 
+No valid solution found 
+run: 37 
+result: 34828 
+seed: 8468 
+run: 38 
+No valid solution found 
+run: 39 
+result: 34288 
+seed: 4565 
+run: 40 
+No valid solution found 
+run: 41 
+No valid solution found 
+run: 42 
+No valid solution found 
+run: 43 
+result: 32965 
+seed: 2399 
+run: 44 
+No valid solution found 
+run: 45 
+result: 34063 
+seed: 4428 
+run: 46 
+result: 34054 
+seed: 7041 
+run: 47 
+No valid solution found 
+run: 48 
+result: 33748 
+seed: 7638 
+run: 49 
+result: 33361 
+seed: 5980 
+run: 50 
+No valid solution found 
+run: 51 
+result: 33901 
+seed: 7452 
+run: 52 
+result: 34495 
+seed: 2620 
+run: 53 
+result: 33415 
+seed: 99 
+run: 54 
+No valid solution found 
+run: 55 
+result: 34432 
+seed: 6375 
+run: 56 
+result: 34621 
+seed: 7320 
+run: 57 
+No valid solution found 
+run: 58 
+result: 33244 
+seed: 4502 
+run: 59 
+result: 32560 
+seed: 1592 
+run: 60 
+result: 33928 
+seed: 5288 
+run: 61 
+result: 33073 
+seed: 4199 
+run: 62 
+result: 34153 
+seed: 5335 
+run: 63 
+result: 33172 
+seed: 2766 
+run: 64 
+No valid solution found 
+run: 65 
+No valid solution found 
+run: 66 
+result: 33235 
+seed: 9892 
+run: 67 
+result: 33190 
+seed: 974 
+run: 68 
+result: 33334 
+seed: 5667 
+run: 69 
+result: 33478 
+seed: 9413 
+run: 70 
+No valid solution found 
+run: 71 
+result: 33496 
+seed: 749 
+run: 72 
+No valid solution found 
+run: 73 
+result: 32938 
+seed: 9690 
+run: 74 
+No valid solution found 
+run: 75 
+result: 33199 
+seed: 2366 
+run: 76 
+No valid solution found 
+run: 77 
+result: 33100 
+seed: 7519 
+run: 78 
+No valid solution found 
+run: 79 
+result: 34036 
+seed: 4749 
+run: 80 
+No valid solution found 
+run: 81 
+No valid solution found 
+run: 82 
+result: 34216 
+seed: 6409 
+run: 83 
+result: 33757 
+seed: 9787 
+run: 84 
+result: 34441 
+seed: 1046 
+run: 85 
+No valid solution found 
+run: 86 
+result: 33784 
+seed: 1354 
+run: 87 
+result: 33883 
+seed: 6909 
+run: 88 
+No valid solution found 
+run: 89 
+result: 32731 
+seed: 3019 
+run: 90 
+result: 34693 
+seed: 1935 
+run: 91 
+result: 33874 
+seed: 5700 
+run: 92 
+No valid solution found 
+run: 93 
+No valid solution found 
+run: 94 
+No valid solution found 
+run: 95 
+No valid solution found 
+run: 96 
+No valid solution found 
+run: 97 
+result: 34072 
+seed: 4629 
+run: 98 
+No valid solution found 
+run: 99 
+No valid solution found 
+run: 100 
+No valid solution found 
+run: 101 
+result: 34531 
+seed: 8810 
+run: 102 
+No valid solution found 
+run: 103 
+result: 32488 
+seed: 3359 
+run: 104 
+No valid solution found 
+run: 105 
+No valid solution found 
+run: 106 
+result: 33676 
+seed: 5687 
+run: 107 
+No valid solution found 
+run: 108 
+result: 34189 
+seed: 60 
+run: 109 
+result: 33802 
+seed: 1826 
+run: 110 
+result: 34855 
+seed: 6611 
+run: 111 
+No valid solution found 
+run: 112 
+No valid solution found 
+run: 113 
+result: 33766 
+seed: 7252 
+run: 114 
+result: 34540 
+seed: 4103 
+run: 115 
+result: 32785 
+seed: 9248 
+run: 116 
+No valid solution found 
+run: 117 
+result: 32821 
+seed: 9484 
+run: 118 
+result: 33658 
+seed: 7079 
+run: 119 
+No valid solution found 
+run: 120 
+result: 34108 
+seed: 8515 
+run: 121 
+result: 33451 
+seed: 3188 
+run: 122 
+No valid solution found 
+run: 123 
+result: 33037 
+seed: 1837 
+run: 124 
+result: 33982 
+seed: 3054 
+run: 125 
+result: 33037 
+seed: 1837 
+run: 126 
+result: 33739 
+seed: 8186 
+run: 127 
+result: 33127 
+seed: 5407 
+run: 128 
+result: 34342 
+seed: 8109 
+run: 129 
+result: 34306 
+seed: 2343 
+run: 130 
+result: 33640 
+seed: 3890 
+run: 131 
+No valid solution found 
+run: 132 
+result: 33622 
+seed: 7725 
+run: 133 
+result: 33694 
+seed: 667 
+run: 134 
+result: 32983 
+seed: 2356 
+run: 135 
+No valid solution found 
+run: 136 
+result: 33739 
+seed: 4524 
+run: 137 
+result: 33181 
+seed: 5669 
+run: 138 
+result: 33811 
+seed: 4236 
+run: 139 
+No valid solution found 
+run: 140 
+No valid solution found 
+run: 141 
+result: 33118 
+seed: 2776 
+run: 142 
+result: 34252 
+seed: 5864 
+run: 143 
+result: 33667 
+seed: 746 
+run: 144 
+result: 33586 
+seed: 6279 
+run: 145 
+result: 33838 
+seed: 6149 
+run: 146 
+No valid solution found 
+run: 147 
+result: 33586 
+seed: 8219 
+run: 148 
+result: 33334 
+seed: 5252 
+run: 149 
+No valid solution found 
+run: 150 
+result: 34180 
+seed: 1378 
+run: 151 
+result: 33289 
+seed: 5266 
+run: 152 
+No valid solution found 
+run: 153 
+result: 33640 
+seed: 6711 
+run: 154 
+result: 33631 
+seed: 1453 
+run: 155 
+result: 34225 
+seed: 5652 
+run: 156 
+result: 33757 
+seed: 8086 
+run: 157 
+result: 32902 
+seed: 9613 
+run: 158 
+No valid solution found 
+run: 159 
+result: 34117 
+seed: 1183 
+run: 160 
+result: 32893 
+seed: 6270 
+run: 161 
+result: 33667 
+seed: 3201 
+run: 162 
+result: 33784 
+seed: 1354 
+run: 163 
+result: 34603 
+seed: 6034 
+run: 164 
+No valid solution found 
+run: 165 
+No valid solution found 
+run: 166 
+No valid solution found 
+run: 167 
+result: 34378 
+seed: 4376 
+run: 168 
+No valid solution found 
+run: 169 
+No valid solution found 
+run: 170 
+No valid solution found 
+run: 171 
+result: 33199 
+seed: 7931 
+run: 172 
+result: 33406 
+seed: 9239 
+run: 173 
+No valid solution found 
+run: 174 
+result: 33298 
+seed: 6264 
+run: 175 
+No valid solution found 
+run: 176 
+result: 33586 
+seed: 5554 
+run: 177 
+result: 32983 
+seed: 5246 
+run: 178 
+result: 34396 
+seed: 6996 
+run: 179 
+No valid solution found 
+run: 180 
+No valid solution found 
+run: 181 
+No valid solution found 
+run: 182 
+result: 33190 
+seed: 5591 
+run: 183 
+result: 33640 
+seed: 3890 
+run: 184 
+No valid solution found 
+run: 185 
+No valid solution found 
+run: 186 
+No valid solution found 
+run: 187 
+result: 33541 
+seed: 5170 
+run: 188 
+No valid solution found 
+run: 189 
+No valid solution found 
+run: 190 
+No valid solution found 
+run: 191 
+No valid solution found 
+run: 192 
+No valid solution found 
+run: 193 
+No valid solution found 
+run: 194 
+result: 34189 
+seed: 4972 
+run: 195 
+No valid solution found 
+run: 196 
+result: 33235 
+seed: 7336 
+run: 197 
+result: 32803 
+seed: 3596 
+run: 198 
+No valid solution found 
+run: 199 
+result: 35179 
+seed: 1065 
+run: 200 
+result: 34135 
+seed: 2901 
+run: 201 
+No valid solution found 
+run: 202 
+result: 33982 
+seed: 5604 
+run: 203 
+result: 33793 
+seed: 3205 
+run: 204 
+No valid solution found 
+run: 205 
+result: 33154 
+seed: 9746 
+run: 206 
+No valid solution found 
+run: 207 
+No valid solution found 
+run: 208 
+No valid solution found 
+run: 209 
+result: 33424 
+seed: 717 
+run: 210 
+result: 34423 
+seed: 1397 
+run: 211 
+No valid solution found 
+run: 212 
+result: 33613 
+seed: 4933 
+run: 213 
+No valid solution found 
+run: 214 
+result: 33532 
+seed: 2230 
+run: 215 
+No valid solution found 
+run: 216 
+result: 34270 
+seed: 991 
+run: 217 
+No valid solution found 
+run: 218 
+No valid solution found 
+run: 219 
+result: 34090 
+seed: 9600 
+run: 220 
+result: 34144 
+seed: 4945 
+run: 221 
+result: 33739 
+seed: 9360 
+run: 222 
+result: 33766 
+seed: 3868 
+run: 223 
+result: 33478 
+seed: 3975 
+run: 224 
+result: 32524 
+seed: 6052 
+run: 225 
+result: 34252 
+seed: 7915 
+run: 226 
+No valid solution found 
+run: 227 
+No valid solution found 
+run: 228 
+result: 33919 
+seed: 6967 
+run: 229 
+No valid solution found 
+run: 230 
+result: 34576 
+seed: 4564 
+run: 231 
+result: 34054 
+seed: 9858 
+run: 232 
+No valid solution found 
+run: 233 
+result: 33001 
+seed: 7886 
+run: 234 
+No valid solution found 
+run: 235 
+result: 33757 
+seed: 128 
+run: 236 
+No valid solution found 
+run: 237 
+No valid solution found 
+run: 238 
+result: 33703 
+seed: 9799 
+run: 239 
+result: 33109 
+seed: 5785 
+run: 240 
+result: 34450 
+seed: 7880 
+run: 241 
+result: 33379 
+seed: 4433 
+run: 242 
+No valid solution found 
+run: 243 
+result: 34126 
+seed: 1421 
+run: 244 
+result: 33082 
+seed: 5727 
+run: 245 
+result: 33154 
+seed: 9367 
+run: 246 
+No valid solution found 
+run: 247 
+result: 33136 
+seed: 9577 
+run: 248 
+result: 34459 
+seed: 2385 
+run: 249 
+result: 33460 
+seed: 5517 
+run: 250 
+result: 33307 
+seed: 437 
+run: 251 
+result: 33361 
+seed: 7923 
+run: 252 
+result: 33181 
+seed: 2802 
+run: 253 
+No valid solution found 
+run: 254 
+No valid solution found 
+run: 255 
+result: 32803 
+seed: 6642 
+run: 256 
+No valid solution found 
+run: 257 
+No valid solution found 
+run: 258 
+result: 34234 
+seed: 7883 
+run: 259 
+result: 33586 
+seed: 3572 
+run: 260 
+result: 34873 
+seed: 6189 
+run: 261 
+result: 34477 
+seed: 8339 
+run: 262 
+No valid solution found 
+run: 263 
+No valid solution found 
+run: 264 
+result: 33433 
+seed: 9045 
+run: 265 
+No valid solution found 
+run: 266 
+result: 34171 
+seed: 2348 
+run: 267 
+No valid solution found 
+run: 268 
+result: 32263 
+seed: 4018 
+run: 269 
+No valid solution found 
+run: 270 
+No valid solution found 
+run: 271 
+No valid solution found 
+run: 272 
+No valid solution found 
+run: 273 
+result: 33325 
+seed: 3947 
+run: 274 
+No valid solution found 
+run: 275 
+result: 32704 
+seed: 9087 
+run: 276 
+No valid solution found 
+run: 277 
+result: 32929 
+seed: 5032 
+run: 278 
+No valid solution found 
+run: 279 
+No valid solution found 
+run: 280 
+result: 32785 
+seed: 9108 
+run: 281 
+No valid solution found 
+run: 282 
+No valid solution found 
+run: 283 
+result: 33577 
+seed: 2914 
+run: 284 
+No valid solution found 
+run: 285 
+result: 33829 
+seed: 765 
+run: 286 
+result: 34288 
+seed: 601 
+run: 287 
+No valid solution found 
+run: 288 
+result: 33649 
+seed: 7278 
+run: 289 
+No valid solution found 
+run: 290 
+No valid solution found 
+run: 291 
+result: 33469 
+seed: 6377 
+run: 292 
+No valid solution found 
+run: 293 
+result: 34585 
+seed: 9545 
+run: 294 
+result: 34747 
+seed: 9939 
+run: 295 
+result: 34909 
+seed: 6581 
+run: 296 
+result: 32902 
+seed: 4602 
+run: 297 
+No valid solution found 
+run: 298 
+result: 33937 
+seed: 5572 
+run: 299 
+result: 33046 
+seed: 9425 
+run: 300 
+No valid solution found 
+run: 301 
+result: 33586 
+seed: 959 
+run: 302 
+result: 33820 
+seed: 4585 
+run: 303 
+result: 34801 
+seed: 7778 
+run: 304 
+No valid solution found 
+run: 305 
+result: 33694 
+seed: 6067 
+run: 306 
+result: 32983 
+seed: 5246 
+run: 307 
+result: 34198 
+seed: 5422 
+run: 308 
+No valid solution found 
+run: 309 
+No valid solution found 
+run: 310 
+result: 33550 
+seed: 2420 
+run: 311 
+No valid solution found 
+run: 312 
+No valid solution found 
+run: 313 
+result: 34360 
+seed: 7865 
+run: 314 
+result: 33505 
+seed: 8830 
+run: 315 
+result: 32929 
+seed: 6778 
+run: 316 
+result: 33973 
+seed: 1563 
+run: 317 
+No valid solution found 
+run: 318 
+result: 34108 
+seed: 3886 
+run: 319 
+No valid solution found 
+run: 320 
+No valid solution found 
+run: 321 
+result: 34009 
+seed: 4765 
+run: 322 
+No valid solution found 
+run: 323 
+result: 33577 
+seed: 710 
+run: 324 
+result: 33415 
+seed: 6005 
+run: 325 
+No valid solution found 
+run: 326 
+result: 33730 
+seed: 2082 
+run: 327 
+result: 33478 
+seed: 3975 
+run: 328 
+No valid solution found 
+run: 329 
+result: 33145 
+seed: 9456 
+run: 330 
+No valid solution found 
+run: 331 
+result: 34792 
+seed: 6922 
+run: 332 
+result: 33559 
+seed: 5576 
+run: 333 
+result: 33757 
+seed: 2048 
+run: 334 
+result: 32803 
+seed: 1811 
+run: 335 
+result: 33946 
+seed: 5473 
+run: 336 
+result: 34297 
+seed: 8091 
+run: 337 
+result: 33982 
+seed: 9847 
+run: 338 
+No valid solution found 
+run: 339 
+result: 34225 
+seed: 793 
+run: 340 
+No valid solution found 
+run: 341 
+No valid solution found 
+run: 342 
+No valid solution found 
+run: 343 
+result: 32623 
+seed: 325 
+run: 344 
+result: 33631 
+seed: 2591 
+run: 345 
+result: 33883 
+seed: 6592 
+run: 346 
+result: 33091 
+seed: 798 
+run: 347 
+No valid solution found 
+run: 348 
+No valid solution found 
+run: 349 
+No valid solution found 
+run: 350 
+No valid solution found 
+run: 351 
+result: 32785 
+seed: 144 
+run: 352 
+No valid solution found 
+run: 353 
+result: 33262 
+seed: 2651 
+run: 354 
+No valid solution found 
+run: 355 
+result: 32884 
+seed: 6549 
+run: 356 
+No valid solution found 
+run: 357 
+No valid solution found 
+run: 358 
+No valid solution found 
+run: 359 
+result: 33811 
+seed: 3811 
+run: 360 
+result: 34333 
+seed: 1979 
+run: 361 
+result: 32713 
+seed: 8511 
+run: 362 
+result: 33847 
+seed: 593 
+run: 363 
+result: 34927 
+seed: 6460 
+run: 364 
+result: 34522 
+seed: 8753 
+run: 365 
+result: 33046 
+seed: 1650 
+run: 366 
+result: 34036 
+seed: 3337 
+run: 367 
+No valid solution found 
+run: 368 
+No valid solution found 
+run: 369 
+No valid solution found 
+run: 370 
+result: 32821 
+seed: 9066 
+run: 371 
+No valid solution found 
+run: 372 
+result: 32677 
+seed: 7053 
+run: 373 
+result: 34378 
+seed: 9337 
+run: 374 
+No valid solution found 
+run: 375 
+No valid solution found 
+run: 376 
+No valid solution found 
+run: 377 
+No valid solution found 
+run: 378 
+result: 34585 
+seed: 8097 
+run: 379 
+No valid solution found 
+run: 380 
+result: 32794 
+seed: 3802 
+run: 381 
+No valid solution found 
+run: 382 
+result: 34000 
+seed: 6932 
+run: 383 
+No valid solution found 
+run: 384 
+No valid solution found 
+run: 385 
+result: 32443 
+seed: 525 
+run: 386 
+result: 34378 
+seed: 6777 
+run: 387 
+No valid solution found 
+run: 388 
+result: 33820 
+seed: 8993 
+run: 389 
+result: 33487 
+seed: 3709 
+run: 390 
+No valid solution found 
+run: 391 
+No valid solution found 
+run: 392 
+No valid solution found 
+run: 393 
+No valid solution found 
+run: 394 
+result: 34126 
+seed: 8606 
+run: 395 
+No valid solution found 
+run: 396 
+No valid solution found 
+run: 397 
+No valid solution found 
+run: 398 
+No valid solution found 
+run: 399 
+result: 34315 
+seed: 6620 
+run: 400 
+result: 33478 
+seed: 5913 
+run: 401 
+result: 33811 
+seed: 3687 
+run: 402 
+No valid solution found 
+run: 403 
+result: 33694 
+seed: 3248 
+run: 404 
+No valid solution found 
+run: 405 
+result: 33424 
+seed: 7223 
+run: 406 
+No valid solution found 
+run: 407 
+No valid solution found 
+run: 408 
+result: 33037 
+seed: 7731 
+run: 409 
+No valid solution found 
+run: 410 
+result: 33505 
+seed: 6825 
+run: 411 
+No valid solution found 
+run: 412 
+No valid solution found 
+run: 413 
+No valid solution found 
+run: 414 
+result: 34702 
+seed: 5888 
+run: 415 
+result: 33964 
+seed: 4207 
+run: 416 
+No valid solution found 
+run: 417 
+result: 33208 
+seed: 2404 
+run: 418 
+result: 33541 
+seed: 4224 
+run: 419 
+No valid solution found 
+run: 420 
+No valid solution found 
+run: 421 
+result: 32875 
+seed: 1188 
+run: 422 
+No valid solution found 
+run: 423 
+result: 33154 
+seed: 8215 
+run: 424 
+result: 34000 
+seed: 5016 
+run: 425 
+result: 33658 
+seed: 169 
+run: 426 
+No valid solution found 
+run: 427 
+No valid solution found 
+run: 428 
+result: 34180 
+seed: 9436 
+run: 429 
+result: 33487 
+seed: 9990 
+run: 430 
+No valid solution found 
+run: 431 
+No valid solution found 
+run: 432 
+No valid solution found 
+run: 433 
+result: 34477 
+seed: 4121 
+run: 434 
+No valid solution found 
+run: 435 
+result: 34144 
+seed: 5082 
+run: 436 
+No valid solution found 
+run: 437 
+result: 35296 
+seed: 4219 
+run: 438 
+result: 34549 
+seed: 781 
+run: 439 
+result: 34396 
+seed: 4440 
+run: 440 
+No valid solution found 
+run: 441 
+No valid solution found 
+run: 442 
+No valid solution found 
+run: 443 
+No valid solution found 
+run: 444 
+No valid solution found 
+run: 445 
+result: 34405 
+seed: 9993 
+run: 446 
+result: 34216 
+seed: 6215 
+run: 447 
+No valid solution found 
+run: 448 
+result: 34306 
+seed: 9451 
+run: 449 
+No valid solution found 
+run: 450 
+result: 32857 
+seed: 1436 
+run: 451 
+result: 33271 
+seed: 1090 
+run: 452 
+result: 33676 
+seed: 4046 
+run: 453 
+result: 34153 
+seed: 1955 
+run: 454 
+No valid solution found 
+run: 455 
+result: 32875 
+seed: 7386 
+run: 456 
+No valid solution found 
+run: 457 
+result: 34621 
+seed: 260 
+run: 458 
+result: 33010 
+seed: 6555 
+run: 459 
+result: 32893 
+seed: 8365 
+run: 460 
+No valid solution found 
+run: 461 
+result: 33343 
+seed: 7086 
+run: 462 
+result: 34738 
+seed: 5248 
+run: 463 
+result: 34198 
+seed: 8586 
+run: 464 
+result: 34234 
+seed: 4061 
+run: 465 
+No valid solution found 
+run: 466 
+result: 33523 
+seed: 3224 
+run: 467 
+No valid solution found 
+run: 468 
+result: 32497 
+seed: 7051 
+run: 469 
+No valid solution found 
+run: 470 
+result: 33604 
+seed: 5654 
+run: 471 
+No valid solution found 
+run: 472 
+result: 32668 
+seed: 6151 
+run: 473 
+result: 33793 
+seed: 1231 
+run: 474 
+result: 34225 
+seed: 5967 
+run: 475 
+result: 33712 
+seed: 6785 
+run: 476 
+result: 33721 
+seed: 8449 
+run: 477 
+No valid solution found 
+run: 478 
+No valid solution found 
+run: 479 
+result: 33478 
+seed: 3843 
+run: 480 
+result: 33586 
+seed: 7434 
+run: 481 
+No valid solution found 
+run: 482 
+result: 34081 
+seed: 9861 
+run: 483 
+result: 33154 
+seed: 6058 
+run: 484 
+result: 33190 
+seed: 7387 
+run: 485 
+result: 33253 
+seed: 641 
+run: 486 
+result: 33838 
+seed: 6149 
+run: 487 
+result: 34306 
+seed: 5020 
+run: 488 
+No valid solution found 
+run: 489 
+result: 33883 
+seed: 9021 
+run: 490 
+result: 32785 
+seed: 2788 
+run: 491 
+result: 33505 
+seed: 9053 
+run: 492 
+result: 33703 
+seed: 8542 
+run: 493 
+No valid solution found 
+run: 494 
+result: 33163 
+seed: 1429 
+run: 495 
+result: 34396 
+seed: 5190 
+run: 496 
+No valid solution found 
+run: 497 
+No valid solution found 
+run: 498 
+No valid solution found 
+run: 499 
+No valid solution found 
+run: 500 
+result: 33901 
+seed: 7325 
+run: 501 
+No valid solution found 
+run: 502 
+result: 33262 
+seed: 6772 
+run: 503 
+No valid solution found 
+run: 504 
+result: 33694 
+seed: 5229 
+run: 505 
+No valid solution found 
+run: 506 
+No valid solution found 
+run: 507 
+result: 33163 
+seed: 8880 
+run: 508 
+result: 33451 
+seed: 2614 
+run: 509 
+No valid solution found 
+run: 510 
+result: 33802 
+seed: 7143 
+run: 511 
+result: 34000 
+seed: 3287 
+run: 512 
+result: 33613 
+seed: 9139 
+run: 513 
+No valid solution found 
+run: 514 
+result: 33532 
+seed: 6723 
+run: 515 
+result: 33622 
+seed: 7006 
+run: 516 
+result: 33415 
+seed: 563 
+run: 517 
+result: 33442 
+seed: 7449 
+run: 518 
+No valid solution found 
+run: 519 
+result: 33658 
+seed: 3837 
+run: 520 
+result: 33658 
+seed: 3837 
+run: 521 
+result: 33820 
+seed: 574 
+run: 522 
+No valid solution found 
+run: 523 
+result: 34171 
+seed: 7381 
+run: 524 
+result: 33487 
+seed: 7052 
+run: 525 
+result: 33766 
+seed: 3868 
+run: 526 
+result: 34135 
+seed: 8248 
+run: 527 
+No valid solution found 
+run: 528 
+No valid solution found 
+run: 529 
+No valid solution found 
+run: 530 
+result: 32857 
+seed: 9973 
+run: 531 
+result: 32911 
+seed: 6449 
+run: 532 
+No valid solution found 
+run: 533 
+result: 33181 
+seed: 5784 
+run: 534 
+No valid solution found 
+run: 535 
+No valid solution found 
+run: 536 
+result: 34036 
+seed: 1582 
+run: 537 
+result: 33532 
+seed: 3091 
+run: 538 
+No valid solution found 
+run: 539 
+No valid solution found 
+run: 540 
+No valid solution found 
+run: 541 
+result: 34567 
+seed: 7328 
+run: 542 
+result: 33703 
+seed: 678 
+run: 543 
+result: 33496 
+seed: 5416 
+run: 544 
+result: 34297 
+seed: 6323 
+run: 545 
+result: 34405 
+seed: 4996 
+run: 546 
+No valid solution found 
+run: 547 
+No valid solution found 
+run: 548 
+result: 32884 
+seed: 6540 
+run: 549 
+result: 34234 
+seed: 9947 
+run: 550 
+No valid solution found 
+run: 551 
+result: 33667 
+seed: 8660 
+run: 552 
+result: 32803 
+seed: 3596 
+run: 553 
+No valid solution found 
+run: 554 
+result: 33523 
+seed: 9265 
+run: 555 
+result: 33118 
+seed: 832 
+run: 556 
+result: 34405 
+seed: 9993 
+run: 557 
+No valid solution found 
+run: 558 
+No valid solution found 
+run: 559 
+No valid solution found 
+run: 560 
+No valid solution found 
+run: 561 
+No valid solution found 
+run: 562 
+No valid solution found 
+run: 563 
+result: 32335 
+seed: 3956 
+run: 564 
+No valid solution found 
+run: 565 
+result: 33037 
+seed: 3724 
+run: 566 
+result: 34027 
+seed: 3209 
+run: 567 
+No valid solution found 
+run: 568 
+result: 34936 
+seed: 5066 
+run: 569 
+result: 33793 
+seed: 2369 
+run: 570 
+result: 33496 
+seed: 488 
+run: 571 
+No valid solution found 
+run: 572 
+result: 32866 
+seed: 7326 
+run: 573 
+result: 34549 
+seed: 7004 
+run: 574 
+result: 33910 
+seed: 343 
+run: 575 
+No valid solution found 
+run: 576 
+result: 34054 
+seed: 9438 
+run: 577 
+No valid solution found 
+run: 578 
+result: 32551 
+seed: 1438 
+run: 579 
+result: 34162 
+seed: 2144 
+run: 580 
+result: 33262 
+seed: 3844 
+run: 581 
+No valid solution found 
+run: 582 
+result: 34657 
+seed: 5541 
+run: 583 
+No valid solution found 
+run: 584 
+result: 33217 
+seed: 8722 
+run: 585 
+No valid solution found 
+run: 586 
+result: 34261 
+seed: 9510 
+run: 587 
+No valid solution found 
+run: 588 
+No valid solution found 
+run: 589 
+No valid solution found 
+run: 590 
+result: 33649 
+seed: 7483 
+run: 591 
+result: 33253 
+seed: 8442 
+run: 592 
+result: 34081 
+seed: 2120 
+run: 593 
+No valid solution found 
+run: 594 
+No valid solution found 
+run: 595 
+result: 33712 
+seed: 1965 
+run: 596 
+No valid solution found 
+run: 597 
+No valid solution found 
+run: 598 
+No valid solution found 
+run: 599 
+result: 33442 
+seed: 8175 
+run: 600 
+No valid solution found 
+run: 601 
+result: 33712 
+seed: 7382 
+run: 602 
+result: 32479 
+seed: 7512 
+run: 603 
+result: 34243 
+seed: 7608 
+run: 604 
+result: 33280 
+seed: 6389 
+run: 605 
+result: 32920 
+seed: 2499 
+run: 606 
+result: 33424 
+seed: 7396 
+run: 607 
+No valid solution found 
+run: 608 
+result: 33199 
+seed: 4386 
+run: 609 
+No valid solution found 
+run: 610 
+result: 33487 
+seed: 4537 
+run: 611 
+result: 34954 
+seed: 5502 

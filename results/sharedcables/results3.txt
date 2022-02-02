@@ -1,0 +1,2385 @@
+Best Costs: 33892, seed: 9859
+
+run: 0 
+No valid solution found 
+run: 1 
+No valid solution found 
+run: 2 
+result: 34612 
+seed: 7950 
+run: 3 
+No valid solution found 
+run: 4 
+No valid solution found 
+run: 5 
+No valid solution found 
+run: 6 
+No valid solution found 
+run: 7 
+No valid solution found 
+run: 8 
+No valid solution found 
+run: 9 
+No valid solution found 
+run: 10 
+No valid solution found 
+run: 11 
+No valid solution found 
+run: 12 
+No valid solution found 
+run: 13 
+No valid solution found 
+run: 14 
+No valid solution found 
+run: 15 
+No valid solution found 
+run: 16 
+No valid solution found 
+run: 17 
+No valid solution found 
+run: 18 
+No valid solution found 
+run: 19 
+No valid solution found 
+run: 20 
+No valid solution found 
+run: 21 
+No valid solution found 
+run: 22 
+No valid solution found 
+run: 23 
+No valid solution found 
+run: 24 
+No valid solution found 
+run: 25 
+No valid solution found 
+run: 26 
+No valid solution found 
+run: 27 
+No valid solution found 
+run: 28 
+No valid solution found 
+run: 29 
+No valid solution found 
+run: 30 
+No valid solution found 
+run: 31 
+No valid solution found 
+run: 32 
+No valid solution found 
+run: 33 
+No valid solution found 
+run: 34 
+No valid solution found 
+run: 35 
+No valid solution found 
+run: 36 
+No valid solution found 
+run: 37 
+No valid solution found 
+run: 38 
+No valid solution found 
+run: 39 
+No valid solution found 
+run: 40 
+No valid solution found 
+run: 41 
+No valid solution found 
+run: 42 
+No valid solution found 
+run: 43 
+No valid solution found 
+run: 44 
+No valid solution found 
+run: 45 
+No valid solution found 
+run: 46 
+No valid solution found 
+run: 47 
+No valid solution found 
+run: 48 
+No valid solution found 
+run: 49 
+No valid solution found 
+run: 50 
+No valid solution found 
+run: 51 
+No valid solution found 
+run: 52 
+No valid solution found 
+run: 53 
+No valid solution found 
+run: 54 
+No valid solution found 
+run: 55 
+No valid solution found 
+run: 56 
+No valid solution found 
+run: 57 
+No valid solution found 
+run: 58 
+No valid solution found 
+run: 59 
+No valid solution found 
+run: 60 
+No valid solution found 
+run: 61 
+No valid solution found 
+run: 62 
+No valid solution found 
+run: 63 
+No valid solution found 
+run: 64 
+No valid solution found 
+run: 65 
+No valid solution found 
+run: 66 
+No valid solution found 
+run: 67 
+result: 36214 
+seed: 213 
+run: 68 
+No valid solution found 
+run: 69 
+No valid solution found 
+run: 70 
+No valid solution found 
+run: 71 
+No valid solution found 
+run: 72 
+No valid solution found 
+run: 73 
+No valid solution found 
+run: 74 
+No valid solution found 
+run: 75 
+No valid solution found 
+run: 76 
+No valid solution found 
+run: 77 
+No valid solution found 
+run: 78 
+No valid solution found 
+run: 79 
+No valid solution found 
+run: 80 
+No valid solution found 
+run: 81 
+No valid solution found 
+run: 82 
+No valid solution found 
+run: 83 
+No valid solution found 
+run: 84 
+No valid solution found 
+run: 85 
+No valid solution found 
+run: 86 
+No valid solution found 
+run: 87 
+No valid solution found 
+run: 88 
+No valid solution found 
+run: 89 
+No valid solution found 
+run: 90 
+No valid solution found 
+run: 91 
+No valid solution found 
+run: 92 
+No valid solution found 
+run: 93 
+No valid solution found 
+run: 94 
+No valid solution found 
+run: 95 
+No valid solution found 
+run: 96 
+No valid solution found 
+run: 97 
+No valid solution found 
+run: 98 
+No valid solution found 
+run: 99 
+No valid solution found 
+run: 100 
+No valid solution found 
+run: 101 
+No valid solution found 
+run: 102 
+No valid solution found 
+run: 103 
+No valid solution found 
+run: 104 
+No valid solution found 
+run: 105 
+No valid solution found 
+run: 106 
+No valid solution found 
+run: 107 
+No valid solution found 
+run: 108 
+No valid solution found 
+run: 109 
+No valid solution found 
+run: 110 
+No valid solution found 
+run: 111 
+No valid solution found 
+run: 112 
+No valid solution found 
+run: 113 
+No valid solution found 
+run: 114 
+No valid solution found 
+run: 115 
+No valid solution found 
+run: 116 
+No valid solution found 
+run: 117 
+No valid solution found 
+run: 118 
+No valid solution found 
+run: 119 
+No valid solution found 
+run: 120 
+No valid solution found 
+run: 121 
+No valid solution found 
+run: 122 
+No valid solution found 
+run: 123 
+No valid solution found 
+run: 124 
+No valid solution found 
+run: 125 
+No valid solution found 
+run: 126 
+No valid solution found 
+run: 127 
+No valid solution found 
+run: 128 
+No valid solution found 
+run: 129 
+No valid solution found 
+run: 130 
+No valid solution found 
+run: 131 
+No valid solution found 
+run: 132 
+No valid solution found 
+run: 133 
+No valid solution found 
+run: 134 
+No valid solution found 
+run: 135 
+No valid solution found 
+run: 136 
+No valid solution found 
+run: 137 
+No valid solution found 
+run: 138 
+No valid solution found 
+run: 139 
+No valid solution found 
+run: 140 
+No valid solution found 
+run: 141 
+No valid solution found 
+run: 142 
+No valid solution found 
+run: 143 
+No valid solution found 
+run: 144 
+No valid solution found 
+run: 145 
+result: 34954 
+seed: 7780 
+run: 146 
+No valid solution found 
+run: 147 
+No valid solution found 
+run: 148 
+No valid solution found 
+run: 149 
+No valid solution found 
+run: 150 
+No valid solution found 
+run: 151 
+No valid solution found 
+run: 152 
+No valid solution found 
+run: 153 
+No valid solution found 
+run: 154 
+No valid solution found 
+run: 155 
+No valid solution found 
+run: 156 
+No valid solution found 
+run: 157 
+No valid solution found 
+run: 158 
+No valid solution found 
+run: 159 
+No valid solution found 
+run: 160 
+No valid solution found 
+run: 161 
+No valid solution found 
+run: 162 
+No valid solution found 
+run: 163 
+No valid solution found 
+run: 164 
+No valid solution found 
+run: 165 
+No valid solution found 
+run: 166 
+No valid solution found 
+run: 167 
+No valid solution found 
+run: 168 
+No valid solution found 
+run: 169 
+No valid solution found 
+run: 170 
+No valid solution found 
+run: 171 
+No valid solution found 
+run: 172 
+No valid solution found 
+run: 173 
+No valid solution found 
+run: 174 
+No valid solution found 
+run: 175 
+No valid solution found 
+run: 176 
+No valid solution found 
+run: 177 
+No valid solution found 
+run: 178 
+result: 35305 
+seed: 2789 
+run: 179 
+No valid solution found 
+run: 180 
+No valid solution found 
+run: 181 
+No valid solution found 
+run: 182 
+No valid solution found 
+run: 183 
+No valid solution found 
+run: 184 
+No valid solution found 
+run: 185 
+No valid solution found 
+run: 186 
+No valid solution found 
+run: 187 
+No valid solution found 
+run: 188 
+No valid solution found 
+run: 189 
+No valid solution found 
+run: 190 
+No valid solution found 
+run: 191 
+No valid solution found 
+run: 192 
+No valid solution found 
+run: 193 
+No valid solution found 
+run: 194 
+No valid solution found 
+run: 195 
+No valid solution found 
+run: 196 
+No valid solution found 
+run: 197 
+No valid solution found 
+run: 198 
+No valid solution found 
+run: 199 
+No valid solution found 
+run: 200 
+No valid solution found 
+run: 201 
+No valid solution found 
+run: 202 
+No valid solution found 
+run: 203 
+No valid solution found 
+run: 204 
+No valid solution found 
+run: 205 
+No valid solution found 
+run: 206 
+No valid solution found 
+run: 207 
+No valid solution found 
+run: 208 
+No valid solution found 
+run: 209 
+No valid solution found 
+run: 210 
+No valid solution found 
+run: 211 
+No valid solution found 
+run: 212 
+No valid solution found 
+run: 213 
+No valid solution found 
+run: 214 
+No valid solution found 
+run: 215 
+No valid solution found 
+run: 216 
+No valid solution found 
+run: 217 
+No valid solution found 
+run: 218 
+No valid solution found 
+run: 219 
+No valid solution found 
+run: 220 
+No valid solution found 
+run: 221 
+No valid solution found 
+run: 222 
+No valid solution found 
+run: 223 
+No valid solution found 
+run: 224 
+No valid solution found 
+run: 225 
+No valid solution found 
+run: 226 
+No valid solution found 
+run: 227 
+No valid solution found 
+run: 228 
+No valid solution found 
+run: 229 
+No valid solution found 
+run: 230 
+No valid solution found 
+run: 231 
+No valid solution found 
+run: 232 
+result: 33982 
+seed: 1519 
+run: 233 
+No valid solution found 
+run: 234 
+No valid solution found 
+run: 235 
+No valid solution found 
+run: 236 
+No valid solution found 
+run: 237 
+No valid solution found 
+run: 238 
+No valid solution found 
+run: 239 
+No valid solution found 
+run: 240 
+No valid solution found 
+run: 241 
+No valid solution found 
+run: 242 
+No valid solution found 
+run: 243 
+No valid solution found 
+run: 244 
+No valid solution found 
+run: 245 
+No valid solution found 
+run: 246 
+No valid solution found 
+run: 247 
+No valid solution found 
+run: 248 
+No valid solution found 
+run: 249 
+No valid solution found 
+run: 250 
+No valid solution found 
+run: 251 
+No valid solution found 
+run: 252 
+No valid solution found 
+run: 253 
+No valid solution found 
+run: 254 
+No valid solution found 
+run: 255 
+No valid solution found 
+run: 256 
+No valid solution found 
+run: 257 
+No valid solution found 
+run: 258 
+No valid solution found 
+run: 259 
+No valid solution found 
+run: 260 
+No valid solution found 
+run: 261 
+No valid solution found 
+run: 262 
+No valid solution found 
+run: 263 
+No valid solution found 
+run: 264 
+No valid solution found 
+run: 265 
+No valid solution found 
+run: 266 
+No valid solution found 
+run: 267 
+No valid solution found 
+run: 268 
+No valid solution found 
+run: 269 
+No valid solution found 
+run: 270 
+No valid solution found 
+run: 271 
+No valid solution found 
+run: 272 
+No valid solution found 
+run: 273 
+No valid solution found 
+run: 274 
+No valid solution found 
+run: 275 
+No valid solution found 
+run: 276 
+No valid solution found 
+run: 277 
+No valid solution found 
+run: 278 
+No valid solution found 
+run: 279 
+No valid solution found 
+run: 280 
+No valid solution found 
+run: 281 
+No valid solution found 
+run: 282 
+No valid solution found 
+run: 283 
+No valid solution found 
+run: 284 
+No valid solution found 
+run: 285 
+No valid solution found 
+run: 286 
+No valid solution found 
+run: 287 
+No valid solution found 
+run: 288 
+No valid solution found 
+run: 289 
+No valid solution found 
+run: 290 
+No valid solution found 
+run: 291 
+No valid solution found 
+run: 292 
+No valid solution found 
+run: 293 
+No valid solution found 
+run: 294 
+No valid solution found 
+run: 295 
+No valid solution found 
+run: 296 
+No valid solution found 
+run: 297 
+No valid solution found 
+run: 298 
+No valid solution found 
+run: 299 
+No valid solution found 
+run: 300 
+No valid solution found 
+run: 301 
+No valid solution found 
+run: 302 
+No valid solution found 
+run: 303 
+No valid solution found 
+run: 304 
+No valid solution found 
+run: 305 
+No valid solution found 
+run: 306 
+No valid solution found 
+run: 307 
+No valid solution found 
+run: 308 
+No valid solution found 
+run: 309 
+No valid solution found 
+run: 310 
+No valid solution found 
+run: 311 
+No valid solution found 
+run: 312 
+No valid solution found 
+run: 313 
+No valid solution found 
+run: 314 
+No valid solution found 
+run: 315 
+No valid solution found 
+run: 316 
+No valid solution found 
+run: 317 
+No valid solution found 
+run: 318 
+No valid solution found 
+run: 319 
+No valid solution found 
+run: 320 
+No valid solution found 
+run: 321 
+No valid solution found 
+run: 322 
+No valid solution found 
+run: 323 
+No valid solution found 
+run: 324 
+No valid solution found 
+run: 325 
+No valid solution found 
+run: 326 
+No valid solution found 
+run: 327 
+No valid solution found 
+run: 328 
+No valid solution found 
+run: 329 
+No valid solution found 
+run: 330 
+No valid solution found 
+run: 331 
+No valid solution found 
+run: 332 
+No valid solution found 
+run: 333 
+No valid solution found 
+run: 334 
+No valid solution found 
+run: 335 
+No valid solution found 
+run: 336 
+No valid solution found 
+run: 337 
+No valid solution found 
+run: 338 
+No valid solution found 
+run: 339 
+No valid solution found 
+run: 340 
+No valid solution found 
+run: 341 
+No valid solution found 
+run: 342 
+No valid solution found 
+run: 343 
+No valid solution found 
+run: 344 
+No valid solution found 
+run: 345 
+No valid solution found 
+run: 346 
+No valid solution found 
+run: 347 
+No valid solution found 
+run: 348 
+No valid solution found 
+run: 349 
+No valid solution found 
+run: 350 
+No valid solution found 
+run: 351 
+No valid solution found 
+run: 352 
+No valid solution found 
+run: 353 
+No valid solution found 
+run: 354 
+No valid solution found 
+run: 355 
+No valid solution found 
+run: 356 
+No valid solution found 
+run: 357 
+No valid solution found 
+run: 358 
+No valid solution found 
+run: 359 
+No valid solution found 
+run: 360 
+No valid solution found 
+run: 361 
+No valid solution found 
+run: 362 
+No valid solution found 
+run: 363 
+No valid solution found 
+run: 364 
+No valid solution found 
+run: 365 
+No valid solution found 
+run: 366 
+No valid solution found 
+run: 367 
+No valid solution found 
+run: 368 
+No valid solution found 
+run: 369 
+No valid solution found 
+run: 370 
+No valid solution found 
+run: 371 
+No valid solution found 
+run: 372 
+No valid solution found 
+run: 373 
+No valid solution found 
+run: 374 
+No valid solution found 
+run: 375 
+No valid solution found 
+run: 376 
+No valid solution found 
+run: 377 
+No valid solution found 
+run: 378 
+No valid solution found 
+run: 379 
+No valid solution found 
+run: 380 
+No valid solution found 
+run: 381 
+No valid solution found 
+run: 382 
+No valid solution found 
+run: 383 
+No valid solution found 
+run: 384 
+No valid solution found 
+run: 385 
+No valid solution found 
+run: 386 
+No valid solution found 
+run: 387 
+No valid solution found 
+run: 388 
+No valid solution found 
+run: 389 
+No valid solution found 
+run: 390 
+No valid solution found 
+run: 391 
+No valid solution found 
+run: 392 
+No valid solution found 
+run: 393 
+No valid solution found 
+run: 394 
+No valid solution found 
+run: 395 
+No valid solution found 
+run: 396 
+No valid solution found 
+run: 397 
+No valid solution found 
+run: 398 
+No valid solution found 
+run: 399 
+No valid solution found 
+run: 400 
+result: 34171 
+seed: 2722 
+run: 401 
+No valid solution found 
+run: 402 
+No valid solution found 
+run: 403 
+No valid solution found 
+run: 404 
+No valid solution found 
+run: 405 
+No valid solution found 
+run: 406 
+No valid solution found 
+run: 407 
+No valid solution found 
+run: 408 
+No valid solution found 
+run: 409 
+No valid solution found 
+run: 410 
+No valid solution found 
+run: 411 
+No valid solution found 
+run: 412 
+No valid solution found 
+run: 413 
+No valid solution found 
+run: 414 
+No valid solution found 
+run: 415 
+No valid solution found 
+run: 416 
+No valid solution found 
+run: 417 
+No valid solution found 
+run: 418 
+No valid solution found 
+run: 419 
+No valid solution found 
+run: 420 
+No valid solution found 
+run: 421 
+No valid solution found 
+run: 422 
+No valid solution found 
+run: 423 
+No valid solution found 
+run: 424 
+No valid solution found 
+run: 425 
+No valid solution found 
+run: 426 
+No valid solution found 
+run: 427 
+No valid solution found 
+run: 428 
+No valid solution found 
+run: 429 
+No valid solution found 
+run: 430 
+No valid solution found 
+run: 431 
+No valid solution found 
+run: 432 
+No valid solution found 
+run: 433 
+No valid solution found 
+run: 434 
+No valid solution found 
+run: 435 
+No valid solution found 
+run: 436 
+No valid solution found 
+run: 437 
+No valid solution found 
+run: 438 
+No valid solution found 
+run: 439 
+No valid solution found 
+run: 440 
+No valid solution found 
+run: 441 
+No valid solution found 
+run: 442 
+No valid solution found 
+run: 443 
+No valid solution found 
+run: 444 
+No valid solution found 
+run: 445 
+No valid solution found 
+run: 446 
+No valid solution found 
+run: 447 
+No valid solution found 
+run: 448 
+No valid solution found 
+run: 449 
+No valid solution found 
+run: 450 
+No valid solution found 
+run: 451 
+No valid solution found 
+run: 452 
+No valid solution found 
+run: 453 
+No valid solution found 
+run: 454 
+No valid solution found 
+run: 455 
+No valid solution found 
+run: 456 
+No valid solution found 
+run: 457 
+No valid solution found 
+run: 458 
+No valid solution found 
+run: 459 
+No valid solution found 
+run: 460 
+No valid solution found 
+run: 461 
+No valid solution found 
+run: 462 
+No valid solution found 
+run: 463 
+No valid solution found 
+run: 464 
+No valid solution found 
+run: 465 
+No valid solution found 
+run: 466 
+No valid solution found 
+run: 467 
+No valid solution found 
+run: 468 
+No valid solution found 
+run: 469 
+No valid solution found 
+run: 470 
+No valid solution found 
+run: 471 
+No valid solution found 
+run: 472 
+No valid solution found 
+run: 473 
+No valid solution found 
+run: 474 
+No valid solution found 
+run: 475 
+No valid solution found 
+run: 476 
+No valid solution found 
+run: 477 
+No valid solution found 
+run: 478 
+No valid solution found 
+run: 479 
+No valid solution found 
+run: 480 
+No valid solution found 
+run: 481 
+No valid solution found 
+run: 482 
+No valid solution found 
+run: 483 
+No valid solution found 
+run: 484 
+No valid solution found 
+run: 485 
+No valid solution found 
+run: 486 
+No valid solution found 
+run: 487 
+No valid solution found 
+run: 488 
+No valid solution found 
+run: 489 
+No valid solution found 
+run: 490 
+No valid solution found 
+run: 491 
+No valid solution found 
+run: 492 
+No valid solution found 
+run: 493 
+No valid solution found 
+run: 494 
+No valid solution found 
+run: 495 
+No valid solution found 
+run: 496 
+No valid solution found 
+run: 497 
+No valid solution found 
+run: 498 
+No valid solution found 
+run: 499 
+No valid solution found 
+run: 500 
+No valid solution found 
+run: 501 
+No valid solution found 
+run: 502 
+result: 34072 
+seed: 7827 
+run: 503 
+No valid solution found 
+run: 504 
+No valid solution found 
+run: 505 
+result: 34828 
+seed: 9190 
+run: 506 
+No valid solution found 
+run: 507 
+No valid solution found 
+run: 508 
+No valid solution found 
+run: 509 
+No valid solution found 
+run: 510 
+No valid solution found 
+run: 511 
+No valid solution found 
+run: 512 
+No valid solution found 
+run: 513 
+No valid solution found 
+run: 514 
+No valid solution found 
+run: 515 
+No valid solution found 
+run: 516 
+No valid solution found 
+run: 517 
+No valid solution found 
+run: 518 
+No valid solution found 
+run: 519 
+No valid solution found 
+run: 520 
+No valid solution found 
+run: 521 
+No valid solution found 
+run: 522 
+No valid solution found 
+run: 523 
+No valid solution found 
+run: 524 
+No valid solution found 
+run: 525 
+No valid solution found 
+run: 526 
+No valid solution found 
+run: 527 
+No valid solution found 
+run: 528 
+No valid solution found 
+run: 529 
+No valid solution found 
+run: 530 
+No valid solution found 
+run: 531 
+No valid solution found 
+run: 532 
+No valid solution found 
+run: 533 
+No valid solution found 
+run: 534 
+No valid solution found 
+run: 535 
+No valid solution found 
+run: 536 
+No valid solution found 
+run: 537 
+No valid solution found 
+run: 538 
+No valid solution found 
+run: 539 
+No valid solution found 
+run: 540 
+No valid solution found 
+run: 541 
+result: 34468 
+seed: 4274 
+run: 542 
+No valid solution found 
+run: 543 
+No valid solution found 
+run: 544 
+No valid solution found 
+run: 545 
+No valid solution found 
+run: 546 
+No valid solution found 
+run: 547 
+No valid solution found 
+run: 548 
+No valid solution found 
+run: 549 
+No valid solution found 
+run: 550 
+No valid solution found 
+run: 551 
+No valid solution found 
+run: 552 
+No valid solution found 
+run: 553 
+No valid solution found 
+run: 554 
+No valid solution found 
+run: 555 
+No valid solution found 
+run: 556 
+No valid solution found 
+run: 557 
+No valid solution found 
+run: 558 
+No valid solution found 
+run: 559 
+No valid solution found 
+run: 560 
+No valid solution found 
+run: 561 
+No valid solution found 
+run: 562 
+No valid solution found 
+run: 563 
+No valid solution found 
+run: 564 
+No valid solution found 
+run: 565 
+No valid solution found 
+run: 566 
+No valid solution found 
+run: 567 
+No valid solution found 
+run: 568 
+No valid solution found 
+run: 569 
+No valid solution found 
+run: 570 
+No valid solution found 
+run: 571 
+No valid solution found 
+run: 572 
+No valid solution found 
+run: 573 
+No valid solution found 
+run: 574 
+No valid solution found 
+run: 575 
+No valid solution found 
+run: 576 
+No valid solution found 
+run: 577 
+No valid solution found 
+run: 578 
+No valid solution found 
+run: 579 
+No valid solution found 
+run: 580 
+No valid solution found 
+run: 581 
+No valid solution found 
+run: 582 
+No valid solution found 
+run: 583 
+No valid solution found 
+run: 584 
+No valid solution found 
+run: 585 
+No valid solution found 
+run: 586 
+No valid solution found 
+run: 587 
+No valid solution found 
+run: 588 
+No valid solution found 
+run: 589 
+No valid solution found 
+run: 590 
+No valid solution found 
+run: 591 
+No valid solution found 
+run: 592 
+No valid solution found 
+run: 593 
+result: 34171 
+seed: 3859 
+run: 594 
+No valid solution found 
+run: 595 
+No valid solution found 
+run: 596 
+No valid solution found 
+run: 597 
+No valid solution found 
+run: 598 
+No valid solution found 
+run: 599 
+No valid solution found 
+run: 600 
+No valid solution found 
+run: 601 
+No valid solution found 
+run: 602 
+No valid solution found 
+run: 603 
+No valid solution found 
+run: 604 
+No valid solution found 
+run: 605 
+No valid solution found 
+run: 606 
+No valid solution found 
+run: 607 
+No valid solution found 
+run: 608 
+No valid solution found 
+run: 609 
+No valid solution found 
+run: 610 
+No valid solution found 
+run: 611 
+No valid solution found 
+run: 612 
+No valid solution found 
+run: 613 
+No valid solution found 
+run: 614 
+No valid solution found 
+run: 615 
+No valid solution found 
+run: 616 
+No valid solution found 
+run: 617 
+No valid solution found 
+run: 618 
+No valid solution found 
+run: 619 
+No valid solution found 
+run: 620 
+No valid solution found 
+run: 621 
+No valid solution found 
+run: 622 
+No valid solution found 
+run: 623 
+No valid solution found 
+run: 624 
+No valid solution found 
+run: 625 
+No valid solution found 
+run: 626 
+No valid solution found 
+run: 627 
+No valid solution found 
+run: 628 
+No valid solution found 
+run: 629 
+No valid solution found 
+run: 630 
+No valid solution found 
+run: 631 
+No valid solution found 
+run: 632 
+No valid solution found 
+run: 633 
+No valid solution found 
+run: 634 
+No valid solution found 
+run: 635 
+No valid solution found 
+run: 636 
+No valid solution found 
+run: 637 
+No valid solution found 
+run: 638 
+No valid solution found 
+run: 639 
+No valid solution found 
+run: 640 
+No valid solution found 
+run: 641 
+No valid solution found 
+run: 642 
+No valid solution found 
+run: 643 
+No valid solution found 
+run: 644 
+No valid solution found 
+run: 645 
+No valid solution found 
+run: 646 
+No valid solution found 
+run: 647 
+No valid solution found 
+run: 648 
+No valid solution found 
+run: 649 
+No valid solution found 
+run: 650 
+No valid solution found 
+run: 651 
+No valid solution found 
+run: 652 
+No valid solution found 
+run: 653 
+No valid solution found 
+run: 654 
+No valid solution found 
+run: 655 
+No valid solution found 
+run: 656 
+No valid solution found 
+run: 657 
+No valid solution found 
+run: 658 
+No valid solution found 
+run: 659 
+No valid solution found 
+run: 660 
+No valid solution found 
+run: 661 
+No valid solution found 
+run: 662 
+No valid solution found 
+run: 663 
+No valid solution found 
+run: 664 
+No valid solution found 
+run: 665 
+No valid solution found 
+run: 666 
+No valid solution found 
+run: 667 
+No valid solution found 
+run: 668 
+No valid solution found 
+run: 669 
+No valid solution found 
+run: 670 
+No valid solution found 
+run: 671 
+No valid solution found 
+run: 672 
+No valid solution found 
+run: 673 
+No valid solution found 
+run: 674 
+No valid solution found 
+run: 675 
+No valid solution found 
+run: 676 
+No valid solution found 
+run: 677 
+No valid solution found 
+run: 678 
+No valid solution found 
+run: 679 
+No valid solution found 
+run: 680 
+No valid solution found 
+run: 681 
+No valid solution found 
+run: 682 
+No valid solution found 
+run: 683 
+No valid solution found 
+run: 684 
+No valid solution found 
+run: 685 
+No valid solution found 
+run: 686 
+No valid solution found 
+run: 687 
+No valid solution found 
+run: 688 
+No valid solution found 
+run: 689 
+No valid solution found 
+run: 690 
+No valid solution found 
+run: 691 
+No valid solution found 
+run: 692 
+No valid solution found 
+run: 693 
+No valid solution found 
+run: 694 
+No valid solution found 
+run: 695 
+No valid solution found 
+run: 696 
+No valid solution found 
+run: 697 
+No valid solution found 
+run: 698 
+No valid solution found 
+run: 699 
+No valid solution found 
+run: 700 
+No valid solution found 
+run: 701 
+No valid solution found 
+run: 702 
+No valid solution found 
+run: 703 
+No valid solution found 
+run: 704 
+No valid solution found 
+run: 705 
+No valid solution found 
+run: 706 
+No valid solution found 
+run: 707 
+No valid solution found 
+run: 708 
+No valid solution found 
+run: 709 
+No valid solution found 
+run: 710 
+No valid solution found 
+run: 711 
+No valid solution found 
+run: 712 
+No valid solution found 
+run: 713 
+No valid solution found 
+run: 714 
+No valid solution found 
+run: 715 
+No valid solution found 
+run: 716 
+No valid solution found 
+run: 717 
+No valid solution found 
+run: 718 
+No valid solution found 
+run: 719 
+No valid solution found 
+run: 720 
+No valid solution found 
+run: 721 
+No valid solution found 
+run: 722 
+No valid solution found 
+run: 723 
+No valid solution found 
+run: 724 
+No valid solution found 
+run: 725 
+No valid solution found 
+run: 726 
+No valid solution found 
+run: 727 
+No valid solution found 
+run: 728 
+No valid solution found 
+run: 729 
+No valid solution found 
+run: 730 
+No valid solution found 
+run: 731 
+No valid solution found 
+run: 732 
+No valid solution found 
+run: 733 
+No valid solution found 
+run: 734 
+No valid solution found 
+run: 735 
+No valid solution found 
+run: 736 
+No valid solution found 
+run: 737 
+No valid solution found 
+run: 738 
+No valid solution found 
+run: 739 
+No valid solution found 
+run: 740 
+No valid solution found 
+run: 741 
+No valid solution found 
+run: 742 
+No valid solution found 
+run: 743 
+No valid solution found 
+run: 744 
+No valid solution found 
+run: 745 
+No valid solution found 
+run: 746 
+No valid solution found 
+run: 747 
+No valid solution found 
+run: 748 
+No valid solution found 
+run: 749 
+No valid solution found 
+run: 750 
+No valid solution found 
+run: 751 
+No valid solution found 
+run: 752 
+No valid solution found 
+run: 753 
+No valid solution found 
+run: 754 
+No valid solution found 
+run: 755 
+No valid solution found 
+run: 756 
+No valid solution found 
+run: 757 
+No valid solution found 
+run: 758 
+No valid solution found 
+run: 759 
+No valid solution found 
+run: 760 
+No valid solution found 
+run: 761 
+No valid solution found 
+run: 762 
+No valid solution found 
+run: 763 
+No valid solution found 
+run: 764 
+No valid solution found 
+run: 765 
+No valid solution found 
+run: 766 
+No valid solution found 
+run: 767 
+No valid solution found 
+run: 768 
+No valid solution found 
+run: 769 
+No valid solution found 
+run: 770 
+No valid solution found 
+run: 771 
+No valid solution found 
+run: 772 
+No valid solution found 
+run: 773 
+No valid solution found 
+run: 774 
+No valid solution found 
+run: 775 
+No valid solution found 
+run: 776 
+No valid solution found 
+run: 777 
+No valid solution found 
+run: 778 
+No valid solution found 
+run: 779 
+No valid solution found 
+run: 780 
+No valid solution found 
+run: 781 
+No valid solution found 
+run: 782 
+No valid solution found 
+run: 783 
+No valid solution found 
+run: 784 
+No valid solution found 
+run: 785 
+No valid solution found 
+run: 786 
+No valid solution found 
+run: 787 
+No valid solution found 
+run: 788 
+No valid solution found 
+run: 789 
+No valid solution found 
+run: 790 
+No valid solution found 
+run: 791 
+No valid solution found 
+run: 792 
+result: 34783 
+seed: 9822 
+run: 793 
+No valid solution found 
+run: 794 
+No valid solution found 
+run: 795 
+No valid solution found 
+run: 796 
+No valid solution found 
+run: 797 
+No valid solution found 
+run: 798 
+No valid solution found 
+run: 799 
+No valid solution found 
+run: 800 
+No valid solution found 
+run: 801 
+No valid solution found 
+run: 802 
+No valid solution found 
+run: 803 
+No valid solution found 
+run: 804 
+No valid solution found 
+run: 805 
+No valid solution found 
+run: 806 
+No valid solution found 
+run: 807 
+No valid solution found 
+run: 808 
+No valid solution found 
+run: 809 
+No valid solution found 
+run: 810 
+No valid solution found 
+run: 811 
+No valid solution found 
+run: 812 
+No valid solution found 
+run: 813 
+No valid solution found 
+run: 814 
+No valid solution found 
+run: 815 
+No valid solution found 
+run: 816 
+No valid solution found 
+run: 817 
+No valid solution found 
+run: 818 
+No valid solution found 
+run: 819 
+No valid solution found 
+run: 820 
+No valid solution found 
+run: 821 
+result: 33892 
+seed: 9859 
+run: 822 
+No valid solution found 
+run: 823 
+No valid solution found 
+run: 824 
+No valid solution found 
+run: 825 
+No valid solution found 
+run: 826 
+No valid solution found 
+run: 827 
+No valid solution found 
+run: 828 
+No valid solution found 
+run: 829 
+No valid solution found 
+run: 830 
+No valid solution found 
+run: 831 
+No valid solution found 
+run: 832 
+No valid solution found 
+run: 833 
+No valid solution found 
+run: 834 
+No valid solution found 
+run: 835 
+No valid solution found 
+run: 836 
+No valid solution found 
+run: 837 
+No valid solution found 
+run: 838 
+No valid solution found 
+run: 839 
+No valid solution found 
+run: 840 
+No valid solution found 
+run: 841 
+No valid solution found 
+run: 842 
+No valid solution found 
+run: 843 
+No valid solution found 
+run: 844 
+No valid solution found 
+run: 845 
+No valid solution found 
+run: 846 
+No valid solution found 
+run: 847 
+No valid solution found 
+run: 848 
+No valid solution found 
+run: 849 
+No valid solution found 
+run: 850 
+No valid solution found 
+run: 851 
+No valid solution found 
+run: 852 
+No valid solution found 
+run: 853 
+No valid solution found 
+run: 854 
+No valid solution found 
+run: 855 
+No valid solution found 
+run: 856 
+No valid solution found 
+run: 857 
+No valid solution found 
+run: 858 
+No valid solution found 
+run: 859 
+No valid solution found 
+run: 860 
+No valid solution found 
+run: 861 
+No valid solution found 
+run: 862 
+No valid solution found 
+run: 863 
+No valid solution found 
+run: 864 
+No valid solution found 
+run: 865 
+No valid solution found 
+run: 866 
+No valid solution found 
+run: 867 
+No valid solution found 
+run: 868 
+No valid solution found 
+run: 869 
+No valid solution found 
+run: 870 
+No valid solution found 
+run: 871 
+No valid solution found 
+run: 872 
+No valid solution found 
+run: 873 
+No valid solution found 
+run: 874 
+No valid solution found 
+run: 875 
+No valid solution found 
+run: 876 
+No valid solution found 
+run: 877 
+No valid solution found 
+run: 878 
+No valid solution found 
+run: 879 
+No valid solution found 
+run: 880 
+No valid solution found 
+run: 881 
+No valid solution found 
+run: 882 
+No valid solution found 
+run: 883 
+No valid solution found 
+run: 884 
+No valid solution found 
+run: 885 
+No valid solution found 
+run: 886 
+No valid solution found 
+run: 887 
+No valid solution found 
+run: 888 
+No valid solution found 
+run: 889 
+No valid solution found 
+run: 890 
+No valid solution found 
+run: 891 
+No valid solution found 
+run: 892 
+No valid solution found 
+run: 893 
+No valid solution found 
+run: 894 
+No valid solution found 
+run: 895 
+No valid solution found 
+run: 896 
+No valid solution found 
+run: 897 
+No valid solution found 
+run: 898 
+No valid solution found 
+run: 899 
+No valid solution found 
+run: 900 
+No valid solution found 
+run: 901 
+No valid solution found 
+run: 902 
+No valid solution found 
+run: 903 
+No valid solution found 
+run: 904 
+No valid solution found 
+run: 905 
+No valid solution found 
+run: 906 
+No valid solution found 
+run: 907 
+No valid solution found 
+run: 908 
+No valid solution found 
+run: 909 
+No valid solution found 
+run: 910 
+No valid solution found 
+run: 911 
+No valid solution found 
+run: 912 
+No valid solution found 
+run: 913 
+No valid solution found 
+run: 914 
+No valid solution found 
+run: 915 
+No valid solution found 
+run: 916 
+No valid solution found 
+run: 917 
+No valid solution found 
+run: 918 
+No valid solution found 
+run: 919 
+No valid solution found 
+run: 920 
+No valid solution found 
+run: 921 
+No valid solution found 
+run: 922 
+No valid solution found 
+run: 923 
+No valid solution found 
+run: 924 
+No valid solution found 
+run: 925 
+No valid solution found 
+run: 926 
+No valid solution found 
+run: 927 
+No valid solution found 
+run: 928 
+No valid solution found 
+run: 929 
+No valid solution found 
+run: 930 
+No valid solution found 
+run: 931 
+No valid solution found 
+run: 932 
+No valid solution found 
+run: 933 
+No valid solution found 
+run: 934 
+No valid solution found 
+run: 935 
+No valid solution found 
+run: 936 
+No valid solution found 
+run: 937 
+No valid solution found 
+run: 938 
+No valid solution found 
+run: 939 
+No valid solution found 
+run: 940 
+No valid solution found 
+run: 941 
+No valid solution found 
+run: 942 
+No valid solution found 
+run: 943 
+No valid solution found 
+run: 944 
+No valid solution found 
+run: 945 
+No valid solution found 
+run: 946 
+No valid solution found 
+run: 947 
+No valid solution found 
+run: 948 
+No valid solution found 
+run: 949 
+No valid solution found 
+run: 950 
+No valid solution found 
+run: 951 
+No valid solution found 
+run: 952 
+No valid solution found 
+run: 953 
+No valid solution found 
+run: 954 
+No valid solution found 
+run: 955 
+No valid solution found 
+run: 956 
+No valid solution found 
+run: 957 
+No valid solution found 
+run: 958 
+No valid solution found 
+run: 959 
+No valid solution found 
+run: 960 
+No valid solution found 
+run: 961 
+No valid solution found 
+run: 962 
+No valid solution found 
+run: 963 
+No valid solution found 
+run: 964 
+No valid solution found 
+run: 965 
+No valid solution found 
+run: 966 
+No valid solution found 
+run: 967 
+No valid solution found 
+run: 968 
+No valid solution found 
+run: 969 
+No valid solution found 
+run: 970 
+No valid solution found 
+run: 971 
+No valid solution found 
+run: 972 
+No valid solution found 
+run: 973 
+No valid solution found 
+run: 974 
+No valid solution found 
+run: 975 
+No valid solution found 
+run: 976 
+No valid solution found 
+run: 977 
+No valid solution found 
+run: 978 
+No valid solution found 
+run: 979 
+No valid solution found 
+run: 980 
+No valid solution found 
+run: 981 
+No valid solution found 
+run: 982 
+No valid solution found 
+run: 983 
+No valid solution found 
+run: 984 
+No valid solution found 
+run: 985 
+No valid solution found 
+run: 986 
+No valid solution found 
+run: 987 
+No valid solution found 
+run: 988 
+No valid solution found 
+run: 989 
+No valid solution found 
+run: 990 
+No valid solution found 
+run: 991 
+No valid solution found 
+run: 992 
+No valid solution found 
+run: 993 
+No valid solution found 
+run: 994 
+No valid solution found 
+run: 995 
+No valid solution found 
+run: 996 
+No valid solution found 
+run: 997 
+No valid solution found 
+run: 998 
+No valid solution found 
+run: 999 
+No valid solution found 
+run: 1000 
+No valid solution found 
+run: 1001 
+No valid solution found 
+run: 1002 
+No valid solution found 
+run: 1003 
+No valid solution found 
+run: 1004 
+No valid solution found 
+run: 1005 
+No valid solution found 
+run: 1006 
+No valid solution found 
+run: 1007 
+No valid solution found 
+run: 1008 
+No valid solution found 
+run: 1009 
+No valid solution found 
+run: 1010 
+No valid solution found 
+run: 1011 
+No valid solution found 
+run: 1012 
+No valid solution found 
+run: 1013 
+No valid solution found 
+run: 1014 
+No valid solution found 
+run: 1015 
+No valid solution found 
+run: 1016 
+No valid solution found 
+run: 1017 
+No valid solution found 
+run: 1018 
+No valid solution found 
+run: 1019 
+No valid solution found 
+run: 1020 
+No valid solution found 
+run: 1021 
+No valid solution found 
+run: 1022 
+No valid solution found 
+run: 1023 
+No valid solution found 
+run: 1024 
+No valid solution found 
+run: 1025 
+No valid solution found 
+run: 1026 
+No valid solution found 
+run: 1027 
+No valid solution found 
+run: 1028 
+No valid solution found 
+run: 1029 
+No valid solution found 
+run: 1030 
+No valid solution found 
+run: 1031 
+No valid solution found 
+run: 1032 
+No valid solution found 
+run: 1033 
+No valid solution found 
+run: 1034 
+No valid solution found 
+run: 1035 
+No valid solution found 
+run: 1036 
+No valid solution found 
+run: 1037 
+No valid solution found 
+run: 1038 
+No valid solution found 
+run: 1039 
+No valid solution found 
+run: 1040 
+No valid solution found 
+run: 1041 
+No valid solution found 
+run: 1042 
+No valid solution found 
+run: 1043 
+No valid solution found 
+run: 1044 
+No valid solution found 
+run: 1045 
+No valid solution found 
+run: 1046 
+No valid solution found 
+run: 1047 
+No valid solution found 
+run: 1048 
+No valid solution found 
+run: 1049 
+No valid solution found 
+run: 1050 
+No valid solution found 
+run: 1051 
+No valid solution found 
+run: 1052 
+No valid solution found 
+run: 1053 
+No valid solution found 
+run: 1054 
+No valid solution found 
+run: 1055 
+No valid solution found 
+run: 1056 
+No valid solution found 
+run: 1057 
+No valid solution found 
+run: 1058 
+No valid solution found 
+run: 1059 
+No valid solution found 
+run: 1060 
+No valid solution found 
+run: 1061 
+No valid solution found 
+run: 1062 
+No valid solution found 
+run: 1063 
+No valid solution found 
+run: 1064 
+No valid solution found 
+run: 1065 
+No valid solution found 
+run: 1066 
+No valid solution found 
+run: 1067 
+No valid solution found 
+run: 1068 
+No valid solution found 
+run: 1069 
+No valid solution found 
+run: 1070 
+No valid solution found 
+run: 1071 
+No valid solution found 
+run: 1072 
+No valid solution found 
+run: 1073 
+No valid solution found 
+run: 1074 
+No valid solution found 
+run: 1075 
+No valid solution found 
+run: 1076 
+No valid solution found 
+run: 1077 
+No valid solution found 
+run: 1078 
+No valid solution found 
+run: 1079 
+No valid solution found 
+run: 1080 
+No valid solution found 
+run: 1081 
+No valid solution found 
+run: 1082 
+No valid solution found 
+run: 1083 
+No valid solution found 
+run: 1084 
+No valid solution found 
+run: 1085 
+No valid solution found 
+run: 1086 
+No valid solution found 
+run: 1087 
+No valid solution found 
+run: 1088 
+No valid solution found 
+run: 1089 
+No valid solution found 
+run: 1090 
+No valid solution found 
+run: 1091 
+No valid solution found 
+run: 1092 
+No valid solution found 
+run: 1093 
+No valid solution found 
+run: 1094 
+No valid solution found 
+run: 1095 
+No valid solution found 
+run: 1096 
+No valid solution found 
+run: 1097 
+No valid solution found 
+run: 1098 
+No valid solution found 
+run: 1099 
+No valid solution found 
+run: 1100 
+No valid solution found 
+run: 1101 
+No valid solution found 
+run: 1102 
+No valid solution found 
+run: 1103 
+No valid solution found 
+run: 1104 
+No valid solution found 
+run: 1105 
+No valid solution found 
+run: 1106 
+No valid solution found 
+run: 1107 
+No valid solution found 
+run: 1108 
+No valid solution found 
+run: 1109 
+No valid solution found 
+run: 1110 
+No valid solution found 
+run: 1111 
+No valid solution found 
+run: 1112 
+No valid solution found 
+run: 1113 
+No valid solution found 
+run: 1114 
+No valid solution found 
+run: 1115 
+No valid solution found 
+run: 1116 
+No valid solution found 
+run: 1117 
+No valid solution found 
+run: 1118 
+No valid solution found 
+run: 1119 
+No valid solution found 
+run: 1120 
+No valid solution found 
+run: 1121 
+No valid solution found 
+run: 1122 
+No valid solution found 
+run: 1123 
+No valid solution found 
+run: 1124 
+No valid solution found 
+run: 1125 
+No valid solution found 
+run: 1126 
+result: 35350 
+seed: 7000 
+run: 1127 
+No valid solution found 
+run: 1128 
+No valid solution found 
+run: 1129 
+No valid solution found 
+run: 1130 
+No valid solution found 
+run: 1131 
+No valid solution found 
+run: 1132 
+No valid solution found 
+run: 1133 
+No valid solution found 
+run: 1134 
+No valid solution found 
+run: 1135 
+No valid solution found 
+run: 1136 
+No valid solution found 
+run: 1137 
+No valid solution found 
+run: 1138 
+No valid solution found 
+run: 1139 
+No valid solution found 
+run: 1140 
+No valid solution found 
+run: 1141 
+No valid solution found 
+run: 1142 
+No valid solution found 
+run: 1143 
+No valid solution found 
+run: 1144 
+No valid solution found 
+run: 1145 
+No valid solution found 
+run: 1146 
+No valid solution found 
+run: 1147 
+No valid solution found 
+run: 1148 
+No valid solution found 
+run: 1149 
+No valid solution found 
+run: 1150 
+No valid solution found 
+run: 1151 
+No valid solution found 
+run: 1152 
+No valid solution found 
+run: 1153 
+No valid solution found 
+run: 1154 
+No valid solution found 
+run: 1155 
+No valid solution found 
+run: 1156 
+No valid solution found 
+run: 1157 
+No valid solution found 
+run: 1158 
+No valid solution found 
+run: 1159 
+No valid solution found 
+run: 1160 
+No valid solution found 
+run: 1161 
+No valid solution found 
+run: 1162 
+No valid solution found 
+run: 1163 
+No valid solution found 
+run: 1164 
+No valid solution found 
+run: 1165 
+No valid solution found 
+run: 1166 
+No valid solution found 
+run: 1167 
+No valid solution found 
+run: 1168 
+No valid solution found 
+run: 1169 
+No valid solution found 
+run: 1170 
+No valid solution found 
+run: 1171 
+No valid solution found 
+run: 1172 
+No valid solution found 
+run: 1173 
+No valid solution found 
+run: 1174 
+No valid solution found 
+run: 1175 
+No valid solution found 
+run: 1176 
+No valid solution found 
+run: 1177 
+No valid solution found 
+run: 1178 
+No valid solution found 
+run: 1179 
+No valid solution found 
+run: 1180 
+No valid solution found 
+run: 1181 
+No valid solution found 
+run: 1182 
+No valid solution found 
+run: 1183 
+No valid solution found 
+run: 1184 
+No valid solution found 
