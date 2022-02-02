@@ -5,10 +5,10 @@ from matplotlib.pyplot import close
 
 
 class distributionHillClimber():
-    ''' 
+    """
     Loop through the current best solution, first placing the houses in the closest battery to them, if
     it's an improvement, then randomly comparing the houses to find better distances.
-    '''
+    """
 
     def __init__(self, initialResult, batteries, houses, currentCapacities, distances, seed):
         self._bestResult = initialResult
@@ -21,11 +21,12 @@ class distributionHillClimber():
         self.batteryvHouses()
         self.getPerfectDistances()
 
+
     def distanceDifference(self, house, newBattery):
-        '''
+        """
         Check the difference between the distance to the
-        current battery of a house and the potential new battery
-        '''
+        current battery of a house and the potential new battery.
+        """
         currentBatteryID = self._allBatteries.index(self._bestResult[house])
         currentDistance = self._distancesToBatteries[house][currentBatteryID]
 
@@ -34,10 +35,11 @@ class distributionHillClimber():
 
         return currentDistance - newDistance
 
+
     def updateNewState(self, randomHouseOne, randomHouseTwo, batteryHouseOne, batteryHouseTwo):
-        '''
-        after finding a better solution, update the capacities and state with the swap of houses
-        '''
+        """
+        After finding a better solution, update the capacities and state with the swap of houses.
+        """
         # update state
         self._bestResult[randomHouseOne] = batteryHouseTwo
         self._bestResult[randomHouseTwo] = batteryHouseOne
@@ -48,12 +50,14 @@ class distributionHillClimber():
         self._capacities[batteryHouseTwo] = self._capacities[batteryHouseTwo] + \
             randomHouseTwo.output - randomHouseOne.output
 
+
     def mutateState(self):
-        '''
-        loop n amount of times to the current state, comparing two random houses to eachother to 
-        see if the total distance to batteries will improve. If so, make the swap
-        '''
+        """
+        Loop n amount of times to the current state, comparing two random houses to eachother to 
+        see if the total distance to batteries will improve. If so, make the swap.
+        """
         for i in range(250000):
+            
             # pick random house
             random.seed(self._seed)
             randomHouseOne = self._allHouses[random.randint(0, 149)]
@@ -77,36 +81,42 @@ class distributionHillClimber():
                     if distanceImprovementOne + distanceImprovementTwo > 0:
                         self.updateNewState(
                             randomHouseOne, randomHouseTwo, batteryHouseOne, batteryHouseTwo)
+
         return self._bestResult
 
+
     def batteryvHouses(self):
-        '''
-        make list of all houses connected to a battery for each battery, store it in a dictionary
-        '''
+        """
+        Make list of all houses connected to a battery for each battery, store it in a dictionary.
+        """
         batteryDict = {self._allBatteries[0]: [], self._allBatteries[1]: [
         ], self._allBatteries[2]: [], self._allBatteries[3]: [], self._allBatteries[4]: []}
         for house in self._bestResult:
             batteryDict[self._bestResult[house]].append(house)
         self._batteryDict = batteryDict
 
+
     def checkCapacity(self, houseOne, houseTwo, batteryTwo, batteryOne):
-        '''
-        check if the capacity of two batteries allow a swap
-        '''
+        """
+        Check if the capacity of two batteries allow a swap.
+        """
         if self._capacities[batteryTwo] - houseTwo.output + houseOne.output > 0:
             if self._capacities[batteryOne] - houseOne.output + houseTwo.output > 0:
                 return True
         return False
 
+
     def getPerfectDistances(self):
-        '''
-        loop through the current state to see if each can be placed in it's closest battery, 
+        """
+        Loop through the current state to see if each can be placed in it's closest battery, 
         if it improves the distance.
-        '''
+        """
         for i in range(250):
+            
             # loop through all houses
             for houseOne in self._bestResult:
                 batteryOne = self._bestResult[houseOne]
+                
                 # get it's closest battery
                 sortedDistances = copy.deepcopy(
                     self._distancesToBatteries[houseOne])
@@ -118,12 +128,15 @@ class distributionHillClimber():
 
                 # check if the house is not yet in the battery
                 if closestBatteryOne != batteryOne:
-                    # 	get a house in the closest battery
+                    
+                    # get a house in the closest battery
                     for houseTwo in self._batteryDict[closestBatteryOne]:
-                        # 	get the current battery of the house that will be swapped
+                        
+                        # get the current battery of the house that will be swapped
                         sortedDistances = copy.deepcopy(
                             self._distancesToBatteries[houseTwo])
                         sortedDistances.sort()
+                        
                         closestDistance = sortedDistances[1]
                         closestDistanceIndex = self._distancesToBatteries[houseTwo].index(
                             closestDistance)
@@ -137,14 +150,17 @@ class distributionHillClimber():
                             if houseOne != houseTwo:
                                 improvement = self.distanceDifference(
                                     houseOne, self._bestResult[houseTwo]) + self.distanceDifference(houseTwo, self._bestResult[houseOne])
+                            
                             # check if the distance will be improved
                             if improvement > 0:
+                                
                                 # check if the capacities allow it
                                 if self.checkCapacity(houseOne, houseTwo, closestBatteryTwo, closestBatteryOne):
                                     if improvement > bestImprovement:
                                         bestImprovement = improvement
                                         secondHouse = houseTwo
                                         break
+                    
                     # make the swap
                     if bestImprovement > 0:
                         self.updateNewState(

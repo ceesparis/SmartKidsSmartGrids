@@ -5,6 +5,7 @@ from .distributionClimber import distributionHillClimber
 
 
 class DistributeBatteries():
+
     def __init__(self, houses, batteries, seed):
         self._houses = houses
         self._batteries = batteries
@@ -17,7 +18,12 @@ class DistributeBatteries():
         self.getDistances()
         self.findBattery()
 
+
     def getDistances(self):
+        """
+        Add a small description
+        """
+        
         # dictionary of all the houses containing the closest batteries
         batteryDict = {}
 
@@ -27,6 +33,7 @@ class DistributeBatteries():
         # loop through all houses
         for house in self._houses:
             minimalDistance = 999999
+            
             # list of all distances from a house to a battery
             distanceList = []
 
@@ -34,8 +41,7 @@ class DistributeBatteries():
             for battery in self._batteries:
                 distance = 0
 
-                # check the distances of houses to batteries by adding the difference on the x-axis to the
-                # difference on the y-axis
+                # check house to battery distance by adding the x-axis difference to y-axis difference
                 distance += abs(battery.location[0] - house.location[0])
                 distance += abs(battery.location[1] - house.location[1])
 
@@ -62,7 +68,11 @@ class DistributeBatteries():
         # call function that removes the houses that should get priority
         self.closestHouses(distanceDict, batteryDict)
 
+
     def closestHouses(self, distanceDict, batteryDict):
+        """
+        Add a small description
+        """
 
         # sort the difference between the distances of the batteries in descending order
         distancesSorted = dict(
@@ -84,9 +94,9 @@ class DistributeBatteries():
         # dictionary containing all houses with their closest batteries
         topHouses = {}
 
-        # remove all houses that have been prioritized from the houses list and store them
-        # in the topHouses dictionary
+        # remove the prioritised houses from house list and stores them in topHouses dictionary
         for houseID in range(len(priorityHouses)):
+            
             # check if the capacity has not yet been reached
             if self._capacities[batteryDict[priorityHouses[houseID]]] - priorityHouses[houseID].output > 0:
                 topHouses[priorityHouses[houseID]] = batteryDict.pop(
@@ -98,9 +108,15 @@ class DistributeBatteries():
         # add the first results to the class
         self._result = topHouses
 
+
     def initialDistribution(self, houseBattery, house):
+        """
+        Add a small description
+        """
+
         # set the closest distance to a battery mber higher than any distance possible
         closestDistance = 9999
+
         # this will keep track of which battery is closest to the house
         batteryPicked = None
         previousDistance = closestDistance
@@ -113,6 +129,7 @@ class DistributeBatteries():
 
                 # keep track of which battery is closest
                 if previousDistance > self._batteryProx[house][batteryID]:
+                    
                     # update the battery that is currently closest
                     closestBatteryID = batteryID
 
@@ -128,18 +145,23 @@ class DistributeBatteries():
 
         # no battery was found that hasn't reached it's capacity yet
         if closestDistance == 9999:
+            
             # keep going until a battery has been picked for each house
             while batteryPicked == None:
+                
                 # if the closest battery is not a possibility, try all other batteries in order
                 if notPossible == True:
                     closestBatteryID += 1
 
                 # check all houses that have already been assigned a battery
                 for replaceHouse in houseBattery:
+                    
                     # find a house that has been assigned the battery we want this house to be assigned to
                     if self._batteries[closestBatteryID] == houseBattery[replaceHouse]:
+                        
                         # check if the capacity will be improved by replacing the house
                         if (self._capacities[self._batteries[closestBatteryID]] + replaceHouse.output - house.output) < self._capacities[self._batteries[closestBatteryID]] and (self._capacities[self._batteries[closestBatteryID]] + replaceHouse.output - house.output) > 0:
+                            
                             # replace the house
                             houseBattery[house] = self._batteries[closestBatteryID]
                             houseBattery.pop(replaceHouse)
@@ -160,6 +182,7 @@ class DistributeBatteries():
                 if closestBatteryID == 4:
                     break
         else:
+            
             # no house has been replaced
             replaceHousePicked = False
 
@@ -167,6 +190,7 @@ class DistributeBatteries():
             self._result = "invalid"
             return False
         else:
+            
             # add the newly assigned house to the dicts, update the capacities
             houseBattery[house] = self._batteries[batteryPicked]
             self._capacities[self._batteries[batteryPicked]
@@ -179,26 +203,37 @@ class DistributeBatteries():
 
         return True
 
-    # find the closest battery that hasn't reached it's capacity yet
 
     def findBattery(self):
+        """
+        Find the closest battery that hasn't reached its capacity yet.
+        """
+
         # store all batteries that are matched with each house
         houseBattery = {}
+        
         # loop through all houses that have not yet been assigned a battery
         for house in self._batteryProx:
             isValid = self.initialDistribution(houseBattery, house)
             if not isValid:
                 break
 
-    # make a list of all capacities of the batteries
+
     def fillCapacity(self):
+        """
+        Make a list of all capacities of the batteries.
+        """
         batteryCapacities = {}
+
         for battery in self._batteries:
             batteryCapacities[battery] = battery.capacity
+
         self._capacities = batteryCapacities
+
 
     def returnResults(self):
         return self._result
+
 
     def returnHillClimber(self):
         climber = distributionHillClimber(

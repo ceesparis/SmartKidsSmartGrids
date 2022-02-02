@@ -2,6 +2,10 @@ from math import dist
 
 
 class CableClimber():
+    """
+    Add description for class
+    """
+
     def __init__(self, centralPoints, smallRadius, bigRadius, houseBattery):
         self._centralPoints = centralPoints
         self._smallRadius = smallRadius
@@ -9,14 +13,21 @@ class CableClimber():
         self._houseBattery = houseBattery
         self._allCentrals = None
 
+
     def calculateDistance(self, houseLocation, centralLocation):
+        """
+        Add small description
+        """
         distance = 0
         distance += abs(houseLocation[0] - centralLocation[0])
         distance += abs(houseLocation[1] - centralLocation[1])
         return distance
 
-    def betterSmall(self):
 
+    def betterSmall(self):
+        """
+        Add small description
+        """
         centralPoints = {}
 
         for bigRadiusID in range(len(self._smallRadius)-1):
@@ -38,8 +49,13 @@ class CableClimber():
 
         return self._smallRadius
 
+
     def betterBig(self):
+        """
+        Add small description
+        """
         centralPoints = []
+        
         for radius in self._bigRadius:
             centralPoints.append(radius[0].location)
         self._allCentrals = tuple(centralPoints)
@@ -51,24 +67,38 @@ class CableClimber():
                 for centralPointTwoID in range(len(centralPoints)-1):
                     if centralPointID != centralPointTwoID:
                         if currentDistance > self.calculateDistance(house.location, centralPoints[centralPointTwoID]):
-                            # print(
-                            #     f"current distance: {currentDistance}, new: {self.calculateDistance(house.location, centralPoints[centralPointTwoID])}")
                             self.swapBigRadius(
                                 house, centralPointTwoID, centralPointID)
 
         return self._bigRadius
 
+
     def swapSmallRadius(self, house, centralPointTwoID, radiusID, centralPointID):
+        """
+        Add small description
+        """
         self._smallRadius[radiusID][centralPointID].remove(house)
         self._smallRadius[radiusID][centralPointTwoID].append(house)
 
+
     def swapBigRadius(self, house, centralPointTwoID, centralPointID):
+        """
+        Add small description
+        """
         if house in self._bigRadius[centralPointID]:
             self._bigRadius[centralPointID].remove(house)
             self._bigRadius[centralPointTwoID].append(house)
 
+
     def betterRadiuses(self):
+        """
+        Small description?
+        """
         return [self.betterBig(), self.betterSmall()]
 
+
     def returnCentralPoints(self):
+        """
+        Small description?
+        """
         return self._allCentrals
