@@ -26,6 +26,13 @@ Nadat de bulk van de connecties van huis tot een andere kabel, ander huis of bat
 
 Bestandsnaam: connectionClimber.py
 
+### Cluster Algortime
+Dit algoritme staat helemaal los van eerder beschreven algoritmes. Het centrale idee van dit algoritme is om eerst de huizen die dicht bij elkaar staan onderling te verbinden, alvorens ze met een batterij te verbinden. De optimale radius om in te zoeken bleek 5 ticks te zijn (deze afstand kan verdeeld zijn over de x en de y as). 
+De huizen van een 'huizencluster' worden onderling verbonden in drie stappen. De eerste stap bestaat uit een greedy algoritme dat vanaf elk huis in het cluster begint, en die de meest voordelige route om de huizen met elkaar te verbinden onthoudt. Bij de tweede stap wordt er in het cluster nog een laatste kabel gelegd van het laatste huis tot het eerste huis, waardoor er een gesloten cirkel van kabels tussen de huizen ontstaat. Bij de laatste stap wordt er gekeken naar de langste kabel van het cluster, en deze wordt vernietigd. De huizen zijn dan nog steeds onderling verbonden vanwege stap 2. 
+Vervolgens worden deze clusters in een random volgorde verbonden aan de dichstbijzijnde mogelijke batterij. Mocht de grid dan nog niet geldig zijn, husselt het algoritme met de clusters net zo lang tot het wel mogelijk is een geldige grid te maken. 
+
+Bestandsnaam: cluster_alg.py
+
 ## Commands
 - Hoe run je de main?
 - Hoe run je het experiment?
