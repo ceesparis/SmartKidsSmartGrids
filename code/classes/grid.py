@@ -4,7 +4,7 @@ import json
 
 class Grid():
     """
-    Add class description
+    Characteristics and functions for the loaded in neighbourhood grids.
     """
 
     def __init__(self, district):
@@ -21,7 +21,7 @@ class Grid():
 
     def load_from_csv(self):
         """
-        Add small description
+        Loads the district from the desired/given csv file.
         """
         number = self.district
         grid = loader.load_grid(number)
