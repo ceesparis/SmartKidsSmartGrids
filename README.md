@@ -62,7 +62,14 @@ Om het ClusterWebz experiment te runnen importeer je in de main de file door mid
 from code.experiments.clus_exp import clus_experiment
 ```
 
-Vervolgens roep je:  ```clus_exp()``` aan bovenaan de code. Roep vervolgens main als normaal aan; dit zal het experiment starten.
+Vervolgens roep je:  ```clus_exp()``` aan bovenaan de code. Roep vervolgens main als normaal aan; dit zal het experiment starten. Deze runt vervolgens voor een half uur, en zal zijn resultaten opslaan in een csv bestand genaamd ___cluster_results_district{district}range5.csv___, het district tussen haakjes afhankelijk van welke aan het begin opgeroepen is. Om het district te veranderen moet het nummer aan worden gepast in het bestand ___experiment.py___, te vinden onder code/experiments. De mogelijkheden zijn 1, 2, en 3.
+
+Voor de visualisatie moet het volgende geimporteerd worden in de main:
+```
+from visualize_clus_exp import visualize_exp
+```
+Dit valt direct na ```clus_exp()``` te runnen en neemt het zojuist gecreëerde bestand, en het gekozen district nummer, als argumenten.
+
 
 ## Auteurs
 * Sanne de Bruin
