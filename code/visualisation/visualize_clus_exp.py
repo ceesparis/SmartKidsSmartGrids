@@ -26,6 +26,6 @@ def visualize_exp(csv_file, district):
     plt.bar(order, data, width=1)
     plt.xlabel("number of grids")
     plt.ylabel("grid costs")
-    plt.savefig(f"./results/sharedcables/cluster_experiment_district_{district}.png")
+    plt.savefig(f"./data/experiments/sharedcables/cluster_experiment_district_{district}.png")
     
    
