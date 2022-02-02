@@ -2,6 +2,7 @@
 
 ## step 1: import clus_exp from this folder into main
 You can import clus_exp.py as follows: 
+
 from code.experiments.clus_exp import clus_experiment
 
 ## step 2: put code in main
@@ -12,5 +13,7 @@ If you run main now, it will first run clus_exp for half an hour. Results will b
 
 ## step 4: visualize results
 To visualize results import the following in main:
+
 from visualize_clus_exp import visualize_exp
+
 You can run visualize_clus_exp right after clus_exp. It takes as arguments the csv you just created and the district number. 
