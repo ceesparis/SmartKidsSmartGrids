@@ -3,7 +3,7 @@ from code.calculations.clus_cost_shared import calculateCostShared
 from code.algorithms.cluster_alg import Clusalgo
 from code.visualisation.visualize_clus_exp import visualize_exp
 from code.visualisation.old_visualisation import visualize
-from distributeLoop import iterateDistribution
+from code.helpers.distributeLoop import iterateDistribution
 from sys import argv
 from code.classes.randomizer import Randomizer
 from code.classes.grid import Grid

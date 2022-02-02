@@ -6,7 +6,6 @@ from code.visualisation.visualisation import visualize
 from code.algorithms.smartCables import GenerateSmartCables
 from code.calculations.sharedCosts import *
 from code.algorithms.connectionClimber import ClimbConnections
-from code.algorithms.simpleCables import *
 import sys
 
 
@@ -21,18 +20,18 @@ def iterateDistribution(grid, loops):
 
     # find the best solution by looping through the first algorithm n amount of times
     for i in range(loops):
-        
+
         # random element #1
         random.seed(seed)
         random.shuffle(grid.houses)
-        
+
         batteryDistribution = DistributeBatteries(
             grid.houses, grid.batteries, seed)
-        
+
         results = batteryDistribution.returnResults()
-        
+
         if results != "invalid":
-            
+
             # lay all cables down
             for house in results:
                 house.cables = randomizeCables(
@@ -68,7 +67,7 @@ def iterateDistribution(grid, loops):
     newCables = GenerateSmartCables(
         grid.batteries, grid.houses, bestResult, seed)
     result = newCables.findCentralPoint()
-    
+
     for house in result:
         house.cables = randomizeCables(
             house.location, [result[house][0], result[house][1]])
@@ -109,11 +108,11 @@ def iterateDistribution(grid, loops):
     connectionClimber = ClimbConnections(
         grid.batteries, grid.houses, result, centralPoints, bestResult)
     connectionClimber.findConnections()
-    
+
     grid.district.ownCosts = calculateCostShared(
         len(grid.batteries), grid.batteries)
-    
+
     visualize(grid, "bestGrid")
-    
+
     print(f"{grid.district.ownCosts} {seed}")
     return grid
