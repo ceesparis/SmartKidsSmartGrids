@@ -4,10 +4,11 @@ from matplotlib.ticker import (MultipleLocator)
 
 
 def visualize(grid, state):
-    '''
+    """
         Takes grid.
         Shows visual representation of grid.
-    '''
+    """
+    
     # make seperate lists for x and y coordinates
     houses_x = []
     houses_y = []
@@ -65,8 +66,6 @@ def visualize(grid, state):
     # show grid
     ax.grid(b=True, lw=1.1)
     ax.grid(b=True, which='minor')
-
-    # plt.show()
 
     plt.plot(range(10))
     fig.savefig('./grid.png', dpi=fig.dpi)
