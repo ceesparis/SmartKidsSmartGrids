@@ -38,7 +38,7 @@ Dit algoritme staat helemaal los van eerder beschreven algoritmes. Het centrale 
 De huizen van een 'huizencluster' worden onderling verbonden in drie stappen. De eerste stap bestaat uit een greedy algoritme, dat vanaf elk huis in het cluster begint, en de meest voordelige route om de huizen met elkaar te verbinden onthoudt. Bij de tweede stap wordt er in het cluster nog een laatste kabel gelegd van het laatste huis tot het eerste huis, waardoor er een gesloten cirkel van kabels tussen de huizen ontstaat. Bij de laatste stap wordt er gekeken naar de langste kabel van het cluster, en deze wordt vernietigd. De huizen zijn dan nog steeds onderling verbonden vanwege stap 2. 
 Vervolgens worden deze clusters in een random volgorde verbonden aan de dichstbijzijnde mogelijke batterij. Mocht de grid dan nog niet geldig zijn, husselt het algoritme met de clusters net zo lang tot het wel mogelijk is een geldige grid te maken. 
 
-Bestandsnaam: ___cluster_alg.py___
+Bestandsnaam: ___clusterAlgorithm.py___
 
 ## Structuur
 Alle code die we hebben gebruikt, met uitzondering van de main, staat in onze code folder. In onze data map staan de initieel gegeven district csv bestanden die wij hebben gebruikt om grids in te lezen, en in de results map zijn zowel onze volledige experiment runs als diens beste uitkomsten te vinden, ingedeeld per experiment.
@@ -59,16 +59,16 @@ python3 experimentSmartDistribution.py
 
 Om het ClusterWebz experiment te runnen importeer je in de main de file door middel van:
 ```
-from code.experiments.clus_exp import clus_experiment
+from code.experiments.clusterExperimentRunner import clusExperiment
 ```
 
-Vervolgens roep je:  ```clus_exp()``` aan bovenaan de code. Roep vervolgens main als normaal aan; dit zal het experiment starten. Deze runt vervolgens voor een half uur, en zal zijn resultaten opslaan in een csv bestand genaamd ___cluster_results_district{district}range5.csv___, het district tussen haakjes afhankelijk van welke aan het begin opgeroepen is. Om het district te veranderen moet het nummer aan worden gepast in het bestand ___experiment.py___, te vinden onder code/experiments. De mogelijkheden zijn 1, 2, en 3.
+Vervolgens roep je:  ```clusterExperimentRunner()``` aan bovenaan de code. Roep vervolgens main als normaal aan; dit zal het experiment starten. Deze runt vervolgens voor een half uur, en zal zijn resultaten opslaan in een csv bestand genaamd ___cluster_results_district{district}range5.csv___, het district tussen haakjes afhankelijk van welke aan het begin opgeroepen is. Om het district te veranderen moet het nummer aan worden gepast in het bestand ___clusterExperiment.py___, te vinden onder code/experiments. De mogelijkheden zijn 1, 2, en 3.
 
 Voor de visualisatie moet het volgende geimporteerd worden in de main:
 ```
-from visualize_clus_exp import visualize_exp
+from visualiseClusterExperiment import visualizeExp
 ```
-Dit valt direct na ```clus_exp()``` te runnen en neemt het zojuist gecreëerde bestand, en het gekozen district nummer, als argumenten.
+Dit valt direct na ```clusterExperimentRunner()``` te runnen en neemt het zojuist gecreëerde bestand, en het gekozen district nummer, als argumenten.
 
 
 ## Auteurs
