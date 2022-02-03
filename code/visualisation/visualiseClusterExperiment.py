@@ -3,9 +3,9 @@ import numpy as np
 import csv
 
 
-def visualize_exp(csv_file, district):
+def visualizeExp(csvFile, district):
     """
-        Takes csv_file.
+        Takes csv file.
         Shows visual representation of all results.
     """
 
@@ -14,9 +14,9 @@ def visualize_exp(csv_file, district):
     
     i = 0
     
-    with open(csv_file, "r") as f:
-        csv_reader = csv.reader(f)
-        for line in csv_reader:
+    with open(csvFile, "r") as f:
+        csvReader = csv.reader(f)
+        for line in csvReader:
             order.append(i)
             line = line[0]
             print(line)
