@@ -46,4 +46,4 @@ In deze folder hebben we als het ware de hulpjes van de algoritmes gezet. Zo heb
 
 ## Visualisation
 Deze folder bevat twee bestanden die door middel van matplotlib de uitkomsten visualiseren naar daadwerkelijke grids gevuld met nodes voor de huizen
-en batterijen, en lijnen voor de kabels. Het ene bestand is voor het Cluster algoritme, en de ander is om de uitkomsten van het Cluster experiment te visualiseren. De visualisatie voor de Smart Distribution staat al inbegrepen in diens code zelf.
+en batterijen, en lijnen voor de kabels. Het ene bestand is voor zowel het visualiseren van het Cluster algoritme als het Smart Distribution algoritme, en de ander is om de uitkomsten van het Cluster experiment te visualiseren.
