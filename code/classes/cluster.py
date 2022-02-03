@@ -1,5 +1,5 @@
 import copy
-from code.helpers.createRoute import lay_Route
+from code.helpers.createRoute import layRoute
 
 class Cluster():
     """
@@ -10,10 +10,10 @@ class Cluster():
     def __init__(self, houses):
         self.houses = houses
         self.output = 0
-        self.total_cables = []
+        self.totalCables = []
 
 
-    def determine_output(self):
+    def determineOutput(self):
         """
         Takes output of houses.
         Calculates total output cluster.
@@ -25,7 +25,7 @@ class Cluster():
         self.output = output
 
 
-    def add_cluster_cables(self):
+    def addClusterCables(self):
         """
         Takes houses of cluster.
         Lays cables between houses in an efficient manner using:
@@ -34,80 +34,78 @@ class Cluster():
         """
 
         # create list for all possible greedy paths
-        possible_paths = []
+        possiblePaths = []
 
         # create 'roadmap' for each possible greedy path
         for house in self.houses:
-            possible_path = []
+            possiblePath = []
             starter = house
 
             # create copy of houses so once a house is connected it can be removed
-            hoppin_houses = copy.deepcopy(self.houses)
-            for hop_house in hoppin_houses:
-                if hop_house.location == house.location:
-                    starter = hop_house
+            hoppingHouses = copy.deepcopy(self.houses)
+            for hoppingHouse in hoppingHouses:
+                if hoppingHouse.location == house.location:
+                    starter = hoppingHouse
             
             # while there are still houses unvisited, find closest houses to them and put in map
-            while hoppin_houses:
-                possible_path.append(starter)
-                begin_x = starter.location[0]
-                begin_y = starter.location[1]
+            while hoppingHouses:
+                possiblePath.append(starter)
                 
                 # find closest house in the cluster
-                end_house = starter.find_closest(hoppin_houses)
-                hoppin_houses.remove(starter)
+                endHouse = starter.findClosest(hoppingHouses)
+                hoppingHouses.remove(starter)
                 
                 # use this closest house as new starting point
-                starter = end_house
+                starter = endHouse
             
             # store roadmap in list
-            possible_paths.append(possible_path)
+            possiblePaths.append(possiblePath)
 
         # lay cables according to greedy roadmaps
-        for path in possible_paths:
+        for path in possiblePaths:
             i = 0
             
             # add cables from first to last house
             while i < (len(path)-1):
-                begin_house = path[i]
-                end_house = path[i+1]
-                lay_Route(begin_house, end_house)
+                beginHouse = path[i]
+                endHouse = path[i+1]
+                layRoute(beginHouse, endHouse)
                 i += 1
 
             # complete circle, so that first house is directly connected to last house
             if len(path) > 1:
-                begin_house = path[i]
-                end_house = path[0]
-                lay_Route(begin_house, end_house)
+                beginHouse = path[i]
+                endHouse = path[0]
+                layRoute(beginHouse, endHouse)
             
             # part 3 break circle by destroying largest cable
-            biggest_cable = []
+            biggestCable = []
             for house in path:
-                if len(house.cables) > len(biggest_cable):
-                    biggest_cable = house.cables
+                if len(house.cables) > len(biggestCable):
+                    biggestCable = house.cables
             for house in path:
-                if house.cables == biggest_cable:
+                if house.cables == biggestCable:
                     house.cables = []
 
         # determine which of the possible paths is optimal, and put this path in self.houses
-        min_cables = 1000
-        smallest_path = []
+        minimumCables = 1000
+        smallestPath = []
         
-        for path in possible_paths:
+        for path in possiblePaths:
             
             # determine total cables path by adding cables of each house
-            total_cables = 0
+            totalCables = 0
             
             for house in path:
-                total_cables += len(house.cables)
+                totalCables += len(house.cables)
             
             # if this route has the smallest total cables, it is the smallest path
-            if total_cables < min_cables:
-                min_cables = total_cables
-                smallest_path = path
+            if totalCables < minimumCables:
+                minimumCables = totalCables
+                smallestPath = path
         
         # update houses of the clusters to contain the smallest path
-        self.houses = smallest_path
+        self.houses = smallestPath
 
 
     def connect_to_batt(self, batteries):
@@ -115,18 +113,18 @@ class Cluster():
         Take cluster.
         Connect cluster to nearest possible battery.
         """
-        possible_batt = []
+        possibleBatteries = []
         
         # check which batteries are available
         for battery in batteries:
             if battery.capacity > self.output:
-                possible_batt.append(battery)
+                possibleBatteries.append(battery)
         
         # keep track of closest house to desired battery and desired battery
-        closest_point = 1000
-        chosen_batt = None
-        begin_point = None
-        begin_house = None
+        closestPoint = 1000
+        chosenBattery = None
+        beginPoint = None
+        beginHouse = None
         
         # determine closest point of cluster to a battery
         for house in self.houses:
@@ -134,29 +132,29 @@ class Cluster():
             x = location[0]
             y = location[1]
             
-            for battery in possible_batt:
-                bat_loc = battery.location
+            for battery in possibleBatteries:
+                batteryLocation = battery.location
                 
-                bat_x = bat_loc[0]
-                bat_y = bat_loc[1]
+                batteryX = batteryLocation[0]
+                batteryY = batteryLocation[1]
                 
-                x_diff = abs(x - bat_x)
-                y_diff = abs(y - bat_y)
-                total_diff = x_diff + y_diff
+                xDifference = abs(x - batteryX)
+                yDifference = abs(y - batteryY)
+                totalDifference = xDifference + yDifference
                 
                 # if house is the closest point to closest battery, update variables
-                if total_diff < closest_point:
-                    closest_point = total_diff
-                    chosen_batt = battery
-                    begin_point = location
-                    begin_house = house
+                if totalDifference < closestPoint:
+                    closestPoint = totalDifference
+                    chosenBattery = battery
+                    beginPoint = location
+                    beginHouse = house
         
         # drain chosen battery
-        chosen_batt.drain(self.output)
+        chosenBattery.drain(self.output)
         
         # reverse cables of chosen house so that cables are continuously laid
-        begin_house.cables.reverse()
+        beginHouse.cables.reverse()
         
         # finally, connect cables from cluster to battery
-        lay_Route(begin_house, chosen_batt)
+        layRoute(beginHouse, chosenBattery)
 

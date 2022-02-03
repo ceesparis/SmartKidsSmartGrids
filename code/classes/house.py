@@ -13,16 +13,16 @@ class House():
         self.grouped = False
 
 
-    def add_cable(self, x, y):
+    def addCable(self, x, y):
         """
         Adds cable from house to coordinate.
         """
-        new_cable = (x, y)
+        newCable = (x, y)
         cables = self.cables
-        cables.append(new_cable)
+        cables.append(newCable)
 
 
-    def house_sonar(self, houses):
+    def houseSonar(self, houses):
         """
         Takes houses and own location.
         Returns list of houses within specified range of own location.
@@ -33,28 +33,28 @@ class House():
         y1 = self.location[1]
 
         # determine range (amount of ticks that will be searched around reference point)
-        search_range = 5
-        local_house_list = []
+        searchRange = 5
+        localHouseList = []
 
         # check for ungrouped houses in vicinity of reference point
         for house in houses:
             x = house.location[0]
             y = house.location[1]
-            diff_x = abs(x - x1)
-            diff_y = abs(y - y1)
+            differenceX = abs(x - x1)
+            differenceY = abs(y - y1)
 
             # if house is within range and not part of a cluster add it to this cluster
-            total_diff = diff_x + diff_y
+            totalDifference = differenceX + differenceY
 
-            if (total_diff < search_range) & (house.grouped == False):
-                local_house_list.append(house)
+            if (totalDifference < searchRange) & (house.grouped == False):
+                localHouseList.append(house)
                 house.grouped = True
 
         # return all houses in the vicinity
-        return local_house_list
+        return localHouseList
 
 
-    def find_closest(self, houses):
+    def findClosest(self, houses):
         """
             Takes houses and own location.
             Returns house that is (one of the) closest to its own location.
@@ -65,7 +65,7 @@ class House():
         y1 = self.location[1]
 
         closest = 1000
-        closest_house = None
+        closestHouse = None
 
         # check for all houses if they are the closest thus far
         for house in houses:
@@ -75,14 +75,14 @@ class House():
                 x = house.location[0]
                 y = house.location[1]
                 
-                diff_x = abs(x - x1)
-                diff_y = abs(y - y1)
-                total_diff = diff_x + diff_y
+                differenceX = abs(x - x1)
+                differenceY = abs(y - y1)
+                totalDifference = differenceX + differenceY
                 
                 # if house is closest, update closest house
-                if total_diff < closest:
-                    closest = total_diff
-                    closest_house = house
+                if totalDifference < closest:
+                    closest = totalDifference
+                    closestHouse = house
         
         # after checking all houses, return the closest one
-        return(closest_house)
+        return(closestHouse)

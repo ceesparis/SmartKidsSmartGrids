@@ -4,7 +4,7 @@ from .house import House
 from .district import District
 
 
-def load_grid(dis_number):
+def loadGrid(districtNumber):
     """
         Takes district-number.
         Creates and returns grid with data from corresponding district.
@@ -15,34 +15,34 @@ def load_grid(dis_number):
     houses = []
 
     # open the batteries-csv from the district you want to represent
-    with open(f"./data/district_{dis_number}/district-{dis_number}_batteries.csv", "r") as f:
-        csv_reader = csv.reader(f)
+    with open(f"./data/district_{districtNumber}/district-{districtNumber}_batteries.csv", "r") as f:
+        csvReader = csv.reader(f)
         
         # skip the first row with the row-names
-        next(csv_reader)
+        next(csvReader)
         
         # make battery objects from the remaining rows
-        for line in csv_reader:
+        for line in csvReader:
             location = tuple(map(int, line[0].split(',')))
             power = float(line[1])
-            new_battery = Battery(location, power)
-            batteries.append(new_battery)
+            newBattery = Battery(location, power)
+            batteries.append(newBattery)
 
     # open the housess-csv from the district you want to represent
-    with open(f"./data/district_{dis_number}/district-{dis_number}_houses.csv", "r") as f:
-        csv_reader = csv.reader(f)
+    with open(f"./data/district_{districtNumber}/district-{districtNumber}_houses.csv", "r") as f:
+        csvReader = csv.reader(f)
         
         # skips the first row with the row-names
-        next(csv_reader)
+        next(csvReader)
         
         # makes house objects from the remaining rows
-        for line in csv_reader:
+        for line in csvReader:
             location = (int(line[0]), int(line[1]))
             power = float(line[2])
-            new_house = House(location, power)
-            houses.append(new_house)
+            newHouse = House(location, power)
+            houses.append(newHouse)
 
-    district = District(dis_number, 0)
+    district = District(districtNumber, 0)
 
     # return a list containing all made objects
     grid = [district, batteries, houses]

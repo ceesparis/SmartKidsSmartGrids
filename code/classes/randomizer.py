@@ -19,7 +19,7 @@ class Randomizer():
         self.batteries = grid.batteries
 
 
-    def random_cables(self):
+    def randomCables(self):
         """
         Copies lists of houses and batteries.
         Randomnly connects houses to batteries and
@@ -31,55 +31,55 @@ class Randomizer():
         
         # lay cables from each house in grid
         for house in houses:
-            house_output = house.output
+            houseOutput = house.output
             
             # pick a random battery to connect the house to
             battery = random.choice(batteries)
             
             # make a copy of the batteries that you can remove batteries from
-            less_batteries = batteries.copy()
+            lessBatteries = batteries.copy()
             
             # while capacity battery is insufficient, remove it from choices
-            while battery.capacity < house_output:
-                less_batteries.remove(battery)
+            while battery.capacity < houseOutput:
+                lessBatteries.remove(battery)
                 
                 # if all batteries are insufficient for house, stop making the grid
-                if len(less_batteries) == 0:
+                if len(lessBatteries) == 0:
                     return
                 
                 # else pick other random battery
-                battery = random.choice(less_batteries)
+                battery = random.choice(lessBatteries)
             
             # determine end and starting point of the cableline
             start = house.location
             end = battery.location
 
-            x_start = start[0]
-            y_start = start[1]
+            xStart = start[0]
+            yStart = start[1]
 
-            x_end = end[0]
-            y_end = end[1]
+            xEnd = end[0]
+            yEnd = end[1]
 
             # add cables from start to end (inclusive)
-            house.add_cable(x_start, y_start)
+            house.addCable(xStart, yStart)
             
-            while x_start < x_end:
-                x_start += 1
-                house.add_cable(x_start, y_start)
+            while xStart < xEnd:
+                xStart += 1
+                house.addCable(xStart, yStart)
             
-            while x_start > x_end:
-                x_start -= 1
-                house.add_cable(x_start, y_start)
+            while xStart > xEnd:
+                xStart -= 1
+                house.addCable(xStart, yStart)
             
-            while y_start < y_end:
-                y_start += 1
-                house.add_cable(x_start, y_start)
+            while yStart < yEnd:
+                yStart += 1
+                house.addCable(xStart, yStart)
             
-            while y_start > y_end:
-                y_start -= 1
-                house.add_cable(x_start, y_start)
+            while yStart > yEnd:
+                yStart -= 1
+                house.addCable(xStart, yStart)
             
-            house.add_cable(x_start, y_start)
+            house.addCable(xStart, yStart)
             battery.drain(house.output)
 
         # calculate cost of valid grid and return it
@@ -87,7 +87,7 @@ class Randomizer():
         return cost
 
 
-    def multiple_random(self):
+    def multipleRandom(self):
         """
         Calls random_cables function for as long as is needed to get
         x amount of valid random configurated grids.
@@ -97,38 +97,38 @@ class Randomizer():
         # add up grid costs in total
         total = 0
         
-        # keep track of how many grids we currently have in current_grids
-        current_grids = 0
+        # keep track of how many grids we currently have in currentGrids
+        currentGrids = 0
         
         # specify number of grids
-        number_of_grids = 10000
+        numberOfGrids = 10000
         
         # while this number is not yet reached, make random configurations and keep them if they are valid
-        while current_grids < number_of_grids:
+        while currentGrids < numberOfGrids:
             valid = True
-            random_grid = self.random_cables()
+            randomGrid = self.random_cables()
             
             # if nothing is returned, the grid made was invalid
-            if random_grid == None:
+            if randomGrid == None:
                 valid = False
             
             # if the grid is valid, add its costs to total and add to number of current grids
             if valid == True:
-                total += random_grid
-                current_grids += 1
+                total += randomGrid
+                currentGrids += 1
         
         # return both the number of valid grids as well as their total cost
-        grids_info = [total, number_of_grids]
-        return grids_info
+        gridsInfo = [total, numberOfGrids]
+        return gridsInfo
 
 
-    def calc_average(self, grids_info):
+    def calcAverage(self, gridsInfo):
         """
         Takes in list of total cost and number of grids.
         Prints average cost of these grids.
         """
-        total = grids_info[0]
-        grids_count = grids_info[1]
-        average = total / grids_count
+        total = gridsInfo[0]
+        gridCount = gridsInfo[1]
+        average = total / gridCount
         
         print(int(average))

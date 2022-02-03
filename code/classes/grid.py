@@ -18,12 +18,12 @@ class Grid():
         self.batteries = []
         self.houses = []
 
-    def load_from_csv(self):
+    def loadFromCsv(self):
         """
         Loads the district from the desired/given csv file.
         """
         number = self.district
-        grid = loader.load_grid(number)
+        grid = loader.loadGrid(number)
         self.district = grid[0]
         self.batteries = grid[1]
         self.houses = grid[2]
