@@ -1,5 +1,4 @@
 import copy
-from code.classes.house import House
 from code.classes.cluster import Cluster
 import random
 

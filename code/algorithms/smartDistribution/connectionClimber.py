@@ -1,4 +1,4 @@
-from code.algorithms.randomCables import randomizeCables
+from code.algorithms.smartDistribution.randomCables import randomizeCables
 
 
 class ClimbConnections():

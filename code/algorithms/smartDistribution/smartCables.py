@@ -1,7 +1,7 @@
 from cgitb import small
 from os import remove
 import random
-from code.algorithms.smartCableClimber import *
+from code.algorithms.smartDistribution.smartCableClimber import *
 
 
 class GenerateSmartCables():

@@ -15,7 +15,7 @@ def load_grid(dis_number):
     houses = []
 
     # open the batteries-csv from the district you want to represent
-    with open(f"./data/districts/district_{dis_number}/district-{dis_number}_batteries.csv", "r") as f:
+    with open(f"./data/district_{dis_number}/district-{dis_number}_batteries.csv", "r") as f:
         csv_reader = csv.reader(f)
         
         # skip the first row with the row-names
@@ -29,7 +29,7 @@ def load_grid(dis_number):
             batteries.append(new_battery)
 
     # open the housess-csv from the district you want to represent
-    with open(f"./data/districts/district_{dis_number}/district-{dis_number}_houses.csv", "r") as f:
+    with open(f"./data/district_{dis_number}/district-{dis_number}_houses.csv", "r") as f:
         csv_reader = csv.reader(f)
         
         # skips the first row with the row-names

@@ -1,4 +1,3 @@
-from code.experiments.experiment import experiment
 from code.calculations.clus_cost_shared import calculateCostShared
 from code.algorithms.cluster_alg import Clusalgo
 from code.visualisation.visualize_clus_exp import visualize_exp
@@ -29,31 +28,40 @@ if __name__ == "__main__":
   # check if input is only letters, if so, capitalize input
     algorithm = argv[2]
     
-    if algorithm.isalpha():
-        algorithm = algorithm.upper()
 
-    # if smartdistribution is asked for, run this alogrithm
-    if algorithm in "SD":
-        loops = 10
-        grid = iterateDistribution(grid, loops)
-        grid.printOutput()
-        trying = False
-    
-    # if clusterwebz is asked for, run this algorithm
-    elif algorithm in "CW":
-        cluster_grid = Clusalgo(grid)
-        cluster_grid.cluster_houses()
-        cluster_grid.connect_clusters()
-        cluster_grid.update_houses()
+    trying = True
+
+    while trying:
+        if algorithm.isalpha():
+            algorithm = algorithm.upper()
+        # if smartdistribution is asked for, run this alogrithm
+        if algorithm in "SD":
+            loops = 10
+            grid = iterateDistribution(grid, loops)
+            grid.printOutput()
+            trying = False
         
-        total_shared = calculateCostShared(
-            cluster_grid.houses, cluster_grid.batteries)
+        # if clusterwebz is asked for, run this algorithm
+        elif algorithm in "CW":
+            cluster_grid = Clusalgo(grid)
+            cluster_grid.cluster_houses()
+            cluster_grid.connect_clusters()
+            cluster_grid.update_houses()
+            
+            total_shared = calculateCostShared(
+                cluster_grid.houses, cluster_grid.batteries)
+            
+            print(f"\n Total costs: {total_shared}\n")
+            visualize(cluster_grid)
+            trying= False
+
+        elif algorithm in "QUIT":
+            break
         
-        print(total_shared)
-        visualize(cluster_grid)
-        trying = False
-    
-    # if not, tell the user what they should be doing better
-    else:
-        print("be more clear please\n")
-        print("choose your algorithm: clusterWebz(CW), smartDistribution(SD)\n")
+        # if input not valid, ask the user again
+        else:
+            print("be more clear please\n")
+            print("choose your algorithm: clusterWebz(CW), smartDistribution(SD) or type Q to quit\n")
+            algorithm = input("make your choice: ")
+
+        

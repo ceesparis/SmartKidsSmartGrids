@@ -37,9 +37,12 @@ def visualize(grid):
         cables_y.append(house_cables_y)
 
         for batteryID in range(len(grid.batteries)):
-            for houseBattery in grid.batteries[batteryID].houses:
-                if house == houseBattery:
-                    cable_color.append(colors[batteryID])
+            if batteryID:
+                for houseBattery in grid.batteries[batteryID].houses:
+                    if house == houseBattery:
+                        cable_color.append(colors[batteryID])
+            else: 
+                cable_color.append(colors[0])
 
     batteries_x = []
     batteries_y = []

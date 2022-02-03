@@ -1,11 +1,11 @@
 import random
-from code.algorithms.batteryDistribution import DistributeBatteries
-from code.algorithms.randomCables import *
+from code.algorithms.smartDistribution.batteryDistribution import DistributeBatteries
+from code.algorithms.smartDistribution.randomCables import *
 from code.calculations.costCalculation import *
 from code.visualisation.visualisation import visualize
-from code.algorithms.smartCables import GenerateSmartCables
+from code.algorithms.smartDistribution.smartCables import GenerateSmartCables
 from code.calculations.sharedCosts import *
-from code.algorithms.connectionClimber import ClimbConnections
+from code.algorithms.smartDistribution.connectionClimber import ClimbConnections
 import sys
 
 
