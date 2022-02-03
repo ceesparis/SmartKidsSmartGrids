@@ -1,7 +1,7 @@
 from code.classes.grid import Grid
 import csv
-from code.algorithms.cluster_alg import Clusalgo
-from code.calculations.clus_cost_shared import calculateCostShared
+from code.algorithms.clusterAlgorithm import Clusalgo
+from code.calculations.sharedCostsCluster import calculateCostShared
 
 
 def experiment(district):
@@ -13,28 +13,28 @@ def experiment(district):
 
     # create grid object 
     grid = Grid(district)
-    grid.load_from_csv()
+    grid.loadFromCsv()
     
     # create cluster_algorithm object
-    cluster_grid = Clusalgo(grid)
+    clusterGrid = Clusalgo(grid)
     
     # put houses in clusters
-    cluster_grid.cluster_houses()
+    clusterGrid.clusterHouses()
     
     # connect clusters to batteries
-    cluster_grid.connect_clusters()
+    clusterGrid.connectClusters()
     
     # update house information to calculate grid
-    cluster_grid.update_houses()
+    clusterGrid.updateHouses()
     
     # calculate total costs
-    total_shared = calculateCostShared(cluster_grid.houses, cluster_grid.batteries)
-    cluster_grid.output = total_shared
+    totalShared = calculateCostShared(clusterGrid.houses, clusterGrid.batteries)
+    clusterGrid.output = totalShared
 
     # write total_cost to csv file
     with open(f"cluster_results_district{district}range5.csv", "a") as f:
-        csv_writer = csv.writer(f, delimiter="-")
-        csv_writer.writerow([total_shared])
+        csvWriter = csv.writer(f, delimiter="-")
+        csvWriter.writerow([totalShared])
     
 # specify here what district you want to experiment with
 experiment(3)

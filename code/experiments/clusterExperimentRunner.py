@@ -1,7 +1,7 @@
 import subprocess
 import time
 
-def clus_experiment():
+def clusExperiment():
     """
     The script used to run the experiment for our cluster algorithm.
     """
