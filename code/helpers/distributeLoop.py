@@ -114,5 +114,5 @@ def iterateDistribution(grid, loops):
 
     visualize(grid)
 
-    print(f"\n total costs: {grid.district.ownCosts}, seed:{seed} \n")
+    print(f"{grid.district.ownCosts} {seed}")
     return grid
