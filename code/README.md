@@ -17,7 +17,7 @@ vinden in de folder.
 
 ## Calculations
 Deze folder bevat:
-* clus_cost_shared.py: Een berekenaar van de gedeelde kosten voor het Cluster algoritme;
+* sharedCostsCluster.py: Een berekenaar van de gedeelde kosten voor het Cluster algoritme;
 * costCalculation.py: Een algemene berekenaar van de totale kosten van het aantal batterijen en de prijs van de gelegde kabels;
 * distanceCalc.py: Een berekenaar van de afstanden tussen huis en batterij;
 * en sharedCosts.py: Een berekenaar van de gedeelde kosten voor het Smart Distribution algoritme.
@@ -35,8 +35,8 @@ hier was onze baseline op gebaseerd.
 
 ## Experiments
 Deze folder bevat:
-* clus_exp.py: De algemene runner van het experiment voor het Cluster algoritme, gebaseerd op tijd;
-* experiment.py: Het daadwerkelijke experiment voor het Cluster algoritme, met aanpasbare parameters;
+* clusterExperimentRunner.py: De algemene runner van het experiment voor het Cluster algoritme, gebaseerd op tijd;
+* clusterExperiment.py: Het daadwerkelijke experiment voor het Cluster algoritme, met aanpasbare parameters;
 * en experimentSmartDistribution.py: Het experiment voor het runnen van het Smart Distribution algoritme, met alle benodigde aanpasbare parameters.
 
 ## Helpers
@@ -46,4 +46,4 @@ In deze folder hebben we als het ware de hulpjes van de algoritmes gezet. Zo heb
 
 ## Visualisation
 Deze folder bevat twee bestanden die door middel van matplotlib de uitkomsten visualiseren naar daadwerkelijke grids gevuld met nodes voor de huizen
-en batterijen, en lijnen voor de kabels. Het ene bestand is voor het Smart Distribution algoritme, de ander voor het Cluster algoritme.
+en batterijen, en lijnen voor de kabels. Het ene bestand is voor het Cluster algoritme, en de ander is om de uitkomsten van het Cluster experiment te visualiseren. De visualisatie voor de Smart Distribution staat al inbegrepen in diens code zelf.
