@@ -1,7 +1,7 @@
-from code.calculations.clus_cost_shared import calculateCostShared
-from code.algorithms.cluster_alg import Clusalgo
-from code.visualisation.visualize_clus_exp import visualize_exp
-from code.visualisation.visualisation import visualize
+from code.calculations.sharedCostsCluster import calculateCostShared
+from code.algorithms.clusterAlgorithm import Clusalgo
+from code.visualisation.visualiseClusterExperiment import visualizeExp
+from code.visualisation.clusterVisualisation import visualize
 from code.helpers.distributeLoop import iterateDistribution
 from sys import argv
 from code.classes.randomizer import Randomizer
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # check if district number is valid
     try:
         grid = Grid(district)
-        grid.load_from_csv()
+        grid.loadFromCsv()
     
     except Exception:
         print('district not found')
@@ -43,17 +43,17 @@ if __name__ == "__main__":
         
         # if clusterwebz is asked for, run this algorithm
         elif algorithm in "CW":
-            cluster_grid = Clusalgo(grid)
-            cluster_grid.cluster_houses()
-            cluster_grid.connect_clusters()
-            cluster_grid.update_houses()
+            clusterGrid = Clusalgo(grid)
+            clusterGrid.clusterHouses()
+            clusterGrid.connectClusters()
+            clusterGrid.updateHouses()
             
-            total_shared = calculateCostShared(
-                cluster_grid.houses, cluster_grid.batteries)
+            totalShared = calculateCostShared(
+                clusterGrid.houses, clusterGrid.batteries)
             
-            print(f"\n Total costs: {total_shared}\n")
-            visualize(cluster_grid)
-            trying= False
+            print(f"\n Total costs: {totalShared}\n")
+            visualize(clusterGrid)
+            trying = False
 
         elif algorithm in "QUIT":
             break
